@@ -5,6 +5,7 @@ public class repTracker : MonoBehaviour
 {
     static public int reputation = 0;
     public TextMeshProUGUI winText;
+    [HideInInspector] public static repTracker instance;
 
     void Start()
     {
@@ -13,6 +14,16 @@ public class repTracker : MonoBehaviour
             reputation = 0;
         }
         winText.gameObject.SetActive(false);
+        if (instance == null)
+        {
+            instance = this;
+        }
+        else
+        {
+            if (instance != this)
+                Destroy(gameObject);
+        }
+        DontDestroyOnLoad(gameObject);
     }
 
     public void GetRep()
