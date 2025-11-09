@@ -1,6 +1,4 @@
 using UnityEngine;
 
 public abstract class SpellBase : MonoBehaviour
-{
-    public abstract void ActivateSpell();
-}
+{public abstract void ActivateSpell();}
