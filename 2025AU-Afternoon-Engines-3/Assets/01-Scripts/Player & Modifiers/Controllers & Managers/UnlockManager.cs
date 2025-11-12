@@ -6,15 +6,15 @@ public class UnlockManager : MonoBehaviour
     public bool gameMenuOpen, dialogueActive;
     [Header("T1 Unlocks")]
     public bool parchment3x3;
-    public bool fireSpell, speedSpell, electricitySpell, spectralArrowSpell, rockSpell, healSpell, debugSpell, dispelPersonalSpell;
+    public bool fireSpellUnlocked, speedSpellUnlocked, electricitySpellUnlocked, spectralArrowSpellUnlocked, rockSpellUnlocked, healSpellUnlocked, debugSpellUnlocked, dispelPersonalSpellUnlocked;
 
     [Header("T2 Unlocks")]
     public bool parchment5x5;
-    public bool fishingSpell, freezeSpell, windSpell, boulderSpell, gravitySpell, explosionSpell, thunderSpell, unlockSpell, verdantSpell, dispelOtherSpell;
+    public bool fishingSpellUnlocked, freezeSpellUnlocked, windSpellUnlocked, boulderSpellUnlocked, gravitySpellUnlocked, explosionSpellUnlocked, thunderSpellUnlocked, unlockSpellUnlocked, verdantSpellUnlocked, dispelOtherSpellUnlocked;
 
     [Header("T3 Unlocks")]
     public bool parchment7x7;
-    public bool floodSpell, decurseSpell, flightSpell, intangibilitySpell, charmSpell, launchSpell, familiarSpell, enchantSpell, theFinalSpell;
+    public bool floodSpellUnlocked, decurseSpellUnlocked, flightSpellUnlocked, intangibilitySpellUnlocked, charmSpellUnlocked, launchSpellUnlocked, familiarSpellUnlocked, enchantSpellUnlocked, theFinalSpellUnlocked;
  
     
     void Start()

@@ -4,8 +4,9 @@ public class SpellSelector : MonoBehaviour
 {
     [Header("References")]
     public Transform castAttachPoint;
+    public GameObject IdleHand, SpellHand;
     private GameObject currentHeldSpell; // the currently spawned spell object
-    private string currentSpellName;    
+    public string currentSpellName;
     [Header("Tier 1 Spells, 3x3")]
     public GameObject T1Spell_Fire;
     public GameObject T1Spell_Speed;
@@ -43,7 +44,16 @@ public class SpellSelector : MonoBehaviour
     // public static 
     void Start()
     {
-        instance = this;
+        if (instance == null)
+        {
+            instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else if (instance != this)
+        {
+            Destroy(gameObject);
+            return;
+    }
     }
     void Update()
     {
@@ -67,17 +77,16 @@ public class SpellSelector : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Alpha7))
             SelectSpell("Debug");
-            
+
         if (Input.GetKeyDown(KeyCode.Alpha8))
             SelectSpell("DispelSummons");
     }
     public void SelectSpell(string spellName)
     {
         if (currentHeldSpell != null)
-            Destroy(currentHeldSpell);
+        { Destroy(currentHeldSpell); }
 
-        // Pick the prefab
-        GameObject selectedPrefab = null;
+        GameObject selectedPrefab;
         switch (spellName)
         {
             case "Fire":
@@ -108,14 +117,19 @@ public class SpellSelector : MonoBehaviour
                 return;
         }
 
+        IdleHand.SetActive(false);
+        SpellHand.SetActive(true);
         currentHeldSpell = Instantiate(selectedPrefab, castAttachPoint);
         currentHeldSpell.transform.localPosition = Vector3.zero;
         currentHeldSpell.transform.localRotation = Quaternion.identity;
 
-        currentSpellName = spellName;   
+        currentSpellName = spellName;
     }
     public GameObject GetCurrentHeldSpell()
+    { return currentHeldSpell; }
+    public void ResetHand()
     {
-        return currentHeldSpell;
+        IdleHand.SetActive(true);
+        SpellHand.SetActive(false);        
     }
 }

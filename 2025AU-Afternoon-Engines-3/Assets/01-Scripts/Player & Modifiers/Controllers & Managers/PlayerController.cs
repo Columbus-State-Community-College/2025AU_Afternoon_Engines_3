@@ -5,8 +5,8 @@ public class PlayerController : MonoBehaviour
     [HideInInspector] public static PlayerController instance;
     [Header("Movement & Stats")]
     public float spellPowerMod = 1f;
-    public float moveSpeed = 5.25f, currentHealth = 1, maxHealth = 100, jumpForce = 6f, airVelocityMultiplier = 1.05f;    
-    private float defaultMoveSpeed, groundDrag = 5f, jumpCooldown = 0.25f, defaultAirVelocityMultiplier, playerHeight = 2, horizontalInput, verticalInput, unstickDelay = 0.45f, timeSinceGrounded = 0f;
+    public float moveSpeed = 5.25f, currentHealth = 1, maxHealth = 100, jumpForce = 6f, airVelocityMultiplier = 1.05f, groundDrag = 5f;    
+    private float defaultMoveSpeed, jumpCooldown = 0.25f, defaultAirVelocityMultiplier, playerHeight = 2, horizontalInput, verticalInput, unstickDelay = 0.85f, timeSinceGrounded = 0f;
     [HideInInspector] public bool readyToJump = true, speedActive = false;
     [Header("Keybinds")]
     public KeyCode jumpKey = KeyCode.Space;
@@ -42,19 +42,12 @@ public class PlayerController : MonoBehaviour
     private void Update()
     {
         isGrounded = Physics.Raycast(transform.position, Vector3.down, playerHeight * 0.5f + 0.2f, whatIsGround);
+        if (isGrounded) timeSinceGrounded = 0f;
+        else timeSinceGrounded += Time.deltaTime;
 
-        if (isGrounded)
-            timeSinceGrounded = 0f;
-        else
-            timeSinceGrounded += Time.deltaTime;
-
-        // 📜 Toggle spell menu with Tab (or customize key)
         if (Input.GetKeyDown(KeyCode.Tab))
-        {
             ToggleSpellMenu();
-        }
 
-        // Disable input updates when menu is open
         if (isMenuOpen)
             return;
 
@@ -67,10 +60,9 @@ public class PlayerController : MonoBehaviour
 
         if (!speedActive && enabledSpeedEffect)
         {
-            Debug.Log("Speed Inactive");
             moveSpeed = defaultMoveSpeed;
-            enabledSpeedEffect = false;
             airVelocityMultiplier = defaultAirVelocityMultiplier;
+            enabledSpeedEffect = false;
         }
     }
     public void ToggleSpellMenu()
@@ -81,10 +73,11 @@ public class PlayerController : MonoBehaviour
             return;
         }
 
+        // Toggle menu state
         isMenuOpen = !isMenuOpen;
         parchmentMenu.SetActive(isMenuOpen);
 
-        // 🖱️ Handle cursor lock & visibility
+        // Manage cursor & camera
         if (isMenuOpen)
         {
             Cursor.lockState = CursorLockMode.None;
@@ -98,13 +91,14 @@ public class PlayerController : MonoBehaviour
             CameraController.instance.cameraCanMove = true;
         }
 
-        // 🚶 Pause/resume movement
+        // Enable or disable player control *once*
         ToggleMovementStatus(!isMenuOpen);
-
-        Debug.Log($"Spell Menu {(isMenuOpen ? "Opened" : "Closed")}");
     }
     private void FixedUpdate()
-    { MovePlayer(); }
+    {
+        if (!isMenuOpen)
+            MovePlayer();
+    }
     private void GetPlayerInput()
     {
         horizontalInput = Input.GetAxisRaw("Horizontal");
@@ -160,7 +154,7 @@ public class PlayerController : MonoBehaviour
     }
     private void ResetJump()
     {readyToJump = true;}
-    public void SpeedModifier(float speedModMulti)
+    public void SpeedModifier(float speedModMulti) 
     {
         float appliedSpeedModMulti = speedModMulti;
         speedActive = true;
@@ -184,12 +178,27 @@ public class PlayerController : MonoBehaviour
 
         Destroy(heldSpell);
     }
-    public void ToggleMovementStatus(bool input)
+
+    public void ToggleMovementStatus(bool enableMovement)
     {
-        bool EnableMovement = input;
-        if (EnableMovement == true)
-        { moveSpeed = defaultMoveSpeed; }
-        if (EnableMovement == false)
-        { moveSpeed = 0; }
+        if (enableMovement)
+        {
+            if (!enabledSpeedEffect)
+            {
+                moveSpeed = defaultMoveSpeed;
+                rb.linearDamping = 1f;
+            }        
+        }
+        else
+        {
+            rb.linearVelocity = Vector3.zero;
+            rb.linearDamping = 4f;
+            moveSpeed = 0f;
+            if (!enabledSpeedEffect)
+            {
+                moveSpeed = defaultMoveSpeed;
+                rb.linearDamping = 1f;
+            }        
+        }
     }
 }

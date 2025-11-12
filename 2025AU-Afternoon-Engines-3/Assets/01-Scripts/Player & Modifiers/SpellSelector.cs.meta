@@ -1,2 +1,22 @@
 fileFormatVersion: 2
 guid: 2479dca3cd63038429b9b2c6a43ce4bf
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - castAttachPoint: {instanceID: 0}
+  - IdleHand: {instanceID: 0}
+  - SpellHand: {instanceID: 0}
+  - T1Spell_Fire: {fileID: 2950392388929249486, guid: ec15cf6cb89acde4bbad69987f3dee51, type: 3}
+  - T1Spell_Speed: {fileID: 4094486166033356129, guid: 1b6723c4708085c44b49e34567d42f77, type: 3}
+  - T1Spell_Electricity: {fileID: 4542773172365387440, guid: d02a94fdb23d2ed4380d7557434671c3, type: 3}
+  - T1Spell_SpectralArrow: {fileID: 5400572121968793953, guid: 2318a4365957ffa49acd9d0a6cdb919a, type: 3}
+  - T1Spell_SummonRock: {fileID: 2189300284469369235, guid: e6ee46a1417a12543bc1901ec8195991, type: 3}
+  - T1Spell_Heal: {fileID: 4094486166033356129, guid: e1be2245058222540a86b256951aa66c, type: 3}
+  - T1Spell_Debug: {fileID: 2217239305312447484, guid: 561499a9bdadc844a9a5efa9dff11ddb, type: 3}
+  - T1Spell_DispelSummons: {fileID: 5232494589898910453, guid: 0be438c35479b724fb38251a28b0de58, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

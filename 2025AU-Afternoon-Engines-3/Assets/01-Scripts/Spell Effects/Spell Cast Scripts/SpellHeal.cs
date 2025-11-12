@@ -1,16 +1,31 @@
 using UnityEngine;
 
-public class SpellHeal : MonoBehaviour
+public class SpellHeal : SpellBase
 {
-    void Start()
+    [HideInInspector] public float ModifierValue = 1f;
+
+    [Tooltip("Optional visual effect to attach to the player when casting.")]
+    public GameObject healEffectPrefab;
+
+    private GameObject attachedEffect;
+
+    void Awake()
+    { ModifierValue *= PlayerController.instance.spellPowerMod; }
+
+    public override void ActivateSpell()
     {
-        
+        if (PlayerController.instance == null)
+        { return; }
+
+        Transform playerTransform = PlayerController.instance.transform;
+
+        if (healEffectPrefab != null)
+        {
+            attachedEffect = Instantiate(healEffectPrefab, playerTransform);
+            attachedEffect.transform.localPosition = Vector3.zero;
+            attachedEffect.transform.localRotation = Quaternion.identity;
+        }
+        SpellSelector.instance.ResetHand();
+        Destroy(gameObject);
     }
-
-
-    void Update()
-    {
-
-    }
-
 }
