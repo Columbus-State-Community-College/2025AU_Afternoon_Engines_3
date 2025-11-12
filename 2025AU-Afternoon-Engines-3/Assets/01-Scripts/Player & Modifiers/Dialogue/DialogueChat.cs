@@ -4,6 +4,7 @@ using TMPro;
 public class DialogueChat : MonoBehaviour
 {
     public TextMeshProUGUI dialogueBox; // This is the UI box where the dialogue will appear
+    TutorialDialogue tutorial;
 
     void Start()
     {
@@ -15,9 +16,14 @@ public class DialogueChat : MonoBehaviour
         dialogueBox.gameObject.SetActive(false);
     }
 
-    void ActiveDialogue()
+    public void ActiveDialogue()
     {
         dialogueBox.gameObject.SetActive(true);
+    }
+
+    public void EnterDialogue(string chatter)
+    {
+        dialogueBox.text = chatter;
     }
 
     // This will be expanded and edited as specific NPCs are added.
@@ -25,26 +31,15 @@ public class DialogueChat : MonoBehaviour
     // It is the same with the functions they point to, their contents will be changed.
     public void GetDialogue(string thisNPC)
     {
-        if (thisNPC == "npc1")
+        if (thisNPC == "tutorial1")
         {
-            QuestOne();
+            tutorial.TutorialOne();
+            ActiveDialogue();
         }
-        else if (thisNPC == "npc2")
+        else if (thisNPC == "tutorial2")
         {
-            QuestTwo();
+            tutorial.TutorialTwo();
+            ActiveDialogue();
         }
-    }
-
-    public void QuestOne()
-    {
-        dialogueBox.text = "This is a dialogue test!\nWith a new line too!";
-        ActiveDialogue();
-    }
-
-    public void QuestTwo()
-    {
-        dialogueBox.text = "This is a different dialogue. There is no slash n to check for " +
-            "overflow for a long line. Anyways, mimimi mimi mimimimi mimi kimi.";
-        ActiveDialogue();
     }
 }
