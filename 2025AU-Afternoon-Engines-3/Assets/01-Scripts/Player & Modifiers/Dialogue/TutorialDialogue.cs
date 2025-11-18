@@ -28,4 +28,10 @@ public class TutorialDialogue : MonoBehaviour
         speaking = "Good job! Continue into town and start earning their trust.";
         chatty.EnterDialogue(speaking);
     }
+
+    public void CrowStand()
+    {
+        speaking = "Caw! Squawk! Hi hi!";
+        chatty.EnterDialogue(speaking);
+    }
 }

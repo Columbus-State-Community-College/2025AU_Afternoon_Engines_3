@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8603996637817477160}
+  - component: {fileID: 7882322180389676326}
   m_Layer: 0
   m_Name: '[Cast05] Summon Rock'
   m_TagString: Untagged
@@ -26,12 +27,26 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 7, y: 7, z: 15}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8375884051993753912}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7882322180389676326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2189300284469369235}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b42fa943485ab9a41aa0d54e8b8cb72a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ModifierValue: 1
+  rock: {fileID: 2164311442665287273, guid: 1323d8d569f1a874da18d6814fc81690, type: 3}
 --- !u!1 &3425214179982952743
 GameObject:
   m_ObjectHideFlags: 0
@@ -59,7 +74,7 @@ Transform:
   m_GameObject: {fileID: 3425214179982952743}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.5, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
