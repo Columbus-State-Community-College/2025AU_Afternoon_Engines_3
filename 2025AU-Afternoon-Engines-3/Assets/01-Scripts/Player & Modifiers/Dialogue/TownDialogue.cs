@@ -4,26 +4,50 @@ public class TownDialogue : MonoBehaviour
 {
     DialogueChat chatty;
     repTracker repu;
+    UnlockManager manager;
     public string speaking;
 
     // "Standard" refers to dialogue when they have no more quests to give
 
     public void BlacksmithQuestOne()
     {
-        speaking = "Hey there, chap! Can you got to the caves for me? The dwarfs won't let me in but I need the iron.";
-        chatty.EnterDialogue(speaking);
+        if (manager.blacksmithOneDone = true)
+        {
+            BlacksmithQuestTwo();
+        }
+        else if (manager.blacksmithIron = true){
+            BlacksmithOneComplete();
+        }
+        else {
+            speaking = "Hey there, chap! Can you got to the caves for me? The dwarfs won't let me in but I need the iron.";
+            manager.blacksmithOneActive = true;
+            chatty.EnterDialogue(speaking);
+        }
     }
 
     public void BlacksmithOneComplete()
     {
         speaking = "Thanks, chap! Hopefully you didn't have much trouble with the dwarfs.";
+        manager.blacksmithOneActive = false;
+        manager.blacksmithOneDone = true;
         chatty.EnterDialogue(speaking);
     }
 
     public void BlacksmithQuestTwo()
     {
-        speaking = "Hey again! I'm looking for some sky-metal, but I can't get to the cliffs. Can you get some for me?";
-        chatty.EnterDialogue(speaking);
+        if (manager.blacksmithTwoDone = true)
+        {
+            BlacksmithStandard();
+        }
+        else if (manager.blacksmithSkyMetal = true)
+        {
+            BlacksmithTwoComplete();
+        }
+        else
+        {
+            speaking = "Hey again! I'm looking for some sky-metal, but I can't get to the cliffs. Can you get some for me?";
+            chatty.EnterDialogue(speaking);
+        }
     }
 
     public void BlacksmithTwoComplete()

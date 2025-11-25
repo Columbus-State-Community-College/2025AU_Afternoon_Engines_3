@@ -46,7 +46,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ModifierValue: 1
-  rock: {fileID: 2164311442665287273, guid: 1323d8d569f1a874da18d6814fc81690, type: 3}
+  summonedObject: {fileID: 2164311442665287273, guid: 1323d8d569f1a874da18d6814fc81690, type: 3}
 --- !u!1 &3425214179982952743
 GameObject:
   m_ObjectHideFlags: 0

@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2905991589180952134
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5734932530313938976}
+  - component: {fileID: 5860079583370759751}
+  m_Layer: 0
+  m_Name: UnlockManager (GameObject)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5734932530313938976
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2905991589180952134}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.8652954, y: 2.3346395, z: 4.4703884}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5860079583370759751
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2905991589180952134}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69271a10deaf5f24aa5626a626e3df7e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameMenuOpen: 0
+  dialogueActive: 0
+  parchment3x3: 0
+  fireSpellUnlocked: 0
+  speedSpellUnlocked: 0
+  electricitySpellUnlocked: 0
+  spectralArrowSpellUnlocked: 0
+  rockSpellUnlocked: 0
+  healSpellUnlocked: 0
+  debugSpellUnlocked: 0
+  dispelPersonalSpellUnlocked: 0
+  parchment5x5: 0
+  fishingSpellUnlocked: 0
+  freezeSpellUnlocked: 0
+  windSpellUnlocked: 0
+  boulderSpellUnlocked: 0
+  gravitySpellUnlocked: 0
+  explosionSpellUnlocked: 0
+  thunderSpellUnlocked: 0
+  unlockSpellUnlocked: 0
+  verdantSpellUnlocked: 0
+  dispelOtherSpellUnlocked: 0
+  parchment7x7: 0
+  floodSpellUnlocked: 0
+  decurseSpellUnlocked: 0
+  flightSpellUnlocked: 0
+  intangibilitySpellUnlocked: 0
+  charmSpellUnlocked: 0
+  launchSpellUnlocked: 0
+  familiarSpellUnlocked: 0
+  enchantSpellUnlocked: 0
+  theFinalSpellUnlocked: 0

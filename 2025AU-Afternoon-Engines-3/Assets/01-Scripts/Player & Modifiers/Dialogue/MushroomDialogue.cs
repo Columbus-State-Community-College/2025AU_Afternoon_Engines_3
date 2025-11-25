@@ -4,6 +4,7 @@ public class MushroomDialogue : MonoBehaviour
 {
     DialogueChat chatty;
     repTracker repu;
+    UnlockManager manager;
     public string speaking;
 
     public void crowOneQuest()
@@ -81,7 +82,7 @@ public class MushroomDialogue : MonoBehaviour
     public void HecateQuestOne()
     {
         speaking = "Hello old friend. I heard you wanted to get the town's trust. Good luck with that. I wouldn't bother. " +
-            "But if you wish for some help I can provide. Help me clear the weeds and I'll give you a spell.";
+            "But if you wish for some help I can provide. Help me some bugs and I'll give you a spell.";
         chatty.EnterDialogue(speaking);
     }
 

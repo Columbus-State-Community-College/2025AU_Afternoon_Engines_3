@@ -335,7 +335,6 @@ GameObject:
   - component: {fileID: 2158297779964594040}
   - component: {fileID: 6241037923194104585}
   - component: {fileID: 4236326645517783685}
-  - component: {fileID: 2937917905193583478}
   m_Layer: 0
   m_Name: Spell Cube (7)
   m_TagString: Untagged
@@ -412,27 +411,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &2937917905193583478
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 108993782265068819}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &118362590772240222
 GameObject:
   m_ObjectHideFlags: 0
@@ -444,7 +422,6 @@ GameObject:
   - component: {fileID: 1699688097598192358}
   - component: {fileID: 7159779731101946081}
   - component: {fileID: 1540234861633601714}
-  - component: {fileID: 3508034452259167443}
   m_Layer: 0
   m_Name: Spell Cube (2)
   m_TagString: Untagged
@@ -521,27 +498,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &3508034452259167443
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 118362590772240222}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &141898377515953012
 GameObject:
   m_ObjectHideFlags: 0
@@ -553,7 +509,6 @@ GameObject:
   - component: {fileID: 1619738694476839289}
   - component: {fileID: 610423581166051891}
   - component: {fileID: 643179305650166974}
-  - component: {fileID: 8454534175456842666}
   m_Layer: 0
   m_Name: Spell Cube (9)
   m_TagString: Untagged
@@ -630,27 +585,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &8454534175456842666
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 141898377515953012}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &222591797396018362
 GameObject:
   m_ObjectHideFlags: 0
@@ -662,7 +596,6 @@ GameObject:
   - component: {fileID: 5044650184498666139}
   - component: {fileID: 1522068606563230016}
   - component: {fileID: 6436377978452045648}
-  - component: {fileID: 4329796524580490452}
   m_Layer: 0
   m_Name: Spell Cube (2)
   m_TagString: Untagged
@@ -739,27 +672,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &4329796524580490452
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 222591797396018362}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &234006151733040969
 GameObject:
   m_ObjectHideFlags: 0
@@ -805,7 +717,6 @@ GameObject:
   - component: {fileID: 7792848729384878684}
   - component: {fileID: 2470362484204747158}
   - component: {fileID: 255381172228062237}
-  - component: {fileID: 6141937718789484008}
   m_Layer: 0
   m_Name: Spell Cube (1)
   m_TagString: Untagged
@@ -882,27 +793,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &6141937718789484008
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 294199612988998362}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &429677759266982922
 GameObject:
   m_ObjectHideFlags: 0
@@ -1022,7 +912,6 @@ GameObject:
   - component: {fileID: 4837954863436357169}
   - component: {fileID: 1170537437468829162}
   - component: {fileID: 6661799554328718330}
-  - component: {fileID: 4122880747131291774}
   m_Layer: 0
   m_Name: Spell Cube (4)
   m_TagString: Untagged
@@ -1099,27 +988,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &4122880747131291774
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 447864908070850576}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &629640618330566489
 GameObject:
   m_ObjectHideFlags: 0
@@ -1239,7 +1107,6 @@ GameObject:
   - component: {fileID: 6406313059652515243}
   - component: {fileID: 1715345945217448639}
   - component: {fileID: 7298242107796898920}
-  - component: {fileID: 7363605462061466652}
   m_Layer: 0
   m_Name: Spell Cube (3)
   m_TagString: Untagged
@@ -1316,27 +1183,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &7363605462061466652
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 713753284320538509}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &823703553621143802
 GameObject:
   m_ObjectHideFlags: 0
@@ -1600,7 +1446,6 @@ GameObject:
   - component: {fileID: 3155891569035615476}
   - component: {fileID: 8451658424928760851}
   - component: {fileID: 8086873467245271389}
-  - component: {fileID: 2402245084057007480}
   m_Layer: 0
   m_Name: Spell Cube (5)
   m_TagString: Untagged
@@ -1677,27 +1522,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &2402245084057007480
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1118332616688333686}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1160468579651408906
 GameObject:
   m_ObjectHideFlags: 0
@@ -1745,7 +1569,6 @@ GameObject:
   - component: {fileID: 6222187282753910231}
   - component: {fileID: 5569041184751169740}
   - component: {fileID: 1147581505367280171}
-  - component: {fileID: 1071809101395758837}
   m_Layer: 0
   m_Name: Spell Cube (11)
   m_TagString: Untagged
@@ -1822,27 +1645,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &1071809101395758837
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1167829464751913239}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1171918109751445198
 GameObject:
   m_ObjectHideFlags: 0
@@ -1998,7 +1800,6 @@ GameObject:
   - component: {fileID: 6658600332185863258}
   - component: {fileID: 8012665993550362827}
   - component: {fileID: 3842302271501489450}
-  - component: {fileID: 497585550262061788}
   m_Layer: 0
   m_Name: Spell Cube (3)
   m_TagString: Untagged
@@ -2075,27 +1876,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &497585550262061788
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1281961021759713206}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1479749864176195777
 GameObject:
   m_ObjectHideFlags: 0
@@ -2215,7 +1995,6 @@ GameObject:
   - component: {fileID: 7797395329184737556}
   - component: {fileID: 3437936116700172887}
   - component: {fileID: 2872513055862368897}
-  - component: {fileID: 3203747312947422215}
   m_Layer: 0
   m_Name: Spell Cube (10)
   m_TagString: Untagged
@@ -2292,27 +2071,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &3203747312947422215
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1697051813309142083}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1926107487266522469
 GameObject:
   m_ObjectHideFlags: 0
@@ -2432,7 +2190,6 @@ GameObject:
   - component: {fileID: 2339129060129783065}
   - component: {fileID: 6136722767185742052}
   - component: {fileID: 6757455374606045064}
-  - component: {fileID: 5907374150873249806}
   m_Layer: 0
   m_Name: Spell Cube (7)
   m_TagString: Untagged
@@ -2509,27 +2266,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &5907374150873249806
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1926687402184433288}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1982934633119617540
 GameObject:
   m_ObjectHideFlags: 0
@@ -2649,7 +2385,6 @@ GameObject:
   - component: {fileID: 8969560962768200963}
   - component: {fileID: 8325823043296132379}
   - component: {fileID: 3528691060555394227}
-  - component: {fileID: 5457649999595527691}
   m_Layer: 0
   m_Name: Spell Cube (2)
   m_TagString: Untagged
@@ -2726,27 +2461,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &5457649999595527691
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1987553927970075571}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1992689885894838297
 GameObject:
   m_ObjectHideFlags: 0
@@ -2758,7 +2472,6 @@ GameObject:
   - component: {fileID: 8862782747061407369}
   - component: {fileID: 3471721400310454372}
   - component: {fileID: 3872176446330163662}
-  - component: {fileID: 1696586963296089399}
   m_Layer: 0
   m_Name: Spell Cube (2)
   m_TagString: Untagged
@@ -2835,27 +2548,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &1696586963296089399
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1992689885894838297}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2043270943277312322
 GameObject:
   m_ObjectHideFlags: 0
@@ -2867,7 +2559,6 @@ GameObject:
   - component: {fileID: 6435596085522704227}
   - component: {fileID: 743831997736475832}
   - component: {fileID: 5052895553635521192}
-  - component: {fileID: 2547736564311011628}
   m_Layer: 0
   m_Name: Spell Cube (3)
   m_TagString: Untagged
@@ -2944,27 +2635,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &2547736564311011628
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2043270943277312322}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2136185742613532590
 GameObject:
   m_ObjectHideFlags: 0
@@ -2976,7 +2646,6 @@ GameObject:
   - component: {fileID: 5929424071171490474}
   - component: {fileID: 5426236137435807100}
   - component: {fileID: 7040849042830677736}
-  - component: {fileID: 2743288605048083344}
   m_Layer: 0
   m_Name: Spell Cube (4)
   m_TagString: Untagged
@@ -3053,27 +2722,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &2743288605048083344
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2136185742613532590}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2217239305312447484
 GameObject:
   m_ObjectHideFlags: 0
@@ -3083,6 +2731,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1894919538201526876}
+  - component: {fileID: -3421005543243070472}
   m_Layer: 0
   m_Name: '[Cast07] Debug'
   m_TagString: Untagged
@@ -3106,6 +2755,18 @@ Transform:
   - {fileID: 141132781178052337}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-3421005543243070472
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2217239305312447484}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9edf126de1bfff4ca9fcac4743a859e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2382923960065765481
 GameObject:
   m_ObjectHideFlags: 0
@@ -3333,7 +2994,6 @@ GameObject:
   - component: {fileID: 5529921691034981702}
   - component: {fileID: 9083303226425254710}
   - component: {fileID: 823088227690050159}
-  - component: {fileID: 6577304600027687650}
   m_Layer: 0
   m_Name: Spell Cube (1)
   m_TagString: Untagged
@@ -3410,27 +3070,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &6577304600027687650
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2710836807096696553}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2766405629114447408
 GameObject:
   m_ObjectHideFlags: 0
@@ -3442,7 +3081,6 @@ GameObject:
   - component: {fileID: 4764921653972021169}
   - component: {fileID: 2344125972892860528}
   - component: {fileID: 5971011629534124733}
-  - component: {fileID: 1793038086752927119}
   m_Layer: 0
   m_Name: Spell Cube
   m_TagString: Untagged
@@ -3519,27 +3157,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &1793038086752927119
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2766405629114447408}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3032519067166419592
 GameObject:
   m_ObjectHideFlags: 0
@@ -3551,7 +3168,6 @@ GameObject:
   - component: {fileID: 6429388390608172794}
   - component: {fileID: 5641486716770659564}
   - component: {fileID: 8730372093854459216}
-  - component: {fileID: 7624574223820580933}
   m_Layer: 0
   m_Name: Spell Cube (5)
   m_TagString: Untagged
@@ -3628,27 +3244,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &7624574223820580933
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3032519067166419592}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3070562458887444050
 GameObject:
   m_ObjectHideFlags: 0
@@ -3768,7 +3363,6 @@ GameObject:
   - component: {fileID: 5186665123936447605}
   - component: {fileID: 5761663282956934419}
   - component: {fileID: 2451143769431500404}
-  - component: {fileID: 7324973780999665402}
   m_Layer: 0
   m_Name: Spell Cube (7)
   m_TagString: Untagged
@@ -3845,27 +3439,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &7324973780999665402
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3218755877093501916}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3221793671146358913
 GameObject:
   m_ObjectHideFlags: 0
@@ -3877,7 +3450,6 @@ GameObject:
   - component: {fileID: 5383125904356753789}
   - component: {fileID: 3651078836906027471}
   - component: {fileID: 5747357259262750421}
-  - component: {fileID: 1168922256684597184}
   m_Layer: 0
   m_Name: Spell Cube (8)
   m_TagString: Untagged
@@ -3954,27 +3526,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &1168922256684597184
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3221793671146358913}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3346715502997301191
 GameObject:
   m_ObjectHideFlags: 0
@@ -4202,7 +3753,6 @@ GameObject:
   - component: {fileID: 2785143779272632439}
   - component: {fileID: 4604748060054257914}
   - component: {fileID: 4543848691685967177}
-  - component: {fileID: 629683660735477705}
   m_Layer: 0
   m_Name: Spell Cube (6)
   m_TagString: Untagged
@@ -4279,27 +3829,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &629683660735477705
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3376385703057090045}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3453041588263581467
 GameObject:
   m_ObjectHideFlags: 0
@@ -4311,7 +3840,6 @@ GameObject:
   - component: {fileID: 1026421714732135052}
   - component: {fileID: 8257915150359302772}
   - component: {fileID: 5194734297373864846}
-  - component: {fileID: 3686725397890678036}
   m_Layer: 0
   m_Name: Spell Cube (10)
   m_TagString: Untagged
@@ -4388,27 +3916,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &3686725397890678036
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3453041588263581467}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3483778922896181270
 GameObject:
   m_ObjectHideFlags: 0
@@ -4636,7 +4143,6 @@ GameObject:
   - component: {fileID: 3654028577755721991}
   - component: {fileID: 8564000803123021943}
   - component: {fileID: 2403084507355544773}
-  - component: {fileID: 2865720319132331149}
   m_Layer: 0
   m_Name: Spell Cube (7)
   m_TagString: Untagged
@@ -4713,27 +4219,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &2865720319132331149
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3683566385937223839}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3752031227171645437
 GameObject:
   m_ObjectHideFlags: 0
@@ -4995,7 +4480,6 @@ GameObject:
   - component: {fileID: 352691780600944537}
   - component: {fileID: 6238284472886455417}
   - component: {fileID: 3632403253958557128}
-  - component: {fileID: 7010891850518515722}
   m_Layer: 0
   m_Name: Spell Cube (3)
   m_TagString: Untagged
@@ -5072,27 +4556,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &7010891850518515722
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3843072860493969863}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3906248439898759311
 GameObject:
   m_ObjectHideFlags: 0
@@ -5462,7 +4925,6 @@ GameObject:
   - component: {fileID: 723674562352273589}
   - component: {fileID: 2667850417614587463}
   - component: {fileID: 3856192760087260951}
-  - component: {fileID: 8584538293291462917}
   m_Layer: 0
   m_Name: Spell Cube (8)
   m_TagString: Untagged
@@ -5539,27 +5001,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &8584538293291462917
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4073259455158847024}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &4078627420983467904
 GameObject:
   m_ObjectHideFlags: 0
@@ -5605,7 +5046,6 @@ GameObject:
   - component: {fileID: 3163275862707060439}
   - component: {fileID: 6017502263385147812}
   - component: {fileID: 3920156619082039217}
-  - component: {fileID: 1780834772299006481}
   m_Layer: 0
   m_Name: Spell Cube (4)
   m_TagString: Untagged
@@ -5682,27 +5122,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &1780834772299006481
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4087051102496034511}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &4152776157774563400
 GameObject:
   m_ObjectHideFlags: 0
@@ -5746,7 +5165,6 @@ GameObject:
   - component: {fileID: 3945475847248406219}
   - component: {fileID: 3736606903953644538}
   - component: {fileID: 4087030248135691321}
-  - component: {fileID: 2708624575369665264}
   m_Layer: 0
   m_Name: Spell Cube (4)
   m_TagString: Untagged
@@ -5823,27 +5241,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &2708624575369665264
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4264972375998170984}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &4401345804954272001
 GameObject:
   m_ObjectHideFlags: 0
@@ -6715,7 +6112,6 @@ GameObject:
   - component: {fileID: 3389621851386183173}
   - component: {fileID: 3151474187031796140}
   - component: {fileID: 1294984560607217652}
-  - component: {fileID: 983749158952130564}
   m_Layer: 0
   m_Name: Spell Cube (6)
   m_TagString: Untagged
@@ -6792,27 +6188,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &983749158952130564
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5030833880423674225}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &5033925770706166420
 GameObject:
   m_ObjectHideFlags: 0
@@ -6824,7 +6199,6 @@ GameObject:
   - component: {fileID: 4653808242539496520}
   - component: {fileID: 2910908256150666424}
   - component: {fileID: 633670396732637899}
-  - component: {fileID: 5904816540654174369}
   m_Layer: 0
   m_Name: Spell Cube (1)
   m_TagString: Untagged
@@ -6901,27 +6275,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &5904816540654174369
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5033925770706166420}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &5291291121936479702
 GameObject:
   m_ObjectHideFlags: 0
@@ -7041,7 +6394,6 @@ GameObject:
   - component: {fileID: 2135705169269498515}
   - component: {fileID: 792371326095112642}
   - component: {fileID: 6871544480743834254}
-  - component: {fileID: 3137041998269541129}
   m_Layer: 0
   m_Name: Spell Cube (10)
   m_TagString: Untagged
@@ -7118,27 +6470,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &3137041998269541129
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5462524741215950976}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &5594587599947638371
 GameObject:
   m_ObjectHideFlags: 0
@@ -7150,7 +6481,6 @@ GameObject:
   - component: {fileID: 3498821953819965104}
   - component: {fileID: 6595861955241807020}
   - component: {fileID: 4575628037134153564}
-  - component: {fileID: 1370756608483839999}
   m_Layer: 0
   m_Name: Spell Cube (5)
   m_TagString: Untagged
@@ -7227,27 +6557,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &1370756608483839999
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5594587599947638371}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &5595778533427145311
 GameObject:
   m_ObjectHideFlags: 0
@@ -7475,7 +6784,6 @@ GameObject:
   - component: {fileID: 874022449882416297}
   - component: {fileID: 1062939358595982090}
   - component: {fileID: 249767748867954362}
-  - component: {fileID: 3989667650779000069}
   m_Layer: 0
   m_Name: Spell Cube (3)
   m_TagString: Untagged
@@ -7552,27 +6860,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &3989667650779000069
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5681957707697395371}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &5743512156654318546
 GameObject:
   m_ObjectHideFlags: 0
@@ -7725,7 +7012,6 @@ GameObject:
   - component: {fileID: 4576195904343792201}
   - component: {fileID: 7625223340193496298}
   - component: {fileID: 9060813840628430786}
-  - component: {fileID: 8237780015316057227}
   m_Layer: 0
   m_Name: Spell Cube (3)
   m_TagString: Untagged
@@ -7802,27 +7088,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &8237780015316057227
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5776868131111449425}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &5861395229815701111
 GameObject:
   m_ObjectHideFlags: 0
@@ -8158,7 +7423,6 @@ GameObject:
   - component: {fileID: 5185174285451006047}
   - component: {fileID: 4958536355977382676}
   - component: {fileID: 4285474398439317914}
-  - component: {fileID: 5441314458704683044}
   m_Layer: 0
   m_Name: Spell Cube (11)
   m_TagString: Untagged
@@ -8235,27 +7499,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &5441314458704683044
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5978544839142289075}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &5998434590044367171
 GameObject:
   m_ObjectHideFlags: 0
@@ -8301,7 +7544,6 @@ GameObject:
   - component: {fileID: 4492428282437629323}
   - component: {fileID: 2710411706552499291}
   - component: {fileID: 5244038175487169745}
-  - component: {fileID: 8204142308164825202}
   m_Layer: 0
   m_Name: Spell Cube (9)
   m_TagString: Untagged
@@ -8378,27 +7620,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &8204142308164825202
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6011438184079542932}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6222896025995023045
 GameObject:
   m_ObjectHideFlags: 0
@@ -8410,7 +7631,6 @@ GameObject:
   - component: {fileID: 3838554972516643528}
   - component: {fileID: 4941985737345064501}
   - component: {fileID: 4102460105883994076}
-  - component: {fileID: 7726427898259586072}
   m_Layer: 0
   m_Name: Spell Cube (6)
   m_TagString: Untagged
@@ -8487,27 +7707,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &7726427898259586072
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6222896025995023045}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6231558742897606996
 GameObject:
   m_ObjectHideFlags: 0
@@ -8519,7 +7718,6 @@ GameObject:
   - component: {fileID: 5184144816593536453}
   - component: {fileID: 8091778801913320526}
   - component: {fileID: 643386281688263455}
-  - component: {fileID: 4299064165856501003}
   m_Layer: 0
   m_Name: Spell Cube (2)
   m_TagString: Untagged
@@ -8596,27 +7794,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &4299064165856501003
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6231558742897606996}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6253596461062089220
 GameObject:
   m_ObjectHideFlags: 0
@@ -8662,7 +7839,6 @@ GameObject:
   - component: {fileID: 5395049056563376493}
   - component: {fileID: 2946667861509527473}
   - component: {fileID: 7366981771510959120}
-  - component: {fileID: 2922608225626718797}
   m_Layer: 0
   m_Name: Spell Cube (4)
   m_TagString: Untagged
@@ -8739,27 +7915,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &2922608225626718797
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6341715983792838086}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6380944785204285019
 GameObject:
   m_ObjectHideFlags: 0
@@ -9023,7 +8178,6 @@ GameObject:
   - component: {fileID: 6387995020982051143}
   - component: {fileID: 8531214581107306598}
   - component: {fileID: 9006669568567073729}
-  - component: {fileID: 163344039425067815}
   m_Layer: 0
   m_Name: Spell Cube (2)
   m_TagString: Untagged
@@ -9100,27 +8254,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &163344039425067815
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6686091549477124895}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6790668205834008980
 GameObject:
   m_ObjectHideFlags: 0
@@ -9132,7 +8265,6 @@ GameObject:
   - component: {fileID: 7179430282137417859}
   - component: {fileID: 2023437886931202758}
   - component: {fileID: 7738855851803271722}
-  - component: {fileID: 2815487592882591466}
   m_Layer: 0
   m_Name: Spell Cube (5)
   m_TagString: Untagged
@@ -9209,27 +8341,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &2815487592882591466
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6790668205834008980}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6861890376124118637
 GameObject:
   m_ObjectHideFlags: 0
@@ -9349,7 +8460,6 @@ GameObject:
   - component: {fileID: 5573710938807240403}
   - component: {fileID: 1889353389841281754}
   - component: {fileID: 6599198533693961125}
-  - component: {fileID: 7736223596441375820}
   m_Layer: 0
   m_Name: Spell Cube (6)
   m_TagString: Untagged
@@ -9426,27 +8536,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &7736223596441375820
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6869442424728523788}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6895960504715565098
 GameObject:
   m_ObjectHideFlags: 0
@@ -9602,7 +8691,6 @@ GameObject:
   - component: {fileID: 2638192927770609712}
   - component: {fileID: 2463418029587239655}
   - component: {fileID: 3168606242407144785}
-  - component: {fileID: 4268597663159510879}
   m_Layer: 0
   m_Name: Spell Cube (8)
   m_TagString: Untagged
@@ -9679,27 +8767,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &4268597663159510879
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6955467788413302640}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6976494589330289191
 GameObject:
   m_ObjectHideFlags: 0
@@ -9711,7 +8778,6 @@ GameObject:
   - component: {fileID: 1223268992316445637}
   - component: {fileID: 4366567994259313034}
   - component: {fileID: 8550546447874480666}
-  - component: {fileID: 8698169715722105624}
   m_Layer: 0
   m_Name: Spell Cube
   m_TagString: Untagged
@@ -9788,27 +8854,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &8698169715722105624
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6976494589330289191}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &7071987045095141022
 GameObject:
   m_ObjectHideFlags: 0
@@ -10036,7 +9081,6 @@ GameObject:
   - component: {fileID: 7897459320102450420}
   - component: {fileID: 4781572142864377044}
   - component: {fileID: 1522579511825036795}
-  - component: {fileID: 6822941176568649948}
   m_Layer: 0
   m_Name: Spell Cube (4)
   m_TagString: Untagged
@@ -10113,27 +9157,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &6822941176568649948
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7400482543139939669}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &7412589128762675922
 GameObject:
   m_ObjectHideFlags: 0
@@ -10253,7 +9276,6 @@ GameObject:
   - component: {fileID: 2505111271133274744}
   - component: {fileID: 8205200791102200227}
   - component: {fileID: 4436987207304665011}
-  - component: {fileID: 6401661327882351671}
   m_Layer: 0
   m_Name: Spell Cube
   m_TagString: Untagged
@@ -10330,27 +9352,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &6401661327882351671
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7482464697655733337}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &7568373538270614695
 GameObject:
   m_ObjectHideFlags: 0
@@ -10362,7 +9363,6 @@ GameObject:
   - component: {fileID: 7455487345848201277}
   - component: {fileID: 6272944021800909872}
   - component: {fileID: 7908992440379442533}
-  - component: {fileID: 3778232654532819925}
   m_Layer: 0
   m_Name: Spell Cube (10)
   m_TagString: Untagged
@@ -10439,27 +9439,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &3778232654532819925
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7568373538270614695}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &7701761704840228415
 GameObject:
   m_ObjectHideFlags: 0
@@ -10722,7 +9701,6 @@ GameObject:
   - component: {fileID: 100383713417001384}
   - component: {fileID: 1881939525729920005}
   - component: {fileID: 3689947345689298296}
-  - component: {fileID: 9127951810777856531}
   m_Layer: 0
   m_Name: Spell Cube (2)
   m_TagString: Untagged
@@ -10799,27 +9777,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &9127951810777856531
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7876114864539524974}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &7977470251088650626
 GameObject:
   m_ObjectHideFlags: 0
@@ -10973,7 +9930,6 @@ GameObject:
   - component: {fileID: 8352677777875337854}
   - component: {fileID: 8981862550713235323}
   - component: {fileID: 4758110271043355353}
-  - component: {fileID: 2934331579736617925}
   m_Layer: 0
   m_Name: Spell Cube (1)
   m_TagString: Untagged
@@ -11050,27 +10006,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &2934331579736617925
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8077665289132356757}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8188479200044497543
 GameObject:
   m_ObjectHideFlags: 0
@@ -11583,7 +10518,6 @@ GameObject:
   - component: {fileID: 6230930720386611572}
   - component: {fileID: 987723503549426259}
   - component: {fileID: 470210427645075865}
-  - component: {fileID: 2315429909948442073}
   m_Layer: 0
   m_Name: Spell Cube (5)
   m_TagString: Untagged
@@ -11660,27 +10594,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &2315429909948442073
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8590986762304399871}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8690223071032453964
 GameObject:
   m_ObjectHideFlags: 0
@@ -11692,7 +10605,6 @@ GameObject:
   - component: {fileID: 1137962333857204033}
   - component: {fileID: 1370311840522017596}
   - component: {fileID: 906899569583179206}
-  - component: {fileID: 3664452801802123124}
   m_Layer: 0
   m_Name: Spell Cube (1)
   m_TagString: Untagged
@@ -11769,27 +10681,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &3664452801802123124
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8690223071032453964}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8726750199706195802
 GameObject:
   m_ObjectHideFlags: 0
@@ -11943,7 +10834,6 @@ GameObject:
   - component: {fileID: 8201582969536586629}
   - component: {fileID: 1778064595052043321}
   - component: {fileID: 7019885212370116811}
-  - component: {fileID: 2353114456703866456}
   m_Layer: 0
   m_Name: Spell Cube (2)
   m_TagString: Untagged
@@ -12020,27 +10910,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &2353114456703866456
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8841880059294443246}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8846712391239914129
 GameObject:
   m_ObjectHideFlags: 0
@@ -12052,7 +10921,6 @@ GameObject:
   - component: {fileID: 5685009815990236558}
   - component: {fileID: 8544773674548597883}
   - component: {fileID: 7071801235283215502}
-  - component: {fileID: 4098341876920402066}
   m_Layer: 0
   m_Name: Spell Cube (8)
   m_TagString: Untagged
@@ -12129,27 +10997,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &4098341876920402066
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8846712391239914129}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8981071470048237316
 GameObject:
   m_ObjectHideFlags: 0
@@ -12377,7 +11224,6 @@ GameObject:
   - component: {fileID: 4196337718771108847}
   - component: {fileID: 7575381283383259188}
   - component: {fileID: 2696754418313723428}
-  - component: {fileID: 4623180926335933856}
   m_Layer: 0
   m_Name: Spell Cube (1)
   m_TagString: Untagged
@@ -12454,24 +11300,3 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &4623180926335933856
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9162747706131514830}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}

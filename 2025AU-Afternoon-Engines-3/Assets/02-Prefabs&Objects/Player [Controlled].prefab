@@ -177,6 +177,7 @@ GameObject:
   - component: {fileID: 3776383070893341477}
   - component: {fileID: 7758032914494148044}
   - component: {fileID: 1042566969048076533}
+  - component: {fileID: 5878819619922993692}
   m_Layer: 0
   m_Name: 'Player [Controlled]'
   m_TagString: Player
@@ -218,12 +219,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spellPowerMod: 1
-  moveSpeed: 5.25
+  moveSpeed: 7.5
   currentHealth: 0
   maxHealth: 0
   jumpForce: 6.25
   airVelocityMultiplier: 1.05
   groundDrag: 5
+  gravityMultiplier: 1
   readyToJump: 1
   speedActive: 0
   jumpKey: 32
@@ -260,6 +262,16 @@ MonoBehaviour:
   T1Spell_Heal: {fileID: 4094486166033356129, guid: e1be2245058222540a86b256951aa66c, type: 3}
   T1Spell_Debug: {fileID: 2217239305312447484, guid: 561499a9bdadc844a9a5efa9dff11ddb, type: 3}
   T1Spell_DispelSummons: {fileID: 5232494589898910453, guid: 0be438c35479b724fb38251a28b0de58, type: 3}
+  T2Spell_FishingRod: {fileID: 8099751389105684917, guid: 23fac017eb5bdd34abc00248408f5f96, type: 3}
+  T2Spell_Freeze: {fileID: 8099751389105684917, guid: 2327c31a2d7160545a9465690b504fd7, type: 3}
+  T2Spell_Wind: {fileID: 8099751389105684917, guid: c2b9b60ad2fd720478c64ff4b6427e8d, type: 3}
+  T2Spell_Boulder: {fileID: 8099751389105684917, guid: 6393255bd6e48c147a74d592d039d34a, type: 3}
+  T2Spell_Gravity: {fileID: 8099751389105684917, guid: 6e9f8b0d9def8614eaea4c710d9b0c8a, type: 3}
+  T2Spell_Explosion: {fileID: 8099751389105684917, guid: bd1f9cbdcab04654694c723c9e4af32d, type: 3}
+  T2Spell_Thunder: {fileID: 8099751389105684917, guid: 427d2606a11d3ce4c95820f2572d885e, type: 3}
+  T2Spell_Lockpick: {fileID: 8099751389105684917, guid: 368eb87a31717cc42973865eb2d70c96, type: 3}
+  T2Spell_VerdantGrowth: {fileID: 8099751389105684917, guid: f1f2c5961b9807e4b83c5d5d3b119436, type: 3}
+  T2Spell_DispelOther: {fileID: 8099751389105684917, guid: 21ad0e1252977a147a13a44439094f44, type: 3}
 --- !u!114 &6052161993827587953
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -411,6 +423,21 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &5878819619922993692
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3848478275344532324}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be0b04d82fcb9dd40a2278f0539922ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  approachedBox: {fileID: 0}
+  texty: {fileID: 0}
+  thisNPC: {fileID: 0}
 --- !u!1 &4220474333183728431
 GameObject:
   m_ObjectHideFlags: 0
