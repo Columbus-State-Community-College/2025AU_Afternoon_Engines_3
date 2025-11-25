@@ -17,16 +17,16 @@ public class UnlockManager : MonoBehaviour
     public bool floodSpellUnlocked, decurseSpellUnlocked, flightSpellUnlocked, intangibilitySpellUnlocked, charmSpellUnlocked, launchSpellUnlocked, familiarSpellUnlocked, enchantSpellUnlocked, theFinalSpellUnlocked;
 
     [Header("Quest Items")]
-    public bool blacksmithIron, blacksmithSkyMetal, merchantStockList, merchantPencil, merchantRing, towmGirlOneFish, townGirlTwoGem, townGirlThreeWood, townManOneDwarfTool, townManTwoFlowerCliff, crowKeyNut;
+    public bool blacksmithIron, blacksmithSkyMetal, merchantStockList, merchantPencil, merchantRing, townGirlOneFish, townGirlTwoGem, townGirlThreeWood, townManOneDwarfTool, townManTwoFlowerCliff, crowKeyNut;
     public bool crowOneRock, crowTwoSmithGift, crowThreeTalkToHecate, crowFourWolfScary, hecateOneBug, hecateTwoCarrot, hecateThreeSeed;
-    public bool dwarfThreeFlower, riverCrowOneNut, riverCrowTwoFlower, riverGirlGoldCarp, farmerGreenFish, farmerBlueFish, farmerPurpleFish, farmerRedFish, farmerOrangeFish, farmerYellowFish;
+    public bool dwarfFlower, riverCrowOneNut, riverCrowTwoFlower, riverGirlGoldCarp, farmerGreenFish, farmerBlueFish, farmerPurpleFish, farmerRedFish, farmerOrangeFish, farmerYellowFish;
 
     [Header("Is Quest Active")]
     public bool blacksmithOneActive, blacksmithTwoActive, merchantOneActive, merchantTwoActive, merchantThreeActive, townGirlOneActive, townGirlTwoActive, townGirlThreeActive, townManOneActive, townManTwoActive, crowKeyActive;
     public bool crowOneActive, crowTwoActive, crowThreeActive, crowFourActive, hecateOneActive, hecateTwoActive, hecateThreeActive;
     public bool dwarfActive, riverCrowOneActive, riverCrowTwoActive, riverGirlActive, farmerOneActive, farmerTwoActive, farmerThreeActive, farmerFourActive, farmerFiveActive, farmerSixActive;
 
-    [Header("Is QuestDone")]
+    [Header("Is Quest Done")]
     public bool blacksmithOneDone, blacksmithTwoDone, merchantOneDone, merchantTwoDone, merchantThreeDone, townGirlOneDone, townGirlTwoDone, townGirlThreeDone, townManOneDone, townManTwoDone, crowKeyDone;
     public bool crowOneDone, crowTwoDone, crowThreeDone, crowFourDone, hecateOneDone, hecateTwoDone, hecateThreeDone;
     public bool dwarfDone, riverCrowOneDone, riverCrowTwoDone, riverGirlDone, farmerOneDone, farmerTwoDone, farmerThreeDone, farmerFourDone, farmerFiveDone, farmerSixDone;

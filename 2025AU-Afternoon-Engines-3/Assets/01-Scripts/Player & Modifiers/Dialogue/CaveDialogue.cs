@@ -21,13 +21,27 @@ public class CaveDialogue : MonoBehaviour
 
     public void DwarfThreeQuest()
     {
-        speaking = "Hiqqaqiqaqi want flower. Tall person bring flower? Hiqqaqiqaqi want tiny bright flower.";
-        chatty.EnterDialogue(speaking);
+        if (manager.dwarfDone = true)
+        {
+            DwarfThreeStandard();
+        }
+        else if (manager.dwarfFlower = true)
+        {
+            DwarfThreeComplete();
+        }
+        else
+        {
+            speaking = "Hiqqaqiqaqi want flower. Tall person bring flower? Hiqqaqiqaqi want tiny bright flower.";
+            manager.dwarfActive = true;
+            chatty.EnterDialogue(speaking);
+        }
     }
 
     public void DwarfThreeComplete()
     {
         speaking = "Tall person bring flower! Hiqqaqiqaqi happy!";
+        manager.dwarfActive = false;
+        manager.dwarfDone = true;
         chatty.EnterDialogue(speaking);
     }
 
