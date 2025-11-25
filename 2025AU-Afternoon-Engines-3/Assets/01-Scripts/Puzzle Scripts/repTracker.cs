@@ -4,7 +4,7 @@ using TMPro;
 public class repTracker : MonoBehaviour
 {
     static public int reputation = 0;
-    public TextMeshProUGUI winText;
+    //public TextMeshProUGUI winText;
     [HideInInspector] public static repTracker instance;
 
     void Start()
@@ -13,7 +13,7 @@ public class repTracker : MonoBehaviour
         {
             reputation = 0;
         }
-        winText.gameObject.SetActive(false);
+        //winText.gameObject.SetActive(false);
         if (instance == null)
         {
             instance = this;
@@ -33,9 +33,9 @@ public class repTracker : MonoBehaviour
 
     void Update()
     {
-        if (reputation >= 10)
-        {
-            winText.gameObject.SetActive(true);
-        }
+        //if (reputation >= 10)
+        //{
+        //    winText.gameObject.SetActive(true);
+        //}
     }
 }

@@ -9,11 +9,11 @@ public class MushroomDialogue : MonoBehaviour
 
     public void crowOneQuest()
     {
-        if (manager.crowOneDone = true)
+        if (manager.crowOneDone == true)
         {
             crowOneStandard();
         }
-        else if (manager.crowOneRock = true)
+        else if (manager.crowOneRock == true)
         {
             crowOneComplete();
         }
@@ -41,11 +41,11 @@ public class MushroomDialogue : MonoBehaviour
 
     public void crowTwoQuest()
     {
-        if (manager.crowTwoDone = true)
+        if (manager.crowTwoDone == true)
         {
             crowTwoStandard();
         }
-        else if (manager.crowTwoSmithGift = true)
+        else if (manager.crowTwoSmithGift == true)
         {
             crowTwoComplete();
         }
@@ -73,11 +73,11 @@ public class MushroomDialogue : MonoBehaviour
 
     public void crowThreeQuest()
     {
-        if (manager.crowThreeDone = true)
+        if (manager.crowThreeDone == true)
         {
             crowThreeStandard();
         }
-        else if (manager.crowThreeTalkToHecate = true)
+        else if (manager.crowThreeTalkToHecate == true)
         {
             crowThreeComplete();
         }
@@ -92,8 +92,8 @@ public class MushroomDialogue : MonoBehaviour
     public void crowThreeComplete()
     {
         speaking = "Friend know other friend! Me happy!";
-        manager.crowThreeActive = false;
-        manager.crowThreeDone = true;
+        manager.crowThreeActive == false;
+        manager.crowThreeDone == true;
         chatty.EnterDialogue(speaking);
     }
 
@@ -105,18 +105,18 @@ public class MushroomDialogue : MonoBehaviour
 
     public void crowFourQuest()
     {
-        if (manager.crowFourDone = true)
+        if (manager.crowFourDone == true)
         {
             crowFourStandard();
         }
-        else if (manager.crowFourWolfScary = true)
+        else if (manager.crowFourWolfScary == true)
         {
             crowFourComplete();
         }
         else
         {
             speaking = "Caw caw? Friend have friend?";
-            manager.crowFourActive = true;
+            manager.crowFourActive == true;
             chatty.EnterDialogue(speaking);
         }
     }
@@ -137,11 +137,11 @@ public class MushroomDialogue : MonoBehaviour
 
     public void HecateQuestOne()
     {
-        if (manager.hecateOneDone = true)
+        if (manager.hecateOneDone == true)
         {
             HecateQuestTwo();
         }
-        else if (manager.hecateOneBug = true)
+        else if (manager.hecateOneBug == true)
         {
             HecateCompleteOne();
         }
@@ -164,11 +164,11 @@ public class MushroomDialogue : MonoBehaviour
 
     public void HecateQuestTwo()
     {
-        if (manager.hecateTwoDone = true)
+        if (manager.hecateTwoDone == true)
         {
             HecateQuestThree();
         }
-        else if (manager.hecateTwoCarrot = true)
+        else if (manager.hecateTwoCarrot == true)
         {
             HecateCompleteTwo();
         }
@@ -191,11 +191,11 @@ public class MushroomDialogue : MonoBehaviour
 
     public void HecateQuestThree()
     {
-        if (manager.hecateThreeDone = true)
+        if (manager.hecateThreeDone == true)
         {
             HecateStandard();
         }
-        else if (manager.hecateThreeSeed = true)
+        else if (manager.hecateThreeSeed == true)
         {
             HecateCompleteThree();
         }

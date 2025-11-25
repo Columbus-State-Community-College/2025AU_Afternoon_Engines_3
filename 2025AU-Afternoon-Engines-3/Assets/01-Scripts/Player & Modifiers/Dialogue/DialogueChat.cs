@@ -5,10 +5,21 @@ public class DialogueChat : MonoBehaviour
 {
     public TextMeshProUGUI dialogueBox; // This is the UI box where the dialogue will appear
     TutorialDialogue tutorial;
+    [HideInInspector] public static DialogueChat instance;
 
     void Start()
     {
         dialogueBox.gameObject.SetActive(false);
+        if (instance == null)
+        {
+            instance = this;
+        }
+        else
+        {
+            if (instance != this)
+                Destroy(gameObject);
+        }
+        DontDestroyOnLoad(gameObject);
     }
 
     public void NoMoreDialogue()
