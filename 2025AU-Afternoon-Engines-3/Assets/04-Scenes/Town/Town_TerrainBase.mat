@@ -49,6 +49,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Control:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -67,6 +71,10 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _FrontBackAlbedo:
         m_Texture: {fileID: 2800000, guid: 686b5d8d63a5bf7439f728f3640bf555, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FrontBackMetSmooth:
+        m_Texture: {fileID: 2800000, guid: 4eb3924f128b00d43a2f5b77c4565923, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _FrontBackNormal:
@@ -97,6 +105,10 @@ Material:
         m_Texture: {fileID: 2800000, guid: 686b5d8d63a5bf7439f728f3640bf555, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _SidesMetSmooth:
+        m_Texture: {fileID: 2800000, guid: 4eb3924f128b00d43a2f5b77c4565923, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SidesNormal:
         m_Texture: {fileID: 2800000, guid: 7007b672bdc5b404cba321524e5fa118, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -105,8 +117,28 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Splat0:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Splat1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Splat2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Splat3:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _TopAlbedo:
         m_Texture: {fileID: 2800000, guid: b581d8a201ea9394ebf901c8b2ac6ff3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TopMetSmooth:
+        m_Texture: {fileID: 2800000, guid: ae7aaaadd8da90745b0d09b22a575f43, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _TopNormal:
