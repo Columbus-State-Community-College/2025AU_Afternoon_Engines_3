@@ -81,8 +81,32 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _T2DArrayExtraction_dfe1ebc949464c618207b1057f1e736f_Texture2DArrayB_967258740_Texture2DArray:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _Texture2D_Array:
         m_Texture: {fileID: 18700000, guid: 6320dced1052dec40881a6ffcf0fbd97, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2D_Array1:
+        m_Texture: {fileID: 18700000, guid: 6320dced1052dec40881a6ffcf0fbd97, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2D_Array1A:
+        m_Texture: {fileID: 18700000, guid: 6320dced1052dec40881a6ffcf0fbd97, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2D_Array1B:
+        m_Texture: {fileID: 18700000, guid: 63999e97d143fe54fbd7afa0a121204c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TriplanarArrayFunction_94cc59f7f1e442dfa9a479be9f4b4054_T2DArrayFrontBack_4081004335_Texture2DArray:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TriplanarArrayFunction_94cc59f7f1e442dfa9a479be9f4b4054_T2DArraySides_974635773_Texture2DArray:
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
