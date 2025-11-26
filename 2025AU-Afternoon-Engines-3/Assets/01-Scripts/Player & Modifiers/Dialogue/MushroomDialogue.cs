@@ -33,6 +33,7 @@ public class MushroomDialogue : MonoBehaviour
         manager.crowOneActive = false;
         manager.crowOneDone = true;
         questy.whatQuestSeen();
+        repu.GetRep();
         chatty.EnterDialogue(speaking);
     }
 
@@ -67,6 +68,7 @@ public class MushroomDialogue : MonoBehaviour
         manager.crowTwoActive = false;
         manager.crowTwoDone = true;
         questy.whatQuestSeen();
+        repu.GetRep();
         chatty.EnterDialogue(speaking);
     }
 
@@ -101,6 +103,7 @@ public class MushroomDialogue : MonoBehaviour
         manager.crowThreeActive = false;
         manager.crowThreeDone = true;
         questy.whatQuestSeen();
+        repu.GetRep();
         chatty.EnterDialogue(speaking);
     }
 
@@ -135,6 +138,7 @@ public class MushroomDialogue : MonoBehaviour
         manager.crowFourActive = false;
         manager.crowFourDone = true;
         questy.whatQuestSeen();
+        repu.GetRep();
         chatty.EnterDialogue(speaking);
     }
 
@@ -170,6 +174,7 @@ public class MushroomDialogue : MonoBehaviour
         manager.hecateOneActive = false;
         manager.hecateOneDone = true;
         questy.whatQuestSeen();
+        repu.GetRep();
         chatty.EnterDialogue(speaking);
     }
 
@@ -199,6 +204,7 @@ public class MushroomDialogue : MonoBehaviour
         manager.hecateTwoActive = false;
         manager.hecateTwoDone = true;
         questy.whatQuestSeen();
+        repu.GetRep();
         chatty.EnterDialogue(speaking);
     }
 
@@ -228,6 +234,7 @@ public class MushroomDialogue : MonoBehaviour
         manager.hecateThreeActive = false;
         manager.hecateThreeDone = true;
         questy.whatQuestSeen();
+        repu.GetRep();
         chatty.EnterDialogue(speaking);
     }
 

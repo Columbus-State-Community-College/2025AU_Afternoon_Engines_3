@@ -33,6 +33,7 @@ public class TownDialogue : MonoBehaviour
         manager.blacksmithOneActive = false;
         manager.blacksmithOneDone = true;
         questy.whatQuestSeen();
+        repu.GetRep();
         chatty.EnterDialogue(speaking);
     }
 
@@ -61,6 +62,7 @@ public class TownDialogue : MonoBehaviour
         manager.blacksmithTwoActive = false;
         manager.blacksmithTwoDone = true;
         questy.whatQuestSeen();
+        repu.GetRep();
         chatty.EnterDialogue(speaking);
     }
 
@@ -96,6 +98,7 @@ public class TownDialogue : MonoBehaviour
         manager.merchantOneActive = false;
         manager.merchantOneDone = true;
         questy.whatQuestSeen();
+        repu.GetRep();
         chatty.EnterDialogue(speaking);
     }
 
@@ -123,6 +126,7 @@ public class TownDialogue : MonoBehaviour
         manager.merchantTwoActive = false;
         manager.merchantTwoDone = true;
         questy.whatQuestSeen();
+        repu.GetRep();
         chatty.EnterDialogue(speaking);
     }
 
@@ -152,6 +156,7 @@ public class TownDialogue : MonoBehaviour
         manager.merchantThreeDone = true;
         manager.merchantThreeActive = false;
         questy.whatQuestSeen();
+        repu.GetRep();
         chatty.EnterDialogue(speaking);
     }
 
@@ -186,6 +191,7 @@ public class TownDialogue : MonoBehaviour
         manager.townGirlOneActive = false;
         manager.townGirlOneDone = true;
         questy.whatQuestSeen();
+        repu.GetRep();
         chatty.EnterDialogue(speaking);
     }
 
@@ -221,6 +227,7 @@ public class TownDialogue : MonoBehaviour
         manager.townGirlTwoActive = false;
         manager.townGirlTwoDone = true;
         questy.whatQuestSeen();
+        repu.GetRep();
         chatty.EnterDialogue(speaking);
     }
 
@@ -255,6 +262,7 @@ public class TownDialogue : MonoBehaviour
         manager.townGirlThreeActive = false;
         manager.townGirlThreeDone = true;
         questy.whatQuestSeen();
+        repu.GetRep();
         chatty.EnterDialogue(speaking);
     }
 
@@ -289,6 +297,7 @@ public class TownDialogue : MonoBehaviour
         manager.townManOneActive = false;
         manager.townManOneDone = true;
         questy.whatQuestSeen();
+        repu.GetRep();
         chatty.EnterDialogue(speaking);
     }
 
@@ -323,6 +332,7 @@ public class TownDialogue : MonoBehaviour
         manager.townManTwoActive = false;
         manager.townManTwoDone = true;
         questy.whatQuestSeen();
+        repu.GetRep();
         chatty.EnterDialogue(speaking);
     }
 
@@ -357,6 +367,7 @@ public class TownDialogue : MonoBehaviour
         manager.crowKeyActive = false;
         manager.crowKeyDone = true;
         questy.whatQuestSeen();
+        repu.GetRep();
         chatty.EnterDialogue(speaking);
     }
 

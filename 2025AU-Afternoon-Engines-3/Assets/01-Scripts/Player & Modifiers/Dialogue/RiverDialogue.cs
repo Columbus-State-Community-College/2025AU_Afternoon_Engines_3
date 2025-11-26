@@ -31,6 +31,8 @@ public class RiverDialogue : MonoBehaviour
         speaking = "CAW! Nut! Me thank friend for nut! Have scroll.";
         manager.riverCrowOneActive = false;
         manager.riverCrowOneDone = true;
+        questy.whatQuestSeen();
+        repu.GetRep();
         chatty.EnterDialogue(speaking);
     }
 
@@ -66,6 +68,7 @@ public class RiverDialogue : MonoBehaviour
         manager.riverCrowTwoActive = false;
         manager.riverCrowTwoDone = true;
         questy.whatQuestSeen();
+        repu.GetRep();
         chatty.EnterDialogue(speaking);
     }
 
@@ -100,6 +103,7 @@ public class RiverDialogue : MonoBehaviour
         manager.riverGirlActive = false;
         manager.riverGirlDone = true;
         questy.whatQuestSeen();
+        repu.GetRep();
         chatty.EnterDialogue(speaking);
     }
 
@@ -135,6 +139,7 @@ public class RiverDialogue : MonoBehaviour
         manager.farmerOneDone = true;
         manager.farmerOneActive = false;
         questy.whatQuestSeen();
+        repu.GetRep();
         chatty.EnterDialogue(speaking);
     }
 
@@ -163,6 +168,7 @@ public class RiverDialogue : MonoBehaviour
         manager.farmerTwoActive = false;
         manager.farmerTwoDone = true;
         questy.whatQuestSeen();
+        repu.GetRep();
         chatty.EnterDialogue(speaking);
     }
 
@@ -191,6 +197,7 @@ public class RiverDialogue : MonoBehaviour
         manager.farmerThreeActive = false;
         manager.farmerThreeDone = true;
         questy.whatQuestSeen();
+        repu.GetRep();
         chatty.EnterDialogue(speaking);
     }
 
@@ -219,6 +226,7 @@ public class RiverDialogue : MonoBehaviour
         manager.farmerFourActive = false;
         manager.farmerFourDone = true;
         questy.whatQuestSeen();
+        repu.GetRep();
         chatty.EnterDialogue(speaking);
     }
 
@@ -246,6 +254,7 @@ public class RiverDialogue : MonoBehaviour
         manager.farmerFiveActive = false;
         manager.farmerFiveDone = true;
         questy.whatQuestSeen();
+        repu.GetRep();
         chatty.EnterDialogue(speaking);
     }
 
@@ -274,6 +283,7 @@ public class RiverDialogue : MonoBehaviour
         manager.farmerSixActive = false;
         manager.farmerSixDone = true;
         questy.whatQuestSeen();
+        repu.GetRep();
         chatty.EnterDialogue(speaking);
     }
 

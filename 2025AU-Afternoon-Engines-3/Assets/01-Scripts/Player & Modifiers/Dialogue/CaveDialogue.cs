@@ -45,6 +45,7 @@ public class CaveDialogue : MonoBehaviour
         manager.dwarfActive = false;
         manager.dwarfDone = true;
         questy.whatQuestSeen();
+        repu.GetRep();
         chatty.EnterDialogue(speaking);
     }
 
