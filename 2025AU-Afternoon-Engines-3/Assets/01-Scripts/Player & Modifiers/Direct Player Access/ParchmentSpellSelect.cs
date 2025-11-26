@@ -16,8 +16,12 @@ public class ParchmentSpellSelect : MonoBehaviour
 
     private Dictionary<string, string> spellCombinations = new Dictionary<string, string>()
     {
-        //3x3 Spell Inputs, uses Center of the Grid when the Tier 2 and Tier 3 parchment are unlocked..
+        //3x3 Spell Inputs, uses Center of the Grid when the Tier 2 and Tier 3 parchment are unlocked.
         { "0000000100011000111000000", "Fire" },
+        // Layed out like thus for each step of the process, seemingly hellish and that's as real is it gets.
+        // 010 110 111
+        // 00000 00100 01100 01110 00000
+        // 0000000 0000000 0001000 0011000 0011100 0000000 0000000
         { "0000000100011100101000000", "Speed" },
         { "0000001100010100011000000", "Electricity" },
         { "0000001100010100110000000", "SpectralArrow" },

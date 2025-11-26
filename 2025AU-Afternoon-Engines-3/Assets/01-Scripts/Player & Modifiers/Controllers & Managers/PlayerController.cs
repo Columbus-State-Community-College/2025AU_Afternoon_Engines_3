@@ -70,7 +70,7 @@ public class PlayerController : MonoBehaviour
     {
         if (parchmentMenu == null)
         {
-            Debug.LogWarning("Parchment Canvas not assigned in PlayerController!");
+            Debug.LogWarning("unassigned parchment!");
             return;
         }
 
@@ -134,9 +134,9 @@ public class PlayerController : MonoBehaviour
             }
         }
         if (isGrounded)
-        { rb.AddForce(moveDirection * moveSpeed * 10f, ForceMode.Force);}
+        {rb.AddForce(moveDirection * moveSpeed * 10f, ForceMode.Force);}
         else
-        { rb.AddForce(moveDirection * moveSpeed * 10f * airVelocityMultiplier, ForceMode.Force); }
+        {rb.AddForce(moveDirection * moveSpeed * 10f * airVelocityMultiplier, ForceMode.Force); }
         Debug.DrawRay(transform.position, moveDirection * 0.5f, hitWall ? Color.red : Color.green);
     }
     private void SpeedControl()

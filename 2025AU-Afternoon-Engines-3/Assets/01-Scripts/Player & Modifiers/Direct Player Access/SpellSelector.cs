@@ -66,6 +66,9 @@ public class SpellSelector : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Alpha3))
             SelectSpell("Electricity");
 
+        if (Input.GetKeyDown(KeyCode.Alpha3) && Input.GetKeyDown(KeyCode.LeftShift))
+            SelectSpell("Thunder");
+
         if (Input.GetKeyDown(KeyCode.Alpha4))
             SelectSpell("SpectralArrow");
 
