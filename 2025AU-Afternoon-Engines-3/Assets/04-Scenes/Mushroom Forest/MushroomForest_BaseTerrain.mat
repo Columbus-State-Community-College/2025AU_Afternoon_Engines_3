@@ -53,15 +53,15 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _FrontBackAlbedo:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 686b5d8d63a5bf7439f728f3640bf555, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _FrontBackMetSmooth:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 4eb3924f128b00d43a2f5b77c4565923, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _FrontBackNormal:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 7007b672bdc5b404cba321524e5fa118, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
@@ -81,15 +81,15 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SidesAlbedo:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 686b5d8d63a5bf7439f728f3640bf555, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SidesMetSmooth:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 4eb3924f128b00d43a2f5b77c4565923, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SidesNormal:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 7007b672bdc5b404cba321524e5fa118, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
