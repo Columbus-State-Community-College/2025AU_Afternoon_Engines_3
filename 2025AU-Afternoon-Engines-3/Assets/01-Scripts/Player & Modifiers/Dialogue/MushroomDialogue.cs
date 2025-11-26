@@ -5,6 +5,7 @@ public class MushroomDialogue : MonoBehaviour
     DialogueChat chatty;
     repTracker repu;
     UnlockManager manager;
+    QuestList questy;
     public string speaking;
 
     public void crowOneQuest()
@@ -21,6 +22,7 @@ public class MushroomDialogue : MonoBehaviour
         {
             speaking = "Caw! Friend get rock for caw?";
             manager.crowOneActive = true;
+            questy.whatQuestSeen();
             chatty.EnterDialogue(speaking);
         }
     }
@@ -30,6 +32,7 @@ public class MushroomDialogue : MonoBehaviour
         speaking = "Squawk!! Rock rock! Caw give friend gift!";
         manager.crowOneActive = false;
         manager.crowOneDone = true;
+        questy.whatQuestSeen();
         chatty.EnterDialogue(speaking);
     }
 
@@ -53,6 +56,7 @@ public class MushroomDialogue : MonoBehaviour
         {
             speaking = "Chirrrrp! If friend help blacksmith me give gift! Want red gem for blacksmith!";
             manager.crowTwoActive = true;
+            questy.whatQuestSeen();
             chatty.EnterDialogue(speaking);
         }
     }
@@ -62,6 +66,7 @@ public class MushroomDialogue : MonoBehaviour
         speaking = "Chipchip! Me see friend help blacksmith! Here gift!";
         manager.crowTwoActive = false;
         manager.crowTwoDone = true;
+        questy.whatQuestSeen();
         chatty.EnterDialogue(speaking);
     }
 
@@ -85,6 +90,7 @@ public class MushroomDialogue : MonoBehaviour
         {
             speaking = "Has bushy witch friend meet mushroom witch friend?";
             manager.crowThreeActive = true;
+            questy.whatQuestSeen();
             chatty.EnterDialogue(speaking);
         }
     }
@@ -92,8 +98,9 @@ public class MushroomDialogue : MonoBehaviour
     public void crowThreeComplete()
     {
         speaking = "Friend know other friend! Me happy!";
-        manager.crowThreeActive == false;
-        manager.crowThreeDone == true;
+        manager.crowThreeActive = false;
+        manager.crowThreeDone = true;
+        questy.whatQuestSeen();
         chatty.EnterDialogue(speaking);
     }
 
@@ -109,14 +116,15 @@ public class MushroomDialogue : MonoBehaviour
         {
             crowFourStandard();
         }
-        else if (manager.crowFourWolfScary == true)
+        else if (manager.familiarSpellUnlocked == true)
         {
             crowFourComplete();
         }
         else
         {
             speaking = "Caw caw? Friend have friend?";
-            manager.crowFourActive == true;
+            manager.crowFourActive = true;
+            questy.whatQuestSeen();
             chatty.EnterDialogue(speaking);
         }
     }
@@ -126,6 +134,7 @@ public class MushroomDialogue : MonoBehaviour
         speaking = "SQUAAA! Wolf scary! Friend control not friend please!";
         manager.crowFourActive = false;
         manager.crowFourDone = true;
+        questy.whatQuestSeen();
         chatty.EnterDialogue(speaking);
     }
 
@@ -150,6 +159,7 @@ public class MushroomDialogue : MonoBehaviour
             speaking = "Hello old friend. I heard you wanted to get the town's trust. Good luck with that. I wouldn't bother. " +
                 "But if you wish for some help I can provide. Help me get a bug and I'll give you a spell.";
             manager.hecateOneActive = true;
+            questy.whatQuestSeen();
             chatty.EnterDialogue(speaking);
         }
     }
@@ -159,6 +169,7 @@ public class MushroomDialogue : MonoBehaviour
         speaking = "You truly want their trust? They're all so picky. Here's the promised spell.";
         manager.hecateOneActive = false;
         manager.hecateOneDone = true;
+        questy.whatQuestSeen();
         chatty.EnterDialogue(speaking);
     }
 
@@ -177,6 +188,7 @@ public class MushroomDialogue : MonoBehaviour
             speaking = "Hm? Bigger paper? You are being limited by paper size? Whatever, just... get a cave carrot for me, " +
                 "alright?";
             manager.hecateTwoActive = true;
+            questy.whatQuestSeen();
             chatty.EnterDialogue(speaking);
         }
     }
@@ -186,6 +198,7 @@ public class MushroomDialogue : MonoBehaviour
         speaking = "Real determined, huh. I could never. Here's your bigger paper.";
         manager.hecateTwoActive = false;
         manager.hecateTwoDone = true;
+        questy.whatQuestSeen();
         chatty.EnterDialogue(speaking);
     }
 
@@ -203,6 +216,7 @@ public class MushroomDialogue : MonoBehaviour
         {
             speaking = "Even bigger? Was that not enough? Alright, alright, whatever. Get some seeds down for me.";
             manager.hecateThreeActive = true;
+            questy.whatQuestSeen();
             chatty.EnterDialogue(speaking);
         }
     }
@@ -213,6 +227,7 @@ public class MushroomDialogue : MonoBehaviour
             "you that.";
         manager.hecateThreeActive = false;
         manager.hecateThreeDone = true;
+        questy.whatQuestSeen();
         chatty.EnterDialogue(speaking);
     }
 

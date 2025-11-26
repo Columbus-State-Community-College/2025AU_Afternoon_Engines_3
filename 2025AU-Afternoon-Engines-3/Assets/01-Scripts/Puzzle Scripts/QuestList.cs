@@ -10,6 +10,23 @@ public class QuestList : MonoBehaviour
     public List<string> seenQuests = new List<string>();
     bool bs1, bs2, m1, m2, m3, tg1, tg2, tg3, tm1, tm2, tc1, fc1, fc2, fc3, fc4, h1, h2, h3, d1, rc1, rc2, rg1, f1, f2, f3, f4, f5, f6;
 
+    [HideInInspector] public static QuestList instance;
+
+    void Start()
+    {
+        questBox.gameObject.SetActive(false);
+        if (instance == null)
+        {
+            instance = this;
+        }
+        else
+        {
+            if (instance != this)
+                Destroy(gameObject);
+        }
+        DontDestroyOnLoad(gameObject); 
+    }
+
     public void whatQuestSeen()
     {
         if (manager.blacksmithOneActive == true)
@@ -199,5 +216,406 @@ public class QuestList : MonoBehaviour
                 seenQuests.Remove("\n-Find a Dwarf Tool");
             }
         }
+
+        if (manager.townManTwoActive = true)
+        {
+            if (tm2 = true)
+            {
+                return;
+            }
+            else
+            {
+                seenQuests.Add("\n-Find Cliff Flower");
+                tm2 = true;
+            } 
+        }
+        else
+        {
+            tm2 = false;
+            if (seenQuests.Contains("\n-Find Cliff Flower"))
+            {
+                seenQuests.Remove("\n-Find Cliff Flower");
+            }
+        }
+
+        if (manager.crowKeyActive = true)
+        {
+            if (tc1 = true)
+            {
+                return;
+            }
+            else
+            {
+                seenQuests.Add("\n-Find a Nut for a Key");
+                tc1 = true;
+            }
+        }
+        else
+        {
+            tc1 = false;
+            if (seenQuests.Contains("\n-Find a Nut for a Key"))
+            {
+                seenQuests.Remove("\n-Find a Nut for a Key");
+            }
+        }
+
+        if (manager.crowOneActive = true)
+        {
+            if (fc1 = true)
+            {
+                return;
+            }
+            else
+            {
+                seenQuests.Add("\n-Get a lose Rock");
+                fc1 = true;
+            }
+        }
+        else
+        {
+            fc1 = false;
+            if (seenQuests.Contains("\n-Get a lose Rock"))
+            {
+                seenQuests.Remove("\n-Get a lose Rock");
+            }
+        }
+
+        if (manager.crowTwoActive = true)
+        {
+            if (fc2 = true)
+            {
+                return;
+            }
+            else
+            {
+                seenQuests.Add("\n-Find Red Gem");
+                fc2 = true;
+            }
+        }
+        else
+        {
+            fc2 = false;
+            if (seenQuests.Contains("\n-Find Red Gem"))
+            {
+                seenQuests.Remove("\n-Find Red Gem");
+            }
+        }
+
+        if (manager.crowThreeActive = true)
+        {
+            if (fc3 = true)
+            {
+                return;
+            }
+            else
+            {
+                seenQuests.Add("\n-Speak to Hecate");
+                fc3 = true;
+            }
+        }
+        else
+        {
+            fc3 = false;
+            if (seenQuests.Contains("\n-Speak to Hecate"))
+            {
+                seenQuests.Remove("\n-Speak to Hecate");
+            }
+        }
+
+        if (manager.crowFourActive = true)
+        {
+            if (fc4 = true)
+            {
+                return;
+            }
+            else
+            {
+                seenQuests.Add("\n-Have Familiar Spell");
+                fc4 = true;
+            }
+        }
+        else
+        {
+            fc4 = false;
+            if (seenQuests.Contains("\n-Have Familiar Spell"))
+            {
+                seenQuests.Remove("\n-Have Familiar Spell");
+            }
+        }
+
+        if (manager.hecateOneActive = true)
+        {
+            if (h1 = true)
+            {
+                return;
+            }
+            else
+            {
+                seenQuests.Add("\n-Get Bug");
+                h1 = true;
+            }
+        }
+        else
+        {
+            h1 = false;
+            if (seenQuests.Contains("\n-Get Bug"))
+            {
+                seenQuests.Remove("\n-Get Bug");
+            }
+        }
+
+        if (manager.hecateTwoActive = true)
+        {
+            if (h2 = true)
+            {
+                return;
+            }
+            else
+            {
+                seenQuests.Add("\n-Get Cave Carrot");
+                h2 = true;
+            }
+        }
+        else
+        {
+            h2 = false;
+            if (seenQuests.Contains("\n-Get Cave Carrot"))
+            {
+                seenQuests.Remove("\n-Get Cave Carrot");
+            }
+        }
+
+        if (manager.hecateThreeActive = true)
+        {
+            if (h3 = true)
+            {
+                return;
+            }
+            else
+            {
+                seenQuests.Add("\n-Get Seed");
+                h3 = true;
+            }
+        }
+        else
+        {
+            h3 = false;
+            if (seenQuests.Contains("\n-Get Seed"))
+            {
+                seenQuests.Remove("\n-Get Seed");
+            }
+        }
+
+        if (manager.dwarfActive = true)
+        {
+            if (d1 = true)
+            {
+                return;
+            }
+            else
+            {
+                seenQuests.Add("\n-Get tiny, bright flower");
+                d1 = true;
+            }
+        }
+        else
+        {
+            d1 = false;
+            if (seenQuests.Contains("\n-Get tiny, bright flower"))
+            {
+                seenQuests.Remove("\n-Get tiny, bright flower");
+            }
+        }
+
+        if (manager.riverCrowOneActive = true)
+        {
+            if (rc1 = true)
+            {
+                return;
+            }
+            else
+            {
+                seenQuests.Add("\n-Get a Nut for a Scroll");
+                rc1 = true;
+            }
+        }
+        else
+        {
+            rc1 = false;
+            if (seenQuests.Contains("\n-Get a Nut for a Scroll"))
+            {
+                seenQuests.Remove("\n-Get a Nut for a Scroll");
+            }
+        }
+
+        if (manager.riverCrowTwoActive = true)
+        {
+            if (rc2 = true)
+            {
+                return;
+            }
+            else
+            {
+                seenQuests.Add("\n-Get Cave Flower");
+                rc2 = true;
+            }
+        }
+        else
+        {
+            rc2 = false;
+            if (seenQuests.Contains("\n-Get Cave Flower"))
+            {
+                seenQuests.Remove("\n-Get Cave Flower");
+            }
+        }
+
+        if (manager.riverGirlActive = true)
+        {
+            if (rg1 = true)
+            {
+                return;
+            }
+            else
+            {
+                seenQuests.Add("\n-Catch a Golden Carp");
+                rg1 = true;
+            }
+        }
+        else
+        {
+            rg1 = false;
+            if (seenQuests.Contains("\n-Catch a Golden Carp"))
+            {
+                seenQuests.Remove("\n-Catch a Golden Carp");
+            }
+        }
+
+        if (manager.farmerOneActive = true)
+        {
+            if (f1 = true)
+            {
+                return;
+            }
+            else
+            {
+                seenQuests.Add("\n-Catch a Green Fish");
+                f1 = true;
+            }
+        }
+        else
+        {
+            f1 = false;
+            if (seenQuests.Contains("\n-Catch a Green Fish"))
+            {
+                seenQuests.Remove("\n-Catch a Green Fish");
+            }
+        }
+
+        if (manager.farmerTwoActive = true)
+        {
+            if (f2 = true)
+            {
+                return;
+            }
+            else
+            {
+                seenQuests.Add("\n-Catch a Blue Fish");
+                f2 = true;
+            }
+        }
+        else
+        {
+            f2 = false;
+            if (seenQuests.Contains("\n-Catch a Blue Fish"))
+            {
+                seenQuests.Remove("\n-Catch a Blue Fish");
+            }
+        }
+
+        if (manager.farmerThreeActive = true)
+        {
+            if (f3 = true)
+            {
+                return;
+            }
+            else
+            {
+                seenQuests.Add("\n-Catch a Purple Fish");
+                f3 = true;
+            }
+        }
+        else
+        {
+            f3 = false;
+            if (seenQuests.Contains("\n-Catch a Purple Fish"))
+            {
+                seenQuests.Remove("\n-Catch a Purple Fish");
+            }
+        }
+
+        if (manager.farmerFourActive = true)
+        {
+            if (f4 = true)
+            {
+                return;
+            }
+            else
+            {
+                seenQuests.Add("\n-Catch a Red Fish");
+                f4 = true;
+            }
+        }
+        else
+        {
+            f4 = false;
+            if (seenQuests.Contains("\n-Catch a Red Fish"))
+            {
+                seenQuests.Remove("\n-Catch a Red Fish");
+            }
+        }
+
+        if (manager.farmerFiveActive = true)
+        {
+            if (f5 = true)
+            {
+                return;
+            }
+            else
+            {
+                seenQuests.Add("\n-Catch a Orange Fish");
+                f5 = true;
+            }
+        }
+        else
+        {
+            f5 = false;
+            if (seenQuests.Contains("\n-Catch a Orange Fish"))
+            {
+                seenQuests.Remove("\n-Catch a Orange Fish");
+            }
+        }
+
+        if (manager.farmerSixActive = true)
+        {
+            if (f6 = true)
+            {
+                return;
+            }
+            else
+            {
+                seenQuests.Add("\n-Catch a Yellow Fish");
+                f6 = true;
+            }
+        }
+        else
+        {
+            f6 = false;
+            if (seenQuests.Contains("\n-Catch a Yellow Fish"))
+            {
+                seenQuests.Remove("\n-Catch a Yellow Fish");
+            }
+        }
+
+        questBox.text = "Quest List" + seenQuests;
     }
 }

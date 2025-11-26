@@ -5,6 +5,7 @@ public class TownDialogue : MonoBehaviour
     DialogueChat chatty;
     repTracker repu;
     UnlockManager manager;
+    QuestList questy;
     public string speaking;
 
     // "Standard" refers to dialogue when they have no more quests to give
@@ -21,6 +22,7 @@ public class TownDialogue : MonoBehaviour
         else {
             speaking = "Hey there, chap! Can you got to the caves for me? The dwarfs won't let me in but I need the iron.";
             manager.blacksmithOneActive = true;
+            questy.whatQuestSeen();
             chatty.EnterDialogue(speaking);
         }
     }
@@ -30,6 +32,7 @@ public class TownDialogue : MonoBehaviour
         speaking = "Thanks, chap! Hopefully you didn't have much trouble with the dwarfs.";
         manager.blacksmithOneActive = false;
         manager.blacksmithOneDone = true;
+        questy.whatQuestSeen();
         chatty.EnterDialogue(speaking);
     }
 
@@ -47,6 +50,7 @@ public class TownDialogue : MonoBehaviour
         {
             speaking = "Hey again! I'm looking for some sky-metal, but I can't get to the cliffs. Can you get some for me?";
             manager.blacksmithTwoActive = true;
+            questy.whatQuestSeen();
             chatty.EnterDialogue(speaking);
         }
     }
@@ -56,6 +60,7 @@ public class TownDialogue : MonoBehaviour
         speaking = "Thanks, chap! This should do, at least until I get another commission that requires sky-metal.";
         manager.blacksmithTwoActive = false;
         manager.blacksmithTwoDone = true;
+        questy.whatQuestSeen();
         chatty.EnterDialogue(speaking);
     }
 
@@ -80,6 +85,7 @@ public class TownDialogue : MonoBehaviour
             speaking = "Hello, hello valued customer! I'm afraid I've lost my stock book in the forest but the local crows " +
                 "are refusing to give it back. Could you, perhaps, help me with that?";
             manager.merchantOneActive = true;
+            questy.whatQuestSeen();
             chatty.EnterDialogue(speaking);
         }
     }
@@ -89,6 +95,7 @@ public class TownDialogue : MonoBehaviour
         speaking = "Oh, wonderful, wonderful! Thank you so much, valued customer!";
         manager.merchantOneActive = false;
         manager.merchantOneDone = true;
+        questy.whatQuestSeen();
         chatty.EnterDialogue(speaking);
     }
 
@@ -115,6 +122,7 @@ public class TownDialogue : MonoBehaviour
         speaking = "Oh, wondrous, wondrous! Thank you so much, valued customer!";
         manager.merchantTwoActive = false;
         manager.merchantTwoDone = true;
+        questy.whatQuestSeen();
         chatty.EnterDialogue(speaking);
     }
 
@@ -133,6 +141,7 @@ public class TownDialogue : MonoBehaviour
             speaking = "Hello hello dear valued customer! I'm afraid that the crows who live in the cliffs have stolen my " +
                 "special ring. Could you perhaps help me get it back?";
             manager.merchantThreeActive = true;
+            questy.whatQuestSeen();
             chatty.EnterDialogue(speaking);
         }
     }
@@ -142,6 +151,7 @@ public class TownDialogue : MonoBehaviour
         speaking = "Oh joyous day! Thank you oh so very much, valued customer!";
         manager.merchantThreeDone = true;
         manager.merchantThreeActive = false;
+        questy.whatQuestSeen();
         chatty.EnterDialogue(speaking);
     }
 
@@ -165,6 +175,7 @@ public class TownDialogue : MonoBehaviour
         {
             speaking = "Excuse me, ma'am? Could you get me a fish from the river? It's spotted black and white.";
             manager.townGirlOneActive = true;
+            questy.whatQuestSeen();
             chatty.EnterDialogue(speaking);
         }
     }
@@ -174,6 +185,7 @@ public class TownDialogue : MonoBehaviour
         speaking = "Ah, thank you ma'am. This will work perfectly.";
         manager.townGirlOneActive = false;
         manager.townGirlOneDone = true;
+        questy.whatQuestSeen();
         chatty.EnterDialogue(speaking);
     }
 
@@ -198,6 +210,7 @@ public class TownDialogue : MonoBehaviour
             speaking = "Hiya! I want to get a gemstone, a green one, from the mines for my brother's birthday but I'm not allowed down " +
                 "there. Can you get one for me?";
             manager.townGirlTwoActive = true;
+            questy.whatQuestSeen();
             chatty.EnterDialogue(speaking);
         }
     }
@@ -207,6 +220,7 @@ public class TownDialogue : MonoBehaviour
         speaking = "Oh hey! Thanks for doing that!";
         manager.townGirlTwoActive = false;
         manager.townGirlTwoDone = true;
+        questy.whatQuestSeen();
         chatty.EnterDialogue(speaking);
     }
 
@@ -230,6 +244,7 @@ public class TownDialogue : MonoBehaviour
         {
             speaking = "Pardon, can you retrieve some wood for the forest for me?";
             manager.townGirlThreeActive = true;
+            questy.whatQuestSeen();
             chatty.EnterDialogue(speaking);
         }
     }
@@ -239,6 +254,7 @@ public class TownDialogue : MonoBehaviour
         speaking = "So you're more reliable than my excuse of a husband. Thanks.";
         manager.townGirlThreeActive = false;
         manager.townGirlThreeDone = true;
+        questy.whatQuestSeen();
         chatty.EnterDialogue(speaking);
     }
 
@@ -262,6 +278,7 @@ public class TownDialogue : MonoBehaviour
         {
             speaking = "Have you seen a dwarf before? Can you bring me proof?";
             manager.townManOneActive = true;
+            questy.whatQuestSeen();
             chatty.EnterDialogue(speaking);
         }
     }
@@ -271,6 +288,7 @@ public class TownDialogue : MonoBehaviour
         speaking = "Oh wow! I real dwarf item! Thank you so much for showing me!";
         manager.townManOneActive = false;
         manager.townManOneDone = true;
+        questy.whatQuestSeen();
         chatty.EnterDialogue(speaking);
     }
 
@@ -294,6 +312,7 @@ public class TownDialogue : MonoBehaviour
         {
             speaking = "There's a beautiful flower up in the cliffs I wish to give to my wife. Could you help me with that?";
             manager.townManTwoActive = true;
+            questy.whatQuestSeen();
             chatty.EnterDialogue(speaking);
         }
     }
@@ -303,6 +322,7 @@ public class TownDialogue : MonoBehaviour
         speaking = "Oh! The flower is more beautiful than I imagined! Thank you so much!";
         manager.townManTwoActive = false;
         manager.townManTwoDone = true;
+        questy.whatQuestSeen();
         chatty.EnterDialogue(speaking);
     }
 
@@ -326,6 +346,7 @@ public class TownDialogue : MonoBehaviour
         {
             speaking = "Caw! Does friend have nut? Me give key!";
             manager.crowKeyActive = true;
+            questy.whatQuestSeen();
             chatty.EnterDialogue(speaking);
         }
     }
@@ -335,6 +356,7 @@ public class TownDialogue : MonoBehaviour
         speaking = "Caw! Me likes nut! Key key!";
         manager.crowKeyActive = false;
         manager.crowKeyDone = true;
+        questy.whatQuestSeen();
         chatty.EnterDialogue(speaking);
     }
 

@@ -5,6 +5,7 @@ public class RiverDialogue : MonoBehaviour
     DialogueChat chatty;
     repTracker repu;
     UnlockManager manager;
+    QuestList questy;
     public string speaking;
 
     public void CrowOneQuest()
@@ -54,6 +55,7 @@ public class RiverDialogue : MonoBehaviour
             speaking = "Chirrrp, me looking for snack flower but snack flower went into cave. Can friend get " +
                 "my snack flower?";
             manager.riverCrowTwoActive = true;
+            questy.whatQuestSeen();
             chatty.EnterDialogue(speaking);
         }
     }
@@ -63,6 +65,7 @@ public class RiverDialogue : MonoBehaviour
         speaking = "Chirrr! Snack flower! Friend thankth!";
         manager.riverCrowTwoActive = false;
         manager.riverCrowTwoDone = true;
+        questy.whatQuestSeen();
         chatty.EnterDialogue(speaking);
     }
 
@@ -86,6 +89,7 @@ public class RiverDialogue : MonoBehaviour
         {
             speaking = "Exucse me, ma'am? Can you bring me a fish from the top of the cliff? It's a golden carp.";
             manager.riverGirlActive = true;
+            questy.whatQuestSeen();
             chatty.EnterDialogue(speaking);
         }
     }
@@ -95,6 +99,7 @@ public class RiverDialogue : MonoBehaviour
         speaking = "Oh, thank you ma'am. Making a wondrous dish from this will surely please the king.";
         manager.riverGirlActive = false;
         manager.riverGirlDone = true;
+        questy.whatQuestSeen();
         chatty.EnterDialogue(speaking);
     }
 
@@ -119,6 +124,7 @@ public class RiverDialogue : MonoBehaviour
             speaking = "Hey there! I'm looking for some fish, but... I don't know how to fish. Can you get some for me? " +
                 "The first fish I'm looking for is a green one.";
             manager.farmerOneActive = true;
+            questy.whatQuestSeen();
             chatty.EnterDialogue(speaking);
         }
     }
@@ -128,6 +134,7 @@ public class RiverDialogue : MonoBehaviour
         speaking = "Oh hey, you found it! Sweet! I'll add this to the pile.";
         manager.farmerOneDone = true;
         manager.farmerOneActive = false;
+        questy.whatQuestSeen();
         chatty.EnterDialogue(speaking);
     }
 
@@ -145,6 +152,7 @@ public class RiverDialogue : MonoBehaviour
         {
             speaking = "That's the first fish. The second fish is a sky blue color with white fins.";
             manager.farmerTwoActive = true;
+            questy.whatQuestSeen();
             chatty.EnterDialogue(speaking);
         }
     }
@@ -154,6 +162,7 @@ public class RiverDialogue : MonoBehaviour
         speaking = "Sweet! I knew it lived around here somewhere.";
         manager.farmerTwoActive = false;
         manager.farmerTwoDone = true;
+        questy.whatQuestSeen();
         chatty.EnterDialogue(speaking);
     }
 
@@ -171,6 +180,7 @@ public class RiverDialogue : MonoBehaviour
         {
             speaking = "That's two fish. Next on the list is a shiny purple fish.";
             manager.farmerThreeActive = true;
+            questy.whatQuestSeen();
             chatty.EnterDialogue(speaking);
         }
     }
@@ -180,6 +190,7 @@ public class RiverDialogue : MonoBehaviour
         speaking = "Oh, sweet! It's a lot shinier than what I was told.";
         manager.farmerThreeActive = false;
         manager.farmerThreeDone = true;
+        questy.whatQuestSeen();
         chatty.EnterDialogue(speaking);
     }
 
@@ -197,6 +208,7 @@ public class RiverDialogue : MonoBehaviour
         {
             speaking = "That's three. Next is a brilliant red fish.";
             manager.farmerFourActive = true;
+            questy.whatQuestSeen();
             chatty.EnterDialogue(speaking);
         }
     }
@@ -206,6 +218,7 @@ public class RiverDialogue : MonoBehaviour
         speaking = "Sweet! It's color is a lot less brilliant that the text said.";
         manager.farmerFourActive = false;
         manager.farmerFourDone = true;
+        questy.whatQuestSeen();
         chatty.EnterDialogue(speaking);
     }
 
@@ -232,6 +245,7 @@ public class RiverDialogue : MonoBehaviour
         speaking = "Sweet! It doesn't look very wiggly.";
         manager.farmerFiveActive = false;
         manager.farmerFiveDone = true;
+        questy.whatQuestSeen();
         chatty.EnterDialogue(speaking);
     }
 
@@ -249,6 +263,7 @@ public class RiverDialogue : MonoBehaviour
         {
             speaking = "This should be the last fish... I think. I'll have to double check. It's a yellow fish.";
             manager.farmerSixActive = true;
+            questy.whatQuestSeen();
             chatty.EnterDialogue(speaking);
         }
     }
@@ -258,6 +273,7 @@ public class RiverDialogue : MonoBehaviour
         speaking = "I double checked, it's just six fish. And hey, sweet! You found it!";
         manager.farmerSixActive = false;
         manager.farmerSixDone = true;
+        questy.whatQuestSeen();
         chatty.EnterDialogue(speaking);
     }
 

@@ -5,6 +5,7 @@ public class CaveDialogue : MonoBehaviour
     DialogueChat chatty;
     repTracker repu;
     UnlockManager manager;
+    QuestList questy;
     public string speaking;
 
     public void DwarfOneStandard()
@@ -33,6 +34,7 @@ public class CaveDialogue : MonoBehaviour
         {
             speaking = "Hiqqaqiqaqi want flower. Tall person bring flower? Hiqqaqiqaqi want tiny bright flower.";
             manager.dwarfActive = true;
+            questy.whatQuestSeen();
             chatty.EnterDialogue(speaking);
         }
     }
@@ -42,6 +44,7 @@ public class CaveDialogue : MonoBehaviour
         speaking = "Tall person bring flower! Hiqqaqiqaqi happy!";
         manager.dwarfActive = false;
         manager.dwarfDone = true;
+        questy.whatQuestSeen();
         chatty.EnterDialogue(speaking);
     }
 
