@@ -6,616 +6,591 @@ using System.Collections.Generic;
 public class QuestList : MonoBehaviour
 {
     public TextMeshProUGUI questBox;
-    UnlockManager manager;
+    public UnlockManager unlockManager;
     public List<string> seenQuests = new List<string>();
-    bool bs1, bs2, m1, m2, m3, tg1, tg2, tg3, tm1, tm2, tc1, fc1, fc2, fc3, fc4, h1, h2, h3, d1, rc1, rc2, rg1, f1, f2, f3, f4, f5, f6;
+    bool blacksmithquest1, blacksmithquest2,
+    merchantQuest1, merchantQuest2, merchantQuest3,
+    townGirlQuest1, townGirlQuest2, townGirlQuest3,
+    townMaleQuest1, townMaleQuest2, townCrowQuest1,
+    forestCrowQuest1, forestCrowQuest2, forestCrowQuest3, forestCrowQuest4,
+    hecateQuest1, hecateQuest2, hecateQuest3,
+    dwarfQuest1,
+    riverCrowQuest1, riverCrowQuest2, riverGirlQuest1,
+    farmerQuest1, farmerQuest2, farmerQuest3, farmerQuest4, farmerQuest5, farmerQuest6;
 
     [HideInInspector] public static QuestList instance;
 
     void Start()
     {
-        questBox.gameObject.SetActive(false);
-        if (instance == null)
-        {
-            instance = this;
-        }
+        if(instance == null)
+        {instance = this;}
         else
-        {
-            if (instance != this)
-                Destroy(gameObject);
-        }
-        DontDestroyOnLoad(gameObject); 
+        {if(instance != this)
+        {Destroy(gameObject);}}
     }
-
+    void FixedUpdate()
+    {
+        if (!unlockManager)
+        {FindComponent();}
+    }
+    void FindComponent()
+    {
+        GameObject unlockManagerGameObject = GameObject.FindGameObjectWithTag("UnlockManager");
+        unlockManager = unlockManagerGameObject.GetComponent<UnlockManager>();
+    }
     public void whatQuestSeen()
     {
-        if (manager.blacksmithOneActive == true)
+        if (unlockManager.blacksmithOneActive == true)
         {
-            if (bs1 == true)
-            {
-                return;
-            }
+            if (blacksmithquest1 == true)
+            { return; }
             else
             {
-                seenQuests.Add("\n-Get Blacksmith iron");
-                bs1 = true;
+                seenQuests.Add("-Get Blacksmith iron");
+                blacksmithquest1 = true;
             }
         }
         else
         {
-            bs1 = false;
-            if (seenQuests.Contains("\n-Get Blacksmith iron"))
-            {
-                seenQuests.Remove("\n-Get Blacksmith iron");
-            }
+            blacksmithquest1 = false;
+            if (seenQuests.Contains("-Get Blacksmith iron"))
+            { seenQuests.Remove("-Get Blacksmith iron"); }
         }
 
-        if (manager.blacksmithTwoActive == true)
+        if (unlockManager.blacksmithTwoActive == true)
         {
-            if (bs2 == true)
-            {
-                return;
-            }
+            if (blacksmithquest2 == true)
+            { return; }
             else
             {
-                seenQuests.Add("\n-Get Blacksmith Sky-Metal");
-                bs2 = true;
+                seenQuests.Add("-Get Blacksmith Sky-Metal");
+                blacksmithquest2 = true;
             }
         }
         else
         {
-            bs2 = false;
-            if (seenQuests.Contains("\n-Get Blacksmith Sky-Metal"))
-            {
-                seenQuests.Remove("\n-Get Blacksmith Sky-Metal");
-            }
+            blacksmithquest2 = false;
+            if (seenQuests.Contains("-Get Blacksmith Sky-Metal"))
+            { seenQuests.Remove("-Get Blacksmith Sky-Metal"); }
         }
 
-        if (manager.merchantOneActive == true)
+        if (unlockManager.merchantOneActive == true)
         {
-            if (m1 == true)
-            {
-                return;
-            }
+            if (merchantQuest1 == true)
+            { return; }
             else
             {
-                seenQuests.Add("\n-Find Merchant's Stock List");
-                m1 = true;
+                seenQuests.Add("-Find Merchant's Stock List");
+                merchantQuest1 = true;
             }
         }
         else
         {
-            m1 = false;
-            if (seenQuests.Contains("\n-Find Merchant's Stock List")) {
-                seenQuests.Remove("\n-Find Merchant's Stock List");
-            }
+            merchantQuest1 = false;
+            if (seenQuests.Contains("-Find Merchant's Stock List"))
+            { seenQuests.Remove("-Find Merchant's Stock List"); }
         }
 
-        if (manager.merchantOneActive == true)
+        if (unlockManager.merchantOneActive == true)
         {
-            if (m2 == true)
-            {
-                return;
-            }
+            if (merchantQuest2 == true)
+            { return; }
             else
             {
                 seenQuests.Add("\nFind Merchant's Pencil");
-                m2 = true;
+                merchantQuest2 = true;
             }
         }
         else
         {
-            m2 = false;
-            if (seenQuests.Contains("\n-Find Merchant's Pencil"))
-            {
-                seenQuests.Remove("\n-Find Merchant's Pencil");
-            }
+            merchantQuest2 = false;
+            if (seenQuests.Contains("-Find Merchant's Pencil"))
+            { seenQuests.Remove("-Find Merchant's Pencil"); }
         }
 
-        if (manager.merchantThreeActive == true)
+        if (unlockManager.merchantThreeActive == true)
         {
-            if (m3 == true)
+            if (merchantQuest3 == true)
+            { return; }
+            else
+            {
+                seenQuests.Add("-Find Merchant's Ring");
+                merchantQuest3 = true;
+            }
+        }
+        else
+        {
+            merchantQuest3 = false;
+            if (seenQuests.Contains("-Find Merchant's Ring"))
+            { seenQuests.Remove("-Find Merchant's Ring"); }
+        }
+
+        if (unlockManager.townGirlOneActive == true)
+        {
+            if (townGirlQuest1 == true)
+            { return; }
+            else
+            {
+                seenQuests.Add("-Find Black & White Fish");
+                townGirlQuest1 = true;
+            }
+        }
+        else
+        {
+            townGirlQuest1 = false;
+            if (seenQuests.Contains("-Find Black & White Fish"))
+            { seenQuests.Remove("-Find Black & White Fish"); }
+        }
+
+        if (unlockManager.townGirlTwoActive == true)
+        {
+            if (townGirlQuest2 == true)
+            { return; }
+            else
+            {
+                seenQuests.Add("-Find Green Gem");
+                townGirlQuest2 = true;
+            }
+        }
+        else
+        {
+            townGirlQuest2 = false;
+            if (seenQuests.Contains("-Find Green Gem"))
+            { seenQuests.Remove("-Find Green Gem"); }
+        }
+
+        if (unlockManager.townGirlThreeActive == true)
+        {
+            if (townGirlQuest3 == true)
+            { return; }
+            else
+            {
+                seenQuests.Add("-Get Wood");
+                townGirlQuest3 = true;
+            }
+        }
+        else
+        {
+            townGirlQuest3 = false;
+            if (seenQuests.Contains("-Get Wood"))
+            { seenQuests.Remove("-Get Wood"); }
+        }
+
+        if (unlockManager.townManOneActive == true)
+        {
+            if (townMaleQuest1 == true)
+            { return; }
+            else
+            {
+                seenQuests.Add("-Find a Dwarf Tool");
+                townMaleQuest1 = true;
+            }
+        }
+        else
+        {
+            townMaleQuest1 = false;
+            if (seenQuests.Contains("-Find a Dwarf Tool"))
+            { seenQuests.Remove("-Find a Dwarf Tool"); }
+        }
+        if (unlockManager.townManTwoActive == true)
+        {
+            if (townMaleQuest2 == true)
             {
                 return;
             }
             else
             {
-                seenQuests.Add("\n-Find Merchant's Ring");
-                m3 = true;
-            }
-        }
-        else
-        {
-            m3 = false;
-            if (seenQuests.Contains("\n-Find Merchant's Ring"))
-            {
-                seenQuests.Remove("\n-Find Merchant's Ring");
-            }
-        }
-
-        if (manager.townGirlOneActive == true)
-        {
-            if (tg1 == true)
-            {
-                return;
-            }
-            else
-            {
-                seenQuests.Add("\n-Find Black & White Fish");
-                tg1 = true;
-            }
-        }
-        else
-        {
-            tg1 = false;
-            if (seenQuests.Contains("\n-Find Black & White Fish"))
-            {
-                seenQuests.Remove("\n-Find Black & White Fish");
-            }
-        }
-
-        if (manager.townGirlTwoActive == true)
-        {
-            if (tg2 == true)
-            {
-                return;
-            }
-            else
-            {
-                seenQuests.Add("\n-Find Green Gem");
-                tg2 = true;
-            }
-        }
-        else
-        {
-            tg2 = false;
-            if (seenQuests.Contains("\n-Find Green Gem"))
-            {
-                seenQuests.Remove("\n-Find Green Gem");
-            }
-        }
-
-        if (manager.townGirlThreeActive == true)
-        {
-            if (tg3 == true)
-            {
-                return;
-            }
-            else
-            {
-                seenQuests.Add("\n-Get Wood");
-                tg3 = true;
-            }
-        }
-        else
-        {
-            tg3 = false;
-            if (seenQuests.Contains("\n-Get Wood"))
-            {
-                seenQuests.Remove("\n-Get Wood");
-            }
-        }
-
-        if (manager.townManOneActive == true)
-        {
-            if (tm1 == true)
-            {
-                return;
-            }
-            else
-            {
-                seenQuests.Add("\n-Find a Dwarf Tool");
-                tm1 = true;
-            }
-        }
-        else
-        {
-            tm1 = false;
-            if (seenQuests.Contains("\n-Find a Dwarf Tool"))
-            {
-                seenQuests.Remove("\n-Find a Dwarf Tool");
-            }
-        }
-
-        if (manager.townManTwoActive = true)
-        {
-            if (tm2 = true)
-            {
-                return;
-            }
-            else
-            {
-                seenQuests.Add("\n-Find Cliff Flower");
-                tm2 = true;
+                seenQuests.Add("-Find Cliff Flower");
+                townMaleQuest2 = true;
             } 
         }
         else
         {
-            tm2 = false;
-            if (seenQuests.Contains("\n-Find Cliff Flower"))
+            townMaleQuest2 = false;
+            if (seenQuests.Contains("-Find Cliff Flower"))
             {
-                seenQuests.Remove("\n-Find Cliff Flower");
+                seenQuests.Remove("-Find Cliff Flower");
             }
         }
 
-        if (manager.crowKeyActive = true)
+        if (unlockManager.crowKeyActive == true)
         {
-            if (tc1 = true)
+            if (townCrowQuest1 == true)
             {
                 return;
             }
             else
             {
-                seenQuests.Add("\n-Find a Nut for a Key");
-                tc1 = true;
+                seenQuests.Add("-Find a Nut for a Key");
+                townCrowQuest1 = true;
             }
         }
         else
         {
-            tc1 = false;
-            if (seenQuests.Contains("\n-Find a Nut for a Key"))
+            townCrowQuest1 = false;
+            if (seenQuests.Contains("-Find a Nut for a Key"))
             {
-                seenQuests.Remove("\n-Find a Nut for a Key");
+                seenQuests.Remove("-Find a Nut for a Key");
             }
         }
 
-        if (manager.crowOneActive = true)
+        if (unlockManager.crowOneActive == true)
         {
-            if (fc1 = true)
+            if (forestCrowQuest1 == true)
             {
                 return;
             }
             else
             {
-                seenQuests.Add("\n-Get a lose Rock");
-                fc1 = true;
+                seenQuests.Add("-Get a lose Rock");
+                forestCrowQuest1 = true;
             }
         }
         else
         {
-            fc1 = false;
-            if (seenQuests.Contains("\n-Get a lose Rock"))
+            forestCrowQuest1 = false;
+            if (seenQuests.Contains("-Get a lose Rock"))
             {
-                seenQuests.Remove("\n-Get a lose Rock");
+                seenQuests.Remove("-Get a lose Rock");
             }
         }
 
-        if (manager.crowTwoActive = true)
+        if (unlockManager.crowTwoActive == true)
         {
-            if (fc2 = true)
+            if (forestCrowQuest2 == true)
             {
                 return;
             }
             else
             {
-                seenQuests.Add("\n-Find Red Gem");
-                fc2 = true;
+                seenQuests.Add("-Find Red Gem");
+                forestCrowQuest2 = true;
             }
         }
         else
         {
-            fc2 = false;
-            if (seenQuests.Contains("\n-Find Red Gem"))
+            forestCrowQuest2 = false;
+            if (seenQuests.Contains("-Find Red Gem"))
             {
-                seenQuests.Remove("\n-Find Red Gem");
+                seenQuests.Remove("-Find Red Gem");
             }
         }
 
-        if (manager.crowThreeActive = true)
+        if (unlockManager.crowThreeActive == true)
         {
-            if (fc3 = true)
+            if (forestCrowQuest3 == true)
             {
                 return;
             }
             else
             {
-                seenQuests.Add("\n-Speak to Hecate");
-                fc3 = true;
+                seenQuests.Add("-Speak to Hecate");
+                forestCrowQuest3 = true;
             }
         }
         else
         {
-            fc3 = false;
-            if (seenQuests.Contains("\n-Speak to Hecate"))
+            forestCrowQuest3 = false;
+            if (seenQuests.Contains("-Speak to Hecate"))
             {
-                seenQuests.Remove("\n-Speak to Hecate");
+                seenQuests.Remove("-Speak to Hecate");
             }
         }
 
-        if (manager.crowFourActive = true)
+        if (unlockManager.crowFourActive == true)
         {
-            if (fc4 = true)
+            if (forestCrowQuest4 == true)
             {
                 return;
             }
             else
             {
-                seenQuests.Add("\n-Have Familiar Spell");
-                fc4 = true;
+                seenQuests.Add("-Have Familiar Spell");
+                forestCrowQuest4 = true;
             }
         }
         else
         {
-            fc4 = false;
-            if (seenQuests.Contains("\n-Have Familiar Spell"))
+            forestCrowQuest4 = false;
+            if (seenQuests.Contains("-Have Familiar Spell"))
             {
-                seenQuests.Remove("\n-Have Familiar Spell");
+                seenQuests.Remove("-Have Familiar Spell");
             }
         }
 
-        if (manager.hecateOneActive = true)
+        if (unlockManager.hecateOneActive == true)
         {
-            if (h1 = true)
+            if (hecateQuest1 == true)
             {
                 return;
             }
             else
             {
-                seenQuests.Add("\n-Get Bug");
-                h1 = true;
+                seenQuests.Add("-Get Bug");
+                hecateQuest1 = true;
             }
         }
         else
         {
-            h1 = false;
-            if (seenQuests.Contains("\n-Get Bug"))
+            hecateQuest1 = false;
+            if (seenQuests.Contains("-Get Bug"))
             {
-                seenQuests.Remove("\n-Get Bug");
+                seenQuests.Remove("-Get Bug");
             }
         }
 
-        if (manager.hecateTwoActive = true)
+        if (unlockManager.hecateTwoActive == true)
         {
-            if (h2 = true)
+            if (hecateQuest2 == true)
             {
                 return;
             }
             else
             {
-                seenQuests.Add("\n-Get Cave Carrot");
-                h2 = true;
+                seenQuests.Add("-Get Cave Carrot");
+                hecateQuest2 = true;
             }
         }
         else
         {
-            h2 = false;
-            if (seenQuests.Contains("\n-Get Cave Carrot"))
+            hecateQuest2 = false;
+            if (seenQuests.Contains("-Get Cave Carrot"))
             {
-                seenQuests.Remove("\n-Get Cave Carrot");
+                seenQuests.Remove("-Get Cave Carrot");
             }
         }
 
-        if (manager.hecateThreeActive = true)
+        if (unlockManager.hecateThreeActive == true)
         {
-            if (h3 = true)
+            if (hecateQuest3 == true)
             {
                 return;
             }
             else
             {
-                seenQuests.Add("\n-Get Seed");
-                h3 = true;
+                seenQuests.Add("-Get Seed");
+                hecateQuest3 = true;
             }
         }
         else
         {
-            h3 = false;
-            if (seenQuests.Contains("\n-Get Seed"))
+            hecateQuest3 = false;
+            if (seenQuests.Contains("-Get Seed"))
             {
-                seenQuests.Remove("\n-Get Seed");
+                seenQuests.Remove("-Get Seed");
             }
         }
 
-        if (manager.dwarfActive = true)
+        if (unlockManager.dwarfActive == true)
         {
-            if (d1 = true)
+            if (dwarfQuest1 == true)
             {
                 return;
             }
             else
             {
-                seenQuests.Add("\n-Get tiny, bright flower");
-                d1 = true;
+                seenQuests.Add("-Get tiny, bright flower");
+                dwarfQuest1 = true;
             }
         }
         else
         {
-            d1 = false;
-            if (seenQuests.Contains("\n-Get tiny, bright flower"))
+            dwarfQuest1 = false;
+            if (seenQuests.Contains("-Get tiny, bright flower"))
             {
-                seenQuests.Remove("\n-Get tiny, bright flower");
+                seenQuests.Remove("-Get tiny, bright flower");
             }
         }
 
-        if (manager.riverCrowOneActive = true)
+        if (unlockManager.riverCrowOneActive == true)
         {
-            if (rc1 = true)
+            if (riverCrowQuest1 == true)
             {
                 return;
             }
             else
             {
-                seenQuests.Add("\n-Get a Nut for a Scroll");
-                rc1 = true;
+                seenQuests.Add("-Get a Nut for a Scroll");
+                riverCrowQuest1 = true;
             }
         }
         else
         {
-            rc1 = false;
-            if (seenQuests.Contains("\n-Get a Nut for a Scroll"))
+            riverCrowQuest1 = false;
+            if (seenQuests.Contains("-Get a Nut for a Scroll"))
             {
-                seenQuests.Remove("\n-Get a Nut for a Scroll");
+                seenQuests.Remove("-Get a Nut for a Scroll");
             }
         }
 
-        if (manager.riverCrowTwoActive = true)
+        if (unlockManager.riverCrowTwoActive == true)
         {
-            if (rc2 = true)
+            if (riverCrowQuest2 == true)
             {
                 return;
             }
             else
             {
-                seenQuests.Add("\n-Get Cave Flower");
-                rc2 = true;
+                seenQuests.Add("-Get Cave Flower");
+                riverCrowQuest2 = true;
             }
         }
         else
         {
-            rc2 = false;
-            if (seenQuests.Contains("\n-Get Cave Flower"))
+            riverCrowQuest2 = false;
+            if (seenQuests.Contains("-Get Cave Flower"))
             {
-                seenQuests.Remove("\n-Get Cave Flower");
+                seenQuests.Remove("-Get Cave Flower");
             }
         }
 
-        if (manager.riverGirlActive = true)
+        if (unlockManager.riverGirlActive == true)
         {
-            if (rg1 = true)
+            if (riverGirlQuest1 == true)
             {
                 return;
             }
             else
             {
-                seenQuests.Add("\n-Catch a Golden Carp");
-                rg1 = true;
+                seenQuests.Add("-Catch a Golden Carp");
+                riverGirlQuest1 = true;
             }
         }
         else
         {
-            rg1 = false;
-            if (seenQuests.Contains("\n-Catch a Golden Carp"))
+            riverGirlQuest1 = false;
+            if (seenQuests.Contains("-Catch a Golden Carp"))
             {
-                seenQuests.Remove("\n-Catch a Golden Carp");
+                seenQuests.Remove("-Catch a Golden Carp");
             }
         }
 
-        if (manager.farmerOneActive = true)
+        if (unlockManager.farmerOneActive == true)
         {
-            if (f1 = true)
+            if (farmerQuest1 == true)
             {
                 return;
             }
             else
             {
-                seenQuests.Add("\n-Catch a Green Fish");
-                f1 = true;
+                seenQuests.Add("-Catch a Green Fish");
+                farmerQuest1 = true;
             }
         }
         else
         {
-            f1 = false;
-            if (seenQuests.Contains("\n-Catch a Green Fish"))
+            farmerQuest1 = false;
+            if (seenQuests.Contains("-Catch a Green Fish"))
             {
-                seenQuests.Remove("\n-Catch a Green Fish");
+                seenQuests.Remove("-Catch a Green Fish");
             }
         }
 
-        if (manager.farmerTwoActive = true)
+        if (unlockManager.farmerTwoActive == true)
         {
-            if (f2 = true)
+            if (farmerQuest2 == true)
             {
                 return;
             }
             else
             {
-                seenQuests.Add("\n-Catch a Blue Fish");
-                f2 = true;
+                seenQuests.Add("-Catch a Blue Fish");
+                farmerQuest2 = true;
             }
         }
         else
         {
-            f2 = false;
-            if (seenQuests.Contains("\n-Catch a Blue Fish"))
+            farmerQuest2 = false;
+            if (seenQuests.Contains("-Catch a Blue Fish"))
             {
-                seenQuests.Remove("\n-Catch a Blue Fish");
+                seenQuests.Remove("-Catch a Blue Fish");
             }
         }
 
-        if (manager.farmerThreeActive = true)
+        if (unlockManager.farmerThreeActive == true)
         {
-            if (f3 = true)
+            if (farmerQuest3 == true)
             {
                 return;
             }
             else
             {
-                seenQuests.Add("\n-Catch a Purple Fish");
-                f3 = true;
+                seenQuests.Add("-Catch a Purple Fish");
+                farmerQuest3 = true;
             }
         }
         else
         {
-            f3 = false;
-            if (seenQuests.Contains("\n-Catch a Purple Fish"))
+            farmerQuest3 = false;
+            if (seenQuests.Contains("-Catch a Purple Fish"))
             {
-                seenQuests.Remove("\n-Catch a Purple Fish");
+                seenQuests.Remove("-Catch a Purple Fish");
             }
         }
 
-        if (manager.farmerFourActive = true)
+        if (unlockManager.farmerFourActive == true)
         {
-            if (f4 = true)
+            if (farmerQuest4 == true)
             {
                 return;
             }
             else
             {
-                seenQuests.Add("\n-Catch a Red Fish");
-                f4 = true;
+                seenQuests.Add("-Catch a Red Fish");
+                farmerQuest4 = true;
             }
         }
         else
         {
-            f4 = false;
-            if (seenQuests.Contains("\n-Catch a Red Fish"))
+            farmerQuest4 = false;
+            if (seenQuests.Contains("-Catch a Red Fish"))
             {
-                seenQuests.Remove("\n-Catch a Red Fish");
+                seenQuests.Remove("-Catch a Red Fish");
             }
         }
 
-        if (manager.farmerFiveActive = true)
+        if (unlockManager.farmerFiveActive == true)
         {
-            if (f5 = true)
+            if (farmerQuest5 == true)
             {
                 return;
             }
             else
             {
-                seenQuests.Add("\n-Catch a Orange Fish");
-                f5 = true;
+                seenQuests.Add("-Catch a Orange Fish");
+                farmerQuest5 = true;
             }
         }
         else
         {
-            f5 = false;
-            if (seenQuests.Contains("\n-Catch a Orange Fish"))
+            farmerQuest5 = false;
+            if (seenQuests.Contains("-Catch a Orange Fish"))
             {
-                seenQuests.Remove("\n-Catch a Orange Fish");
+                seenQuests.Remove("-Catch a Orange Fish");
             }
         }
 
-        if (manager.farmerSixActive = true)
+        if (unlockManager.farmerSixActive == true)
         {
-            if (f6 = true)
+            if (farmerQuest6 == true)
             {
                 return;
             }
             else
             {
-                seenQuests.Add("\n-Catch a Yellow Fish");
-                f6 = true;
+                seenQuests.Add("-Catch a Yellow Fish");
+                farmerQuest6 = true;
             }
         }
         else
         {
-            f6 = false;
-            if (seenQuests.Contains("\n-Catch a Yellow Fish"))
+            farmerQuest6 = false;
+            if (seenQuests.Contains("-Catch a Yellow Fish"))
             {
-                seenQuests.Remove("\n-Catch a Yellow Fish");
+                seenQuests.Remove("-Catch a Yellow Fish");
             }
         }
 
-        questBox.text = "Quest List" + seenQuests;
+        questBox.text = "Quest List\n" + string.Join("\n", seenQuests);
     }
 }

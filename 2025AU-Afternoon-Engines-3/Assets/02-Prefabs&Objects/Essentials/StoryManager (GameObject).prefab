@@ -1,0 +1,154 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2545855725644069440
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4942145883954101286}
+  - component: {fileID: 4619840090207149383}
+  - component: {fileID: 6527228422532309926}
+  - component: {fileID: 5853767360617750611}
+  - component: {fileID: 8982848029360768703}
+  - component: {fileID: 9209140853565283383}
+  - component: {fileID: 7341409982698191309}
+  - component: {fileID: 2591464636598038957}
+  m_Layer: 0
+  m_Name: StoryManager (GameObject)
+  m_TagString: StoryManager
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4942145883954101286
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2545855725644069440}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.8652954, y: 2.3346395, z: 4.4703884}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4619840090207149383
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2545855725644069440}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49d7843a57e8094499cefda24074d1bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueChatScript: {fileID: 0}
+  reputationTracker: {fileID: 2591464636598038957}
+  unlockManager: {fileID: 0}
+  questList: {fileID: 7341409982698191309}
+  NPCName: 
+  dialogue: 
+--- !u!114 &6527228422532309926
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2545855725644069440}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15e6f89ab0410a94f95f0e752b44583c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueChatScript: {fileID: 0}
+  reputationTracker: {fileID: 2591464636598038957}
+  unlockManager: {fileID: 0}
+  questList: {fileID: 7341409982698191309}
+  NPCName: 
+  dialogue: 
+--- !u!114 &5853767360617750611
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2545855725644069440}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4ac153b499c68e4688f58940d512637, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueChatScript: {fileID: 0}
+  reputationTracker: {fileID: 2591464636598038957}
+  unlockManager: {fileID: 0}
+  questList: {fileID: 7341409982698191309}
+  NPCName: 
+  dialogue: 
+--- !u!114 &8982848029360768703
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2545855725644069440}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2adccfc3c84d9b40a601f90d3d88c3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueChatScript: {fileID: 0}
+  reputationTracker: {fileID: 2591464636598038957}
+  unlockManager: {fileID: 0}
+  questList: {fileID: 7341409982698191309}
+  NPCName: 
+  dialogue: 
+--- !u!114 &9209140853565283383
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2545855725644069440}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12dc8c21b7575834995ecf37f38a8653, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueChatScript: {fileID: 0}
+  NPCName: 
+  dialogue: 
+--- !u!114 &7341409982698191309
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2545855725644069440}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa3fb3aaccd8f9746af4e64a7f07f63d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questBox: {fileID: 0}
+  unlockManager: {fileID: 0}
+  seenQuests: []
+--- !u!114 &2591464636598038957
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2545855725644069440}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35dad1b598bd83543b9a69c9a10257c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

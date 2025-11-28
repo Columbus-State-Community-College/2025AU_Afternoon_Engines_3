@@ -2,56 +2,80 @@ using UnityEngine;
 
 public class CaveDialogue : MonoBehaviour
 {
-    DialogueChat chatty;
-    repTracker repu;
-    UnlockManager manager;
-    QuestList questy;
-    public string speaking;
-
-    public void DwarfOneStandard()
+    public DialogueChat dialogueChatScript;
+    public repTracker reputationTracker;
+    public UnlockManager unlockManager;
+    public QuestList questList;
+    public string NPCName;
+    public string dialogue;
+ 
+    void Awake()
     {
-        speaking = "Hahahahaha... Hibbabibabi stuck in hole!";
-        chatty.EnterDialogue(speaking);
+        if (!dialogueChatScript)
+        {
+            GameObject player = GameObject.FindGameObjectWithTag("Player");
+            dialogueChatScript = player.GetComponent<DialogueChat>();
+        }
+    } 
+    void FixedUpdate()
+    {
+        if (!unlockManager)
+        {FindComponent();}
+    }
+    void FindComponent()
+    {
+        GameObject unlockManagerGameObject = GameObject.FindGameObjectWithTag("UnlockManager");
+        unlockManager = unlockManagerGameObject.GetComponent<UnlockManager>();
+    }
+        public void DwarfOneStandard()
+    {
+        NPCName = "Hiyyayiyayi";
+        dialogue = "Hahahahaha... Hibbabibabi stuck in hole!";
+        dialogueChatScript.EnterDialogue(NPCName, dialogue);
     }
 
     public void DwarfTwoStandard()
     {
-        speaking = "Hakkikakika think Hibbabibabi in hole funny. Hiyyayiyayi no find funny.";
-        chatty.EnterDialogue(speaking);
+        NPCName = "Hakkikika";
+        dialogue = "Hakkikakika think Hibbabibabi in hole funny. Hiyyayiyayi no find funny.";
+        dialogueChatScript.EnterDialogue(NPCName, dialogue);
     }
 
     public void DwarfThreeQuest()
     {
-        if (manager.dwarfDone = true)
+        if (unlockManager.dwarfDone == true)
         {
             DwarfThreeStandard();
         }
-        else if (manager.dwarfFlower = true)
+        else if (unlockManager.dwarfFlower == true)
         {
             DwarfThreeComplete();
         }
         else
         {
-            speaking = "Hiqqaqiqaqi want flower. Tall person bring flower? Hiqqaqiqaqi want tiny bright flower.";
-            manager.dwarfActive = true;
-            questy.whatQuestSeen();
-            chatty.EnterDialogue(speaking);
+            NPCName = "Hiqqaqiqaqi";
+            dialogue = "Hiqqaqiqaqi want flower. Tall person bring flower? Hiqqaqiqaqi want tiny bright flower.";
+            unlockManager.dwarfActive = true;
+            questList.whatQuestSeen();
+            dialogueChatScript.EnterDialogue(NPCName, dialogue);
         }
     }
 
     public void DwarfThreeComplete()
     {
-        speaking = "Tall person bring flower! Hiqqaqiqaqi happy!";
-        manager.dwarfActive = false;
-        manager.dwarfDone = true;
-        questy.whatQuestSeen();
-        repu.GetRep();
-        chatty.EnterDialogue(speaking);
+        NPCName = "Hiqqaqiqaqi";
+        dialogue = "Tall person bring flower! Hiqqaqiqaqi happy!";
+        unlockManager.dwarfActive = false;
+        unlockManager.dwarfDone = true;
+        questList.whatQuestSeen();
+        reputationTracker.GetRep();
+        dialogueChatScript.EnterDialogue(NPCName, dialogue);
     }
 
     public void DwarfThreeStandard()
     {
-        speaking = "Hiqqaqiqaqi think Hakkikakika, Hibbabibabi, and Hiyyayiyayi stupid.";
-        chatty.EnterDialogue(speaking);
+        NPCName = "Hiqqaqiqaqi";
+        dialogue = "Hiqqaqiqaqi think Hakkikakika, Hibbabibabi, and Hiyyayiyayi stupid.";
+        dialogueChatScript.EnterDialogue(NPCName, dialogue);
     }
 }

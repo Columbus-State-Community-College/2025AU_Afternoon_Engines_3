@@ -2,378 +2,423 @@ using UnityEngine;
 
 public class TownDialogue : MonoBehaviour
 {
-    DialogueChat chatty;
-    repTracker repu;
-    UnlockManager manager;
-    QuestList questy;
-    public string speaking;
+    public DialogueChat dialogueChatScript;
+    public repTracker reputationTracker;
+    public UnlockManager unlockManager;
+    public QuestList questList;
+    public string NPCName;
+    public string dialogue;
 
     // "Standard" refers to dialogue when they have no more quests to give
+    void Awake()
+    {
+        if (!dialogueChatScript)
+        {
+            GameObject player = GameObject.FindGameObjectWithTag("Player");
+            dialogueChatScript = player.GetComponent<DialogueChat>();
+        }
+    }
+    void FixedUpdate()
+    {
+        if (!unlockManager)
+        {FindComponent();}
+    }
+    void FindComponent()
+    {
+        GameObject unlockManagerGameObject = GameObject.FindGameObjectWithTag("UnlockManager");
+        unlockManager = unlockManagerGameObject.GetComponent<UnlockManager>();
+    }
 
     public void BlacksmithQuestOne()
     {
-        if (manager.blacksmithOneDone = true)
+        if (unlockManager.blacksmithOneDone == true)
         {
             BlacksmithQuestTwo();
         }
-        else if (manager.blacksmithIron = true){
+        else if (unlockManager.blacksmithIron == true)
+        {
             BlacksmithOneComplete();
         }
-        else {
-            speaking = "Hey there, chap! Can you got to the caves for me? The dwarfs won't let me in but I need the iron.";
-            manager.blacksmithOneActive = true;
-            questy.whatQuestSeen();
-            chatty.EnterDialogue(speaking);
+        else
+        {
+            NPCName = "Blacksmith";
+            dialogue = "Hey there, chap! Can you go to the caves for me? The dwarves won't let me in but I need the iron.";
+            unlockManager.blacksmithOneActive = true;
+            questList.whatQuestSeen();
+            dialogueChatScript.EnterDialogue(NPCName, dialogue);
         }
     }
 
     public void BlacksmithOneComplete()
     {
-        speaking = "Thanks, chap! Hopefully you didn't have much trouble with the dwarfs.";
-        manager.blacksmithOneActive = false;
-        manager.blacksmithOneDone = true;
-        questy.whatQuestSeen();
-        repu.GetRep();
-        chatty.EnterDialogue(speaking);
+        NPCName = "Blacksmith";
+        dialogue = "Thanks, chap! Hopefully you didn't have much trouble with the dwarves.";
+        unlockManager.blacksmithOneActive = false;
+        unlockManager.blacksmithOneDone = true;
+        questList.whatQuestSeen();
+        reputationTracker.GetRep();
+        dialogueChatScript.EnterDialogue(NPCName, dialogue);
     }
 
     public void BlacksmithQuestTwo()
     {
-        if (manager.blacksmithTwoDone = true)
+        if (unlockManager.blacksmithTwoDone == true)
         {
             BlacksmithStandard();
         }
-        else if (manager.blacksmithSkyMetal = true)
+        else if (unlockManager.blacksmithSkyMetal == true)
         {
             BlacksmithTwoComplete();
         }
         else
         {
-            speaking = "Hey again! I'm looking for some sky-metal, but I can't get to the cliffs. Can you get some for me?";
-            manager.blacksmithTwoActive = true;
-            questy.whatQuestSeen();
-            chatty.EnterDialogue(speaking);
+            dialogue = "Hey again! I'm looking for some sky-metal, but I can't get to the cliffs. Can you get some for me?";
+            unlockManager.blacksmithTwoActive = true;
+            questList.whatQuestSeen();
+            dialogueChatScript.EnterDialogue(NPCName, dialogue);
         }
     }
 
     public void BlacksmithTwoComplete()
     {
-        speaking = "Thanks, chap! This should do, at least until I get another commission that requires sky-metal.";
-        manager.blacksmithTwoActive = false;
-        manager.blacksmithTwoDone = true;
-        questy.whatQuestSeen();
-        repu.GetRep();
-        chatty.EnterDialogue(speaking);
+        dialogue = "Thanks, chap! This should do, at least until I get another commission that requires sky-metal.";
+        unlockManager.blacksmithTwoActive = false;
+        unlockManager.blacksmithTwoDone = true;
+        questList.whatQuestSeen();
+        reputationTracker.GetRep();
+        dialogueChatScript.EnterDialogue(NPCName, dialogue);
     }
 
     public void BlacksmithStandard()
     {
-        speaking = "Hello, chap! Thanks again for getting those metals for me.";
-        chatty.EnterDialogue(speaking);
+        dialogue = "Hello, chap! Thanks again for getting those metals for me.";
+        dialogueChatScript.EnterDialogue(NPCName, dialogue);
     }
 
     public void MerchantQuestOne()
     {
-        if (manager.merchantOneDone = true)
+        if (unlockManager.merchantOneDone == true)
         {
             MerchantQuestTwo();
         }
-        else if (manager.merchantStockList = true)
+        else if (unlockManager.merchantStockList == true)
         {
             MerchantOneComplete();
         }
         else
         {
-            speaking = "Hello, hello valued customer! I'm afraid I've lost my stock book in the forest but the local crows " +
-                "are refusing to give it back. Could you, perhaps, help me with that?";
-            manager.merchantOneActive = true;
-            questy.whatQuestSeen();
-            chatty.EnterDialogue(speaking);
+            NPCName = "Doyle the Merchant";
+            dialogue = "Hello, hello valued customer! I'm afraid I've lost my stock book in the forest but the local crowsare refusing to give it back. Could you, perhaps, help me with that?";
+            unlockManager.merchantOneActive = true;
+            questList.whatQuestSeen();
+            dialogueChatScript.EnterDialogue(NPCName, dialogue);
         }
     }
 
     public void MerchantOneComplete()
     {
-        speaking = "Oh, wonderful, wonderful! Thank you so much, valued customer!";
-        manager.merchantOneActive = false;
-        manager.merchantOneDone = true;
-        questy.whatQuestSeen();
-        repu.GetRep();
-        chatty.EnterDialogue(speaking);
+        NPCName = "Doyle the Merchant";
+        dialogue = "Oh, wonderful, wonderful! Thank you so much, valued customer!";
+        unlockManager.merchantOneActive = false;
+        unlockManager.merchantOneDone = true;
+        questList.whatQuestSeen();
+        reputationTracker.GetRep();
+        dialogueChatScript.EnterDialogue(NPCName, dialogue);
     }
 
     public void MerchantQuestTwo()
     {
-        if (manager.merchantTwoDone = true)
+        if (unlockManager.merchantTwoDone == true)
         {
             MerchantQuestThree();
         }
-        else if (manager.merchantPencil = true)
+        else if (unlockManager.merchantPencil == true)
         {
             MerchantTwoComplete();
         }
         else
         {
-            speaking = "Hello once more, valued customer! Sorry to say but the crows who dance in the ruins have taken " +
-                "my only pencil. Perhaps you could convince them to play with some other stick?";
-            chatty.EnterDialogue(speaking);
+            NPCName = "Doyle the Merchant";
+            dialogue = "Hello once more, valued customer! Sorry to say but the crows who dance in the ruins have takenmy only pencil. Perhaps you could convince them to play with some other stick?";
+            unlockManager.merchantTwoActive = true;
+            questList.whatQuestSeen();
+            dialogueChatScript.EnterDialogue(NPCName, dialogue);
         }
     }
 
     public void MerchantTwoComplete()
     {
-        speaking = "Oh, wondrous, wondrous! Thank you so much, valued customer!";
-        manager.merchantTwoActive = false;
-        manager.merchantTwoDone = true;
-        questy.whatQuestSeen();
-        repu.GetRep();
-        chatty.EnterDialogue(speaking);
+        NPCName = "Doyle the Merchant";
+        dialogue = "Oh, wondrous, wondrous! Thank you so much, valued customer!";
+        unlockManager.merchantTwoActive = false;
+        unlockManager.merchantTwoDone = true;
+        questList.whatQuestSeen();
+        dialogueChatScript.EnterDialogue(NPCName, dialogue);
     }
 
     public void MerchantQuestThree()
     {
-        if (manager.merchantThreeDone = true)
+        if (unlockManager.merchantThreeDone == true)
         {
             MerchantStandard();
         }
-        else if (manager.merchantRing = true)
+        else if (unlockManager.merchantRing == true)
         {
             MerchantThreeComplete();
         }
         else
         {
-            speaking = "Hello hello dear valued customer! I'm afraid that the crows who live in the cliffs have stolen my " +
-                "special ring. Could you perhaps help me get it back?";
-            manager.merchantThreeActive = true;
-            questy.whatQuestSeen();
-            chatty.EnterDialogue(speaking);
+            NPCName = "Doyle the Merchant";
+            dialogue = "Hello hello dear valued customer! I'm afraid that the crows who live in the cliffs have stolen my special ring. Could you perhaps help me get it back?";
+            unlockManager.merchantThreeActive = true;
+            questList.whatQuestSeen();
+            dialogueChatScript.EnterDialogue(NPCName, dialogue);
         }
     }
 
     public void MerchantThreeComplete()
     {
-        speaking = "Oh joyous day! Thank you oh so very much, valued customer!";
-        manager.merchantThreeDone = true;
-        manager.merchantThreeActive = false;
-        questy.whatQuestSeen();
-        repu.GetRep();
-        chatty.EnterDialogue(speaking);
+        NPCName = "Doyle the Merchant";
+        dialogue = "Oh, that makes my day! Thank you oh so very much, valued customer!";
+        unlockManager.merchantThreeDone = true;
+        unlockManager.merchantThreeActive = false;
+        questList.whatQuestSeen();
+        reputationTracker.GetRep();
+        dialogueChatScript.EnterDialogue(NPCName, dialogue);
     }
 
     public void MerchantStandard()
     {
-        speaking = "Welcome, valued customer!";
-        chatty.EnterDialogue(speaking);
+        NPCName = "Doyle the Merchant";
+        dialogue = "Thank you for the hard work you've put in, thinking about getting some posters up one of these days to commemorate you!";
+        dialogueChatScript.EnterDialogue(NPCName, dialogue);
     }
 
     public void FirstGirlQuest()
     {
-        if (manager.townGirlOneDone = true)
+        if (unlockManager.townGirlOneDone == true)
         {
             FirstGirlStandard();
         }
-        else if (manager.townGirlOneFish = true)
+        else if (unlockManager.townGirlOneFish == true)
         {
             FirstGirlComplete();
         }
         else
         {
-            speaking = "Excuse me, ma'am? Could you get me a fish from the river? It's spotted black and white.";
-            manager.townGirlOneActive = true;
-            questy.whatQuestSeen();
-            chatty.EnterDialogue(speaking);
+            NPCName = "Floran";
+            dialogue = "Excuse me, ma'am? Could you get me a fish from the river? It's spotted black and white.";
+            unlockManager.townGirlOneActive = true;
+            questList.whatQuestSeen();
+            dialogueChatScript.EnterDialogue(NPCName, dialogue);
         }
     }
 
     public void FirstGirlComplete()
     {
-        speaking = "Ah, thank you ma'am. This will work perfectly.";
-        manager.townGirlOneActive = false;
-        manager.townGirlOneDone = true;
-        questy.whatQuestSeen();
-        repu.GetRep();
-        chatty.EnterDialogue(speaking);
+        NPCName = "Floran";
+        dialogue = "Ah, thank you ma'am. This will work perfectly.";
+        unlockManager.townGirlOneActive = false;
+        unlockManager.townGirlOneDone = true;
+        questList.whatQuestSeen();
+        reputationTracker.GetRep();
+        dialogueChatScript.EnterDialogue(NPCName, dialogue);
     }
 
     public void FirstGirlStandard()
     {
-        speaking = "Hopefully my husband will enjoy the fish I'm cooking for him.";
-        chatty.EnterDialogue(speaking);
+        NPCName = "Floran";
+        dialogue = "Hopefully my husband will enjoy the fish I'm cooking for him.";
+        dialogueChatScript.EnterDialogue(NPCName, dialogue);
     }
 
     public void SecondGirlQuest()
     {
-        if (manager.townGirlTwoDone = true)
+        if (unlockManager.townGirlTwoDone == true)
         {
             SecondGirlStandard();
         }
-        else if (manager.townGirlTwoGem = true)
+        else if (unlockManager.townGirlTwoGem == true)
         {
             SecondGirlComplete();
         }
         else
         {
-            speaking = "Hiya! I want to get a gemstone, a green one, from the mines for my brother's birthday but I'm not allowed down " +
-                "there. Can you get one for me?";
-            manager.townGirlTwoActive = true;
-            questy.whatQuestSeen();
-            chatty.EnterDialogue(speaking);
+            NPCName = "Quill";
+            dialogue = "Hiya! I want to get a gemstone, a green one, from the mines for my brother's birthday but I'm not allowed down there. Can you get one for me?";
+            unlockManager.townGirlTwoActive = true;
+            questList.whatQuestSeen();
+            dialogueChatScript.EnterDialogue(NPCName, dialogue);
         }
     }
 
     public void SecondGirlComplete()
     {
-        speaking = "Oh hey! Thanks for doing that!";
-        manager.townGirlTwoActive = false;
-        manager.townGirlTwoDone = true;
-        questy.whatQuestSeen();
-        repu.GetRep();
-        chatty.EnterDialogue(speaking);
+        NPCName = "Quill";
+        dialogue = "Oh hey! Thanks for doing that!";
+        unlockManager.townGirlTwoActive = false;
+        unlockManager.townGirlTwoDone = true;
+        questList.whatQuestSeen();
+        reputationTracker.GetRep();
+        dialogueChatScript.EnterDialogue(NPCName, dialogue);
     }
 
     public void SecondGirlStandard()
     {
-        speaking = "Did I mention my brother's the local blacksmith? He loves working with gemstones!";
-        chatty.EnterDialogue(speaking);
+        NPCName = "Quill";
+        dialogue = "Did I mention my brother's the local blacksmith? He loves working with gemstones!";
+        dialogueChatScript.EnterDialogue(NPCName, dialogue);
     }
 
     public void ThirdGirlQuest()
     {
-        if (manager.townGirlThreeDone = true)
+        if (unlockManager.townGirlThreeDone == true)
         {
             ThirdGirlStandard();
         }
-        else if (manager.townGirlThreeWood = true)
+        else if (unlockManager.townGirlThreeWood == true)
         {
             ThirdGirlComplete();
         }
         else
         {
-            speaking = "Pardon, can you retrieve some wood for the forest for me?";
-            manager.townGirlThreeActive = true;
-            questy.whatQuestSeen();
-            chatty.EnterDialogue(speaking);
+            NPCName = "Samantha";
+            dialogue = "Pardon, can you retrieve some wood for the forest for me?";
+            unlockManager.townGirlThreeActive = true;
+            questList.whatQuestSeen();
+            dialogueChatScript.EnterDialogue(NPCName, dialogue);
         }
     }
 
     public void ThirdGirlComplete()
     {
-        speaking = "So you're more reliable than my excuse of a husband. Thanks.";
-        manager.townGirlThreeActive = false;
-        manager.townGirlThreeDone = true;
-        questy.whatQuestSeen();
-        repu.GetRep();
-        chatty.EnterDialogue(speaking);
+        NPCName = "Samantha";
+        dialogue = "So you're more reliable than my excuse of a husband. Thanks.";
+        unlockManager.townGirlThreeActive = false;
+        unlockManager.townGirlThreeDone = true;
+        questList.whatQuestSeen();
+        reputationTracker.GetRep();
+        dialogueChatScript.EnterDialogue(NPCName, dialogue);
     }
 
     public void ThirdGirlStandard()
     {
-        speaking = "What in the world is my husband up to now?";
-        chatty.EnterDialogue(speaking);
+        NPCName = "Samantha";
+        dialogue = "What in the world is my husband up to now?";
+        dialogueChatScript.EnterDialogue(NPCName, dialogue);
     }
 
     public void FirstManQuest()
     {
-        if (manager.townManOneDone = true)
+        if (unlockManager.townManOneDone == true)
         {
             FirstManStandard();
         }
-        else if (manager.townManOneDwarfTool = true)
+        else if (unlockManager.townManOneDwarfTool == true)
         {
             FirstManComplete();
         }
         else
         {
-            speaking = "Have you seen a dwarf before? Can you bring me proof?";
-            manager.townManOneActive = true;
-            questy.whatQuestSeen();
-            chatty.EnterDialogue(speaking);
+            NPCName = "Bron";
+            dialogue = "Have you seen a dwarf before? Can you bring me proof?";
+            unlockManager.townManOneActive = true;
+            questList.whatQuestSeen();
+            dialogueChatScript.EnterDialogue(NPCName, dialogue);
         }
     }
 
     public void FirstManComplete()
     {
-        speaking = "Oh wow! I real dwarf item! Thank you so much for showing me!";
-        manager.townManOneActive = false;
-        manager.townManOneDone = true;
-        questy.whatQuestSeen();
-        repu.GetRep();
-        chatty.EnterDialogue(speaking);
+        NPCName = "Bron";
+        dialogue = "Oh wow! A real dwarf item! Thank you so much for showing me!";
+        unlockManager.townManOneActive = false;
+        unlockManager.townManOneDone = true;
+        questList.whatQuestSeen();
+        reputationTracker.GetRep();
+        dialogueChatScript.EnterDialogue(NPCName, dialogue);
     }
 
     public void FirstManStandard()
     {
-        speaking = "The blacksmith keeps complaining about the dwarfs, but I want to learn more about them,";
-        chatty.EnterDialogue(speaking);
+        NPCName = "Bron";
+        dialogue = "The blacksmith keeps complaining about the dwarves, but I want to learn more about them. Not sure why they keep calling me Bronze.";
+        dialogueChatScript.EnterDialogue(NPCName, dialogue);
     }
 
     public void SecondManQuest()
     {
-        if (manager.townManTwoDone = true)
+        if (unlockManager.townManTwoDone == true)
         {
             SecondManStandard();
         }
-        else if (manager.townManTwoFlowerCliff = true)
+        else if (unlockManager.townManTwoFlowerCliff == true)
         {
             SecondManComplete();
         }
         else
         {
-            speaking = "There's a beautiful flower up in the cliffs I wish to give to my wife. Could you help me with that?";
-            manager.townManTwoActive = true;
-            questy.whatQuestSeen();
-            chatty.EnterDialogue(speaking);
+            NPCName = "Alan";
+            dialogue = "There's a beautiful flower up in the cliffs I wish to give to my wife. Could you help me with that?";
+            unlockManager.townManTwoActive = true;
+            questList.whatQuestSeen();
+            dialogueChatScript.EnterDialogue(NPCName, dialogue);
         }
     }
 
     public void SecondManComplete()
     {
-        speaking = "Oh! The flower is more beautiful than I imagined! Thank you so much!";
-        manager.townManTwoActive = false;
-        manager.townManTwoDone = true;
-        questy.whatQuestSeen();
-        repu.GetRep();
-        chatty.EnterDialogue(speaking);
+        NPCName = "Alan";
+        dialogue = "Oh! The flower is more beautiful than I imagined! Thank you so much!";
+        unlockManager.townManTwoActive = false;
+        unlockManager.townManTwoDone = true;
+        questList.whatQuestSeen();
+        reputationTracker.GetRep();
+        dialogueChatScript.EnterDialogue(NPCName, dialogue);
     }
 
     public void SecondManStandard()
     {
-        speaking = "My wife always complains about how scatterbrained I am.";
-        chatty.EnterDialogue(speaking);
+        NPCName = "Alan";
+        dialogue = "My wife always complains about how scatterbrained I am.";
+        dialogueChatScript.EnterDialogue(NPCName, dialogue);
     }
 
     public void CrowLikesKeyQuest()
     {
-        if (manager.crowKeyDone = true)
+        if (unlockManager.crowKeyDone == true)
         {
             CrowLikesKeyStandard();
         }
-        else if (manager.crowKeyNut = true)
+        else if (unlockManager.crowKeyNut == true)
         {
             CrowLikesKeyComplete();
         }
         else
         {
-            speaking = "Caw! Does friend have nut? Me give key!";
-            manager.crowKeyActive = true;
-            questy.whatQuestSeen();
-            chatty.EnterDialogue(speaking);
+            NPCName = "Kaw";
+            dialogue = "Caw! Does friend have nut? Me give key!";
+            unlockManager.crowKeyActive = true;
+            questList.whatQuestSeen();
+            dialogueChatScript.EnterDialogue(NPCName, dialogue);
         }
     }
 
     public void CrowLikesKeyComplete()
     {
-        speaking = "Caw! Me likes nut! Key key!";
-        manager.crowKeyActive = false;
-        manager.crowKeyDone = true;
-        questy.whatQuestSeen();
-        repu.GetRep();
-        chatty.EnterDialogue(speaking);
+        NPCName = "Kaw";
+        dialogue = "Caw! Me likes nut! Key key!";
+        unlockManager.crowKeyActive = false;
+        unlockManager.crowKeyDone = true;
+        questList.whatQuestSeen();
+        reputationTracker.GetRep();
+        dialogueChatScript.EnterDialogue(NPCName, dialogue);
     }
 
     public void CrowLikesKeyStandard()
     {
-        speaking = "Caw caw! Me like nut! Squawk!";
-        chatty.EnterDialogue(speaking);
+        NPCName = "Kaw";
+        dialogue = "Caw caw! Me like nut! Squawk!";
+        dialogueChatScript.EnterDialogue(NPCName, dialogue);
     }
 }

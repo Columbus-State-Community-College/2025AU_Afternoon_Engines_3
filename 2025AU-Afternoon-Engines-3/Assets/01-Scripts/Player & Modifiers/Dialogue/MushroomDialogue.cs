@@ -2,245 +2,280 @@ using UnityEngine;
 
 public class MushroomDialogue : MonoBehaviour
 {
-    DialogueChat chatty;
-    repTracker repu;
-    UnlockManager manager;
-    QuestList questy;
-    public string speaking;
+    public DialogueChat dialogueChatScript;
+    public repTracker reputationTracker;
+    public UnlockManager unlockManager;
+    public QuestList questList;
+    public string NPCName;
+    public string dialogue;
 
+    void Awake()
+    {
+        if (!dialogueChatScript)
+        {
+            GameObject player = GameObject.FindGameObjectWithTag("Player");
+            dialogueChatScript = player.GetComponent<DialogueChat>();
+        }
+    }
+    void FixedUpdate()
+    {
+        if (!unlockManager)
+        {FindComponent();}
+    }
+    void FindComponent()
+    {
+        GameObject unlockManagerGameObject = GameObject.FindGameObjectWithTag("UnlockManager");
+        unlockManager = unlockManagerGameObject.GetComponent<UnlockManager>();
+    }
     public void crowOneQuest()
     {
-        if (manager.crowOneDone == true)
+        if (unlockManager.crowOneDone == true)
         {
             crowOneStandard();
         }
-        else if (manager.crowOneRock == true)
+        else if (unlockManager.crowOneRock == true)
         {
             crowOneComplete();
         }
         else
         {
-            speaking = "Caw! Friend get rock for caw?";
-            manager.crowOneActive = true;
-            questy.whatQuestSeen();
-            chatty.EnterDialogue(speaking);
+            NPCName = "Craw";
+            dialogue = "Caw! Friend get rock for caw?";
+            unlockManager.crowOneActive = true;
+            questList.whatQuestSeen();
+            dialogueChatScript.EnterDialogue(NPCName, dialogue);
         }
     }
 
     public void crowOneComplete()
     {
-        speaking = "Squawk!! Rock rock! Caw give friend gift!";
-        manager.crowOneActive = false;
-        manager.crowOneDone = true;
-        questy.whatQuestSeen();
-        repu.GetRep();
-        chatty.EnterDialogue(speaking);
+        NPCName = "Craw";
+        dialogue = "Squawk!! Rock rock! Caw give friend gift!";
+        unlockManager.crowOneActive = false;
+        unlockManager.crowOneDone = true;
+        questList.whatQuestSeen();
+        reputationTracker.GetRep();
+        dialogueChatScript.EnterDialogue(NPCName, dialogue);
     }
 
     public void crowOneStandard()
     {
-        speaking = "Caw! Rock very yummy!";
-        chatty.EnterDialogue(speaking);
+        NPCName = "Craw";
+        dialogue = "Caw! Rock very yummy!";
+        dialogueChatScript.EnterDialogue(NPCName, dialogue);
     }
 
     public void crowTwoQuest()
     {
-        if (manager.crowTwoDone == true)
+        if (unlockManager.crowTwoDone == true)
         {
             crowTwoStandard();
         }
-        else if (manager.crowTwoSmithGift == true)
+        else if (unlockManager.crowTwoSmithGift == true)
         {
             crowTwoComplete();
         }
         else
         {
-            speaking = "Chirrrrp! If friend help blacksmith me give gift! Want red gem for blacksmith!";
-            manager.crowTwoActive = true;
-            questy.whatQuestSeen();
-            chatty.EnterDialogue(speaking);
+            NPCName = "Crowe";
+            dialogue = "Chirrrrp! If friend help blacksmith me give gift! Want red gem for blacksmith!";
+            unlockManager.crowTwoActive = true;
+            questList.whatQuestSeen();
+            dialogueChatScript.EnterDialogue(NPCName, dialogue);
         }
     }
 
     public void crowTwoComplete()
     {
-        speaking = "Chipchip! Me see friend help blacksmith! Here gift!";
-        manager.crowTwoActive = false;
-        manager.crowTwoDone = true;
-        questy.whatQuestSeen();
-        repu.GetRep();
-        chatty.EnterDialogue(speaking);
+        NPCName = "Crowe";
+        dialogue = "Chipchip! Me see friend help blacksmith! Here gift!";
+        unlockManager.crowTwoActive = false;
+        unlockManager.crowTwoDone = true;
+        questList.whatQuestSeen();
+        reputationTracker.GetRep();
+        dialogueChatScript.EnterDialogue(NPCName, dialogue);
     }
 
     public void crowTwoStandard()
     {
-        speaking = "Caw, me like blacksmith. Tap tap, bawk bawk.";
-        chatty.EnterDialogue(speaking);
+        NPCName = "Crowe";
+        dialogue = "Caw, me like blacksmith. Tap tap, bawk bawk.";
+        dialogueChatScript.EnterDialogue(NPCName, dialogue);
     }
 
     public void crowThreeQuest()
     {
-        if (manager.crowThreeDone == true)
+        if (unlockManager.crowThreeDone == true)
         {
             crowThreeStandard();
         }
-        else if (manager.crowThreeTalkToHecate == true)
+        else if (unlockManager.crowThreeTalkToHecate == true)
         {
             crowThreeComplete();
         }
         else
         {
-            speaking = "Has bushy witch friend meet mushroom witch friend?";
-            manager.crowThreeActive = true;
-            questy.whatQuestSeen();
-            chatty.EnterDialogue(speaking);
+            NPCName = "Squawk";
+            dialogue = "Has bushy witch friend meet mushroom witch friend?";
+            unlockManager.crowThreeActive = true;
+            questList.whatQuestSeen();
+            dialogueChatScript.EnterDialogue(NPCName, dialogue);
         }
     }
 
     public void crowThreeComplete()
     {
-        speaking = "Friend know other friend! Me happy!";
-        manager.crowThreeActive = false;
-        manager.crowThreeDone = true;
-        questy.whatQuestSeen();
-        repu.GetRep();
-        chatty.EnterDialogue(speaking);
+        NPCName = "Squawk";
+        dialogue = "Friend know other friend! Me happy!";
+        unlockManager.crowThreeActive = false;
+        unlockManager.crowThreeDone = true;
+        questList.whatQuestSeen();
+        reputationTracker.GetRep();
+        dialogueChatScript.EnterDialogue(NPCName, dialogue);
     }
 
     public void crowThreeStandard()
     {
-        speaking = "Squawk!";
-        chatty.EnterDialogue(speaking);
+        NPCName = "Squawk";
+        dialogue = "Squawk!";
+        dialogueChatScript.EnterDialogue(NPCName, dialogue);
     }
 
     public void crowFourQuest()
     {
-        if (manager.crowFourDone == true)
+        if (unlockManager.crowFourDone == true)
         {
             crowFourStandard();
         }
-        else if (manager.familiarSpellUnlocked == true)
+        else if (unlockManager.familiarSpellUnlocked == true)
         {
             crowFourComplete();
         }
         else
         {
-            speaking = "Caw caw? Friend have friend?";
-            manager.crowFourActive = true;
-            questy.whatQuestSeen();
-            chatty.EnterDialogue(speaking);
+            NPCName = "Caw";
+            dialogue = "Caw caw? Friend have friend?";
+            unlockManager.crowFourActive = true;
+            questList.whatQuestSeen();
+            dialogueChatScript.EnterDialogue(NPCName, dialogue);
         }
     }
 
     public void crowFourComplete()
     {
-        speaking = "SQUAAA! Wolf scary! Friend control not friend please!";
-        manager.crowFourActive = false;
-        manager.crowFourDone = true;
-        questy.whatQuestSeen();
-        repu.GetRep();
-        chatty.EnterDialogue(speaking);
+        NPCName = "Caw";
+        dialogue = "SQUAAA! Wolf scary! Friend control not friend please!";
+        unlockManager.crowFourActive = false;
+        unlockManager.crowFourDone = true;
+        questList.whatQuestSeen();
+        reputationTracker.GetRep();
+        dialogueChatScript.EnterDialogue(NPCName, dialogue);
     }
 
     public void crowFourStandard()
     {
-        speaking = "Squa... fluffies are scary...";
-        chatty.EnterDialogue(speaking);
+        NPCName = "Caw";
+        dialogue = "Squa... fluffies are scary...";
+        dialogueChatScript.EnterDialogue(NPCName, dialogue);
     }
 
     public void HecateQuestOne()
     {
-        if (manager.hecateOneDone == true)
+        if (unlockManager.hecateOneDone == true)
         {
             HecateQuestTwo();
         }
-        else if (manager.hecateOneBug == true)
+        else if (unlockManager.hecateOneBug == true)
         {
             HecateCompleteOne();
         }
         else
         {
-            speaking = "Hello old friend. I heard you wanted to get the town's trust. Good luck with that. I wouldn't bother. " +
-                "But if you wish for some help I can provide. Help me get a bug and I'll give you a spell.";
-            manager.hecateOneActive = true;
-            questy.whatQuestSeen();
-            chatty.EnterDialogue(speaking);
+            NPCName = "Hecate";
+            dialogue = "Hello old friend. I heard you wanted to get the town's trust. Good luck with that. I wouldn't bother.\nBut if you wish for some help I can provide. Help me get a bug and I'll give you a spell.";
+            unlockManager.hecateOneActive = true;
+            questList.whatQuestSeen();
+            dialogueChatScript.EnterDialogue(NPCName, dialogue);
         }
     }
 
     public void HecateCompleteOne()
     {
-        speaking = "You truly want their trust? They're all so picky. Here's the promised spell.";
-        manager.hecateOneActive = false;
-        manager.hecateOneDone = true;
-        questy.whatQuestSeen();
-        repu.GetRep();
-        chatty.EnterDialogue(speaking);
+        NPCName = "Hecate";
+        dialogue = "You truly want their trust? They're all so picky. Here's the promised spell.";
+        unlockManager.hecateOneActive = false;
+        unlockManager.hecateOneDone = true;
+        questList.whatQuestSeen();
+        reputationTracker.GetRep();
+        dialogueChatScript.EnterDialogue(NPCName, dialogue);
     }
 
     public void HecateQuestTwo()
     {
-        if (manager.hecateTwoDone == true)
+        if (unlockManager.hecateTwoDone == true)
         {
             HecateQuestThree();
         }
-        else if (manager.hecateTwoCarrot == true)
+        else if (unlockManager.hecateTwoCarrot == true)
         {
             HecateCompleteTwo();
         }
         else
         {
-            speaking = "Hm? Bigger paper? You are being limited by paper size? Whatever, just... get a cave carrot for me, " +
-                "alright?";
-            manager.hecateTwoActive = true;
-            questy.whatQuestSeen();
-            chatty.EnterDialogue(speaking);
+            NPCName = "Hecate";
+            dialogue = "Hm? Bigger paper? You are being limited by paper size? Whatever... Ugh...\n Just, just... get a cave carrot for me, alright?";
+            unlockManager.hecateTwoActive = true;
+            questList.whatQuestSeen();
+            dialogueChatScript.EnterDialogue(NPCName, dialogue);
         }
     }
 
     public void HecateCompleteTwo()
     {
-        speaking = "Real determined, huh. I could never. Here's your bigger paper.";
-        manager.hecateTwoActive = false;
-        manager.hecateTwoDone = true;
-        questy.whatQuestSeen();
-        repu.GetRep();
-        chatty.EnterDialogue(speaking);
+        NPCName = "Hecate";
+        dialogue = "Real determined, huh. I could never. Here's your bigger paper.";
+        unlockManager.hecateTwoActive = false;
+        unlockManager.hecateTwoDone = true;
+        questList.whatQuestSeen();
+        reputationTracker.GetRep();
+        dialogueChatScript.EnterDialogue(NPCName, dialogue);
     }
 
     public void HecateQuestThree()
     {
-        if (manager.hecateThreeDone == true)
+        if (unlockManager.hecateThreeDone == true)
         {
             HecateStandard();
         }
-        else if (manager.hecateThreeSeed == true)
+        else if (unlockManager.hecateThreeSeed == true)
         {
             HecateCompleteThree();
         }
         else
         {
-            speaking = "Even bigger? Was that not enough? Alright, alright, whatever. Get some seeds down for me.";
-            manager.hecateThreeActive = true;
-            questy.whatQuestSeen();
-            chatty.EnterDialogue(speaking);
+            NPCName = "Hecate";
+            dialogue = "Even bigger? Was that not enough? Alright, alright, whatever. Get some seeds down for me.";
+            unlockManager.hecateThreeActive = true;
+            questList.whatQuestSeen();
+            dialogueChatScript.EnterDialogue(NPCName, dialogue);
         }
     }
 
     public void HecateCompleteThree()
     {
-        speaking = "Really? That wanting? Here's some bigger paper for you, Emmalesha. Don't get used to me calling " +
-            "you that.";
-        manager.hecateThreeActive = false;
-        manager.hecateThreeDone = true;
-        questy.whatQuestSeen();
-        repu.GetRep();
-        chatty.EnterDialogue(speaking);
+        NPCName = "Hecate";
+        dialogue = "Really? That wanting? Here's some bigger paper for you, Emmalesha. Don't get used to me calling you that.";
+        unlockManager.hecateThreeActive = false;
+        unlockManager.hecateThreeDone = true;
+        questList.whatQuestSeen();
+        reputationTracker.GetRep();
+        dialogueChatScript.EnterDialogue(NPCName, dialogue);
     }
 
     public void HecateStandard()
     {
-        speaking = "You're braver than me, going through all this trouble. May spirits guide you.";
-        chatty.EnterDialogue(speaking);
+        NPCName = "Hecate";
+        dialogue = "You've been ever brave compared to me, going through all this trouble. May the spirits guide you.";
+        dialogueChatScript.EnterDialogue(NPCName, dialogue);
     }
 }

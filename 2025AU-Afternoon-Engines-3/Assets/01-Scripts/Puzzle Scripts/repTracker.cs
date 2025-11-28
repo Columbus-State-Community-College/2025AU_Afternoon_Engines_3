@@ -10,27 +10,18 @@ public class repTracker : MonoBehaviour
     void Start()
     {
         if (reputation <= -1)
-        {
-            reputation = 0;
-        }
+        {reputation = 0;}
         //winText.gameObject.SetActive(false);
-        if (instance == null)
-        {
-            instance = this;
-        }
+        if(instance == null)
+        {instance = this;}
         else
-        {
-            if (instance != this)
-                Destroy(gameObject);
-        }
-        DontDestroyOnLoad(gameObject);
+        {if(instance != this)
+        {Destroy(gameObject);}}
+        // DontDestroyOnLoad(gameObject);
     }
 
     public void GetRep()
-    {
-        reputation += 1;
-    }
-
+    {reputation += 1;}
     void Update()
     {
         //if (reputation >= 10)
