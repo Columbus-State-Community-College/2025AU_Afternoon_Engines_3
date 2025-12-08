@@ -46,15 +46,15 @@ public class QuestList : MonoBehaviour
             { return; }
             else
             {
-                seenQuests.Add("-Get Blacksmith iron");
+                seenQuests.Add("-Get the Blacksmith some iron");
                 blacksmithquest1 = true;
             }
         }
         else
         {
             blacksmithquest1 = false;
-            if (seenQuests.Contains("-Get Blacksmith iron"))
-            { seenQuests.Remove("-Get Blacksmith iron"); }
+            if (seenQuests.Contains("-Get the Blacksmith some iron"))
+            { seenQuests.Remove("-Get the Blacksmith some iron"); }
         }
 
         if (unlockManager.blacksmithTwoActive == true)
@@ -63,15 +63,15 @@ public class QuestList : MonoBehaviour
             { return; }
             else
             {
-                seenQuests.Add("-Get Blacksmith Sky-Metal");
+                seenQuests.Add("-Get the Blacksmith some Sky-Metal");
                 blacksmithquest2 = true;
             }
         }
         else
         {
             blacksmithquest2 = false;
-            if (seenQuests.Contains("-Get Blacksmith Sky-Metal"))
-            { seenQuests.Remove("-Get Blacksmith Sky-Metal"); }
+            if (seenQuests.Contains("-Get the Blacksmith some Sky-Metal"))
+            { seenQuests.Remove("-Get the Blacksmith some Sky-Metal"); }
         }
 
         if (unlockManager.merchantOneActive == true)
@@ -80,15 +80,15 @@ public class QuestList : MonoBehaviour
             { return; }
             else
             {
-                seenQuests.Add("-Find Merchant's Stock List");
+                seenQuests.Add("-Find the Merchant's lost Stock List");
                 merchantQuest1 = true;
             }
         }
         else
         {
             merchantQuest1 = false;
-            if (seenQuests.Contains("-Find Merchant's Stock List"))
-            { seenQuests.Remove("-Find Merchant's Stock List"); }
+            if (seenQuests.Contains("-Find the Merchant's lost Stock List"))
+            { seenQuests.Remove("-Find the Merchant's lost Stock List"); }
         }
 
         if (unlockManager.merchantOneActive == true)
@@ -97,15 +97,15 @@ public class QuestList : MonoBehaviour
             { return; }
             else
             {
-                seenQuests.Add("\nFind Merchant's Pencil");
+                seenQuests.Add("\nFind the Merchant's lost Pencil");
                 merchantQuest2 = true;
             }
         }
         else
         {
             merchantQuest2 = false;
-            if (seenQuests.Contains("-Find Merchant's Pencil"))
-            { seenQuests.Remove("-Find Merchant's Pencil"); }
+            if (seenQuests.Contains("-Find the Merchant's lost Pencil"))
+            { seenQuests.Remove("-Find the Merchant's lost Pencil"); }
         }
 
         if (unlockManager.merchantThreeActive == true)
@@ -114,15 +114,15 @@ public class QuestList : MonoBehaviour
             { return; }
             else
             {
-                seenQuests.Add("-Find Merchant's Ring");
+                seenQuests.Add("-Find the Merchant's lost Ring");
                 merchantQuest3 = true;
             }
         }
         else
         {
             merchantQuest3 = false;
-            if (seenQuests.Contains("-Find Merchant's Ring"))
-            { seenQuests.Remove("-Find Merchant's Ring"); }
+            if (seenQuests.Contains("-Find the Merchant's lost Ring"))
+            { seenQuests.Remove("-Find the Merchant's lost Ring"); }
         }
 
         if (unlockManager.townGirlOneActive == true)
@@ -131,15 +131,15 @@ public class QuestList : MonoBehaviour
             { return; }
             else
             {
-                seenQuests.Add("-Find Black & White Fish");
+                seenQuests.Add("-Find a Black & White Fish for a villager");
                 townGirlQuest1 = true;
             }
         }
         else
         {
             townGirlQuest1 = false;
-            if (seenQuests.Contains("-Find Black & White Fish"))
-            { seenQuests.Remove("-Find Black & White Fish"); }
+            if (seenQuests.Contains("-Find a Black & White Fish for a villager"))
+            { seenQuests.Remove("-Find a Black & White Fish for a villager"); }
         }
 
         if (unlockManager.townGirlTwoActive == true)
@@ -148,15 +148,15 @@ public class QuestList : MonoBehaviour
             { return; }
             else
             {
-                seenQuests.Add("-Find Green Gem");
+                seenQuests.Add("-Find a Green Gem for a villager");
                 townGirlQuest2 = true;
             }
         }
         else
         {
             townGirlQuest2 = false;
-            if (seenQuests.Contains("-Find Green Gem"))
-            { seenQuests.Remove("-Find Green Gem"); }
+            if (seenQuests.Contains("-Find a Green Gem for a villager"))
+            { seenQuests.Remove("-Find a Green Gem for a villager"); }
         }
 
         if (unlockManager.townGirlThreeActive == true)
@@ -165,15 +165,15 @@ public class QuestList : MonoBehaviour
             { return; }
             else
             {
-                seenQuests.Add("-Get Wood");
+                seenQuests.Add("-Get some Wood for a villager");
                 townGirlQuest3 = true;
             }
         }
         else
         {
             townGirlQuest3 = false;
-            if (seenQuests.Contains("-Get Wood"))
-            { seenQuests.Remove("-Get Wood"); }
+            if (seenQuests.Contains("-Get some Wood for a villager"))
+            { seenQuests.Remove("-Get some Wood for a villager"); }
         }
 
         if (unlockManager.townManOneActive == true)
@@ -182,15 +182,15 @@ public class QuestList : MonoBehaviour
             { return; }
             else
             {
-                seenQuests.Add("-Find a Dwarf Tool");
+                seenQuests.Add("-Find a Dwarf Tool for a villager");
                 townMaleQuest1 = true;
             }
         }
         else
         {
             townMaleQuest1 = false;
-            if (seenQuests.Contains("-Find a Dwarf Tool"))
-            { seenQuests.Remove("-Find a Dwarf Tool"); }
+            if (seenQuests.Contains("-Find a Dwarf Tool for a villager"))
+            { seenQuests.Remove("-Find a Dwarf Tool for a villager"); }
         }
         if (unlockManager.townManTwoActive == true)
         {
@@ -200,16 +200,16 @@ public class QuestList : MonoBehaviour
             }
             else
             {
-                seenQuests.Add("-Find Cliff Flower");
+                seenQuests.Add("-Find a Cliff Flower for a villager");
                 townMaleQuest2 = true;
             } 
         }
         else
         {
             townMaleQuest2 = false;
-            if (seenQuests.Contains("-Find Cliff Flower"))
+            if (seenQuests.Contains("-Find a Cliff Flower for a villager"))
             {
-                seenQuests.Remove("-Find Cliff Flower");
+                seenQuests.Remove("-Find a Cliff Flower for a villager");
             }
         }
 
@@ -221,16 +221,16 @@ public class QuestList : MonoBehaviour
             }
             else
             {
-                seenQuests.Add("-Find a Nut for a Key");
+                seenQuests.Add("-Find a Nut to trade for a Key");
                 townCrowQuest1 = true;
             }
         }
         else
         {
             townCrowQuest1 = false;
-            if (seenQuests.Contains("-Find a Nut for a Key"))
+            if (seenQuests.Contains("-Find a Nut to trade for a Key"))
             {
-                seenQuests.Remove("-Find a Nut for a Key");
+                seenQuests.Remove("-Find a Nut to trade for a Key");
             }
         }
 
@@ -242,16 +242,16 @@ public class QuestList : MonoBehaviour
             }
             else
             {
-                seenQuests.Add("-Get a lose Rock");
+                seenQuests.Add("-Get a lose Rock for the crow");
                 forestCrowQuest1 = true;
             }
         }
         else
         {
             forestCrowQuest1 = false;
-            if (seenQuests.Contains("-Get a lose Rock"))
+            if (seenQuests.Contains("-Get a lose Rock for the crow"))
             {
-                seenQuests.Remove("-Get a lose Rock");
+                seenQuests.Remove("-Get a lose Rock for the crow");
             }
         }
 
@@ -263,16 +263,16 @@ public class QuestList : MonoBehaviour
             }
             else
             {
-                seenQuests.Add("-Find Red Gem");
+                seenQuests.Add("-Find a Red Gem for the crow");
                 forestCrowQuest2 = true;
             }
         }
         else
         {
             forestCrowQuest2 = false;
-            if (seenQuests.Contains("-Find Red Gem"))
+            if (seenQuests.Contains("-Find a Red Gem for the crow"))
             {
-                seenQuests.Remove("-Find Red Gem");
+                seenQuests.Remove("-Find a Red Gem for the crow");
             }
         }
 
@@ -305,16 +305,16 @@ public class QuestList : MonoBehaviour
             }
             else
             {
-                seenQuests.Add("-Have Familiar Spell");
+                seenQuests.Add("-Have the Familiar Spell");
                 forestCrowQuest4 = true;
             }
         }
         else
         {
             forestCrowQuest4 = false;
-            if (seenQuests.Contains("-Have Familiar Spell"))
+            if (seenQuests.Contains("-Have the Familiar Spell"))
             {
-                seenQuests.Remove("-Have Familiar Spell");
+                seenQuests.Remove("-Have the Familiar Spell");
             }
         }
 
@@ -326,16 +326,16 @@ public class QuestList : MonoBehaviour
             }
             else
             {
-                seenQuests.Add("-Get Bug");
+                seenQuests.Add("-Get a Bug for Hecate");
                 hecateQuest1 = true;
             }
         }
         else
         {
             hecateQuest1 = false;
-            if (seenQuests.Contains("-Get Bug"))
+            if (seenQuests.Contains("-Get a Bug for Hecate"))
             {
-                seenQuests.Remove("-Get Bug");
+                seenQuests.Remove("-Get a Bug for Hecate");
             }
         }
 
@@ -347,16 +347,16 @@ public class QuestList : MonoBehaviour
             }
             else
             {
-                seenQuests.Add("-Get Cave Carrot");
+                seenQuests.Add("-Get a Cave Carrot for Hecate");
                 hecateQuest2 = true;
             }
         }
         else
         {
             hecateQuest2 = false;
-            if (seenQuests.Contains("-Get Cave Carrot"))
+            if (seenQuests.Contains("-Get a Cave Carrot for Hecate"))
             {
-                seenQuests.Remove("-Get Cave Carrot");
+                seenQuests.Remove("-Get a Cave Carrot for Hecate");
             }
         }
 
@@ -368,16 +368,16 @@ public class QuestList : MonoBehaviour
             }
             else
             {
-                seenQuests.Add("-Get Seed");
+                seenQuests.Add("-Get a Tree Seed for Hecate");
                 hecateQuest3 = true;
             }
         }
         else
         {
             hecateQuest3 = false;
-            if (seenQuests.Contains("-Get Seed"))
+            if (seenQuests.Contains("-Get a Tree Seed for Hecate"))
             {
-                seenQuests.Remove("-Get Seed");
+                seenQuests.Remove("-Get a Tree Seed for Hecate");
             }
         }
 
@@ -389,16 +389,16 @@ public class QuestList : MonoBehaviour
             }
             else
             {
-                seenQuests.Add("-Get tiny, bright flower");
+                seenQuests.Add("-Get tiny, bright flower for the dwarf");
                 dwarfQuest1 = true;
             }
         }
         else
         {
             dwarfQuest1 = false;
-            if (seenQuests.Contains("-Get tiny, bright flower"))
+            if (seenQuests.Contains("-Get tiny, bright flower for the dwarf"))
             {
-                seenQuests.Remove("-Get tiny, bright flower");
+                seenQuests.Remove("-Get tiny, bright flower for the dwarf");
             }
         }
 
@@ -410,16 +410,16 @@ public class QuestList : MonoBehaviour
             }
             else
             {
-                seenQuests.Add("-Get a Nut for a Scroll");
+                seenQuests.Add("-Get a Nut to trade for a Scroll");
                 riverCrowQuest1 = true;
             }
         }
         else
         {
             riverCrowQuest1 = false;
-            if (seenQuests.Contains("-Get a Nut for a Scroll"))
+            if (seenQuests.Contains("-Get a Nut to trade for a Scroll"))
             {
-                seenQuests.Remove("-Get a Nut for a Scroll");
+                seenQuests.Remove("-Get a Nut to trade for a Scroll");
             }
         }
 
@@ -431,16 +431,16 @@ public class QuestList : MonoBehaviour
             }
             else
             {
-                seenQuests.Add("-Get Cave Flower");
+                seenQuests.Add("-Get a Cave Flower for a crow at the river");
                 riverCrowQuest2 = true;
             }
         }
         else
         {
             riverCrowQuest2 = false;
-            if (seenQuests.Contains("-Get Cave Flower"))
+            if (seenQuests.Contains("-Get a Cave Flower for a crow at the river"))
             {
-                seenQuests.Remove("-Get Cave Flower");
+                seenQuests.Remove("-Get a Cave Flower for a crow at the river");
             }
         }
 
@@ -452,16 +452,16 @@ public class QuestList : MonoBehaviour
             }
             else
             {
-                seenQuests.Add("-Catch a Golden Carp");
+                seenQuests.Add("-Catch a Golden Carp for the girl at the river");
                 riverGirlQuest1 = true;
             }
         }
         else
         {
             riverGirlQuest1 = false;
-            if (seenQuests.Contains("-Catch a Golden Carp"))
+            if (seenQuests.Contains("-Catch a Golden Carp for the girl at the river"))
             {
-                seenQuests.Remove("-Catch a Golden Carp");
+                seenQuests.Remove("-Catch a Golden Carp for the girl at the river");
             }
         }
 
@@ -473,16 +473,16 @@ public class QuestList : MonoBehaviour
             }
             else
             {
-                seenQuests.Add("-Catch a Green Fish");
+                seenQuests.Add("-Catch a Green Fish for the farmer");
                 farmerQuest1 = true;
             }
         }
         else
         {
             farmerQuest1 = false;
-            if (seenQuests.Contains("-Catch a Green Fish"))
+            if (seenQuests.Contains("-Catch a Green Fish for the farmer"))
             {
-                seenQuests.Remove("-Catch a Green Fish");
+                seenQuests.Remove("-Catch a Green Fish for the farmer");
             }
         }
 
@@ -494,16 +494,16 @@ public class QuestList : MonoBehaviour
             }
             else
             {
-                seenQuests.Add("-Catch a Blue Fish");
+                seenQuests.Add("-Catch a Blue Fish for the farmer");
                 farmerQuest2 = true;
             }
         }
         else
         {
             farmerQuest2 = false;
-            if (seenQuests.Contains("-Catch a Blue Fish"))
+            if (seenQuests.Contains("-Catch a Blue Fish for the farmer"))
             {
-                seenQuests.Remove("-Catch a Blue Fish");
+                seenQuests.Remove("-Catch a Blue Fish for the farmer");
             }
         }
 
@@ -515,16 +515,16 @@ public class QuestList : MonoBehaviour
             }
             else
             {
-                seenQuests.Add("-Catch a Purple Fish");
+                seenQuests.Add("-Catch a Purple Fish for the farmer");
                 farmerQuest3 = true;
             }
         }
         else
         {
             farmerQuest3 = false;
-            if (seenQuests.Contains("-Catch a Purple Fish"))
+            if (seenQuests.Contains("-Catch a Purple Fish for the farmer"))
             {
-                seenQuests.Remove("-Catch a Purple Fish");
+                seenQuests.Remove("-Catch a Purple Fish for the farmer");
             }
         }
 
@@ -536,16 +536,16 @@ public class QuestList : MonoBehaviour
             }
             else
             {
-                seenQuests.Add("-Catch a Red Fish");
+                seenQuests.Add("-Catch a Red Fish for the farmer");
                 farmerQuest4 = true;
             }
         }
         else
         {
             farmerQuest4 = false;
-            if (seenQuests.Contains("-Catch a Red Fish"))
+            if (seenQuests.Contains("-Catch a Red Fish for the farmer"))
             {
-                seenQuests.Remove("-Catch a Red Fish");
+                seenQuests.Remove("-Catch a Red Fish for the farmer");
             }
         }
 
@@ -557,16 +557,16 @@ public class QuestList : MonoBehaviour
             }
             else
             {
-                seenQuests.Add("-Catch a Orange Fish");
+                seenQuests.Add("-Catch a Orange Fish for the farmer");
                 farmerQuest5 = true;
             }
         }
         else
         {
             farmerQuest5 = false;
-            if (seenQuests.Contains("-Catch a Orange Fish"))
+            if (seenQuests.Contains("-Catch a Orange Fish for the farmer"))
             {
-                seenQuests.Remove("-Catch a Orange Fish");
+                seenQuests.Remove("-Catch a Orange Fish for the farmer");
             }
         }
 
@@ -578,16 +578,16 @@ public class QuestList : MonoBehaviour
             }
             else
             {
-                seenQuests.Add("-Catch a Yellow Fish");
+                seenQuests.Add("-Catch a Yellow Fish for the farmer");
                 farmerQuest6 = true;
             }
         }
         else
         {
             farmerQuest6 = false;
-            if (seenQuests.Contains("-Catch a Yellow Fish"))
+            if (seenQuests.Contains("-Catch a Yellow Fish for the farmer"))
             {
-                seenQuests.Remove("-Catch a Yellow Fish");
+                seenQuests.Remove("-Catch a Yellow Fish for the farmer");
             }
         }
 
