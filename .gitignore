@@ -1,3 +1,545 @@
 
 # Mac-only .DS_Store helpers
 .DS_Store
+cscc-butler-uploader/linux/_README_AND_DELETE.txt
+cscc-butler-uploader/linux/Build.x86_64
+cscc-butler-uploader/linux/Build_Data/app.info
+cscc-butler-uploader/linux/Build_Data/boot.config
+cscc-butler-uploader/linux/Build_Data/globalgamemanagers
+cscc-butler-uploader/linux/Build_Data/globalgamemanagers.assets
+cscc-butler-uploader/linux/Build_Data/globalgamemanagers.assets.resS
+cscc-butler-uploader/linux/Build_Data/level0
+cscc-butler-uploader/linux/Build_Data/level1
+cscc-butler-uploader/linux/Build_Data/level2
+cscc-butler-uploader/linux/Build_Data/level3
+cscc-butler-uploader/linux/Build_Data/level4
+cscc-butler-uploader/linux/Build_Data/Managed/Assembly-CSharp.dll
+cscc-butler-uploader/linux/Build_Data/Managed/Mono.Security.dll
+cscc-butler-uploader/linux/Build_Data/Managed/mscorlib.dll
+cscc-butler-uploader/linux/Build_Data/Managed/netstandard.dll
+cscc-butler-uploader/linux/Build_Data/Managed/System.ComponentModel.Composition.dll
+cscc-butler-uploader/linux/Build_Data/Managed/System.Configuration.dll
+cscc-butler-uploader/linux/Build_Data/Managed/System.Core.dll
+cscc-butler-uploader/linux/Build_Data/Managed/System.Data.DataSetExtensions.dll
+cscc-butler-uploader/linux/Build_Data/Managed/System.Data.dll
+cscc-butler-uploader/linux/Build_Data/Managed/System.dll
+cscc-butler-uploader/linux/Build_Data/Managed/System.Drawing.dll
+cscc-butler-uploader/linux/Build_Data/Managed/System.EnterpriseServices.dll
+cscc-butler-uploader/linux/Build_Data/Managed/System.IO.Compression.dll
+cscc-butler-uploader/linux/Build_Data/Managed/System.IO.Compression.FileSystem.dll
+cscc-butler-uploader/linux/Build_Data/Managed/System.IO.Hashing.dll
+cscc-butler-uploader/linux/Build_Data/Managed/System.Memory.dll
+cscc-butler-uploader/linux/Build_Data/Managed/System.Net.Http.dll
+cscc-butler-uploader/linux/Build_Data/Managed/System.Numerics.dll
+cscc-butler-uploader/linux/Build_Data/Managed/System.Runtime.CompilerServices.Unsafe.dll
+cscc-butler-uploader/linux/Build_Data/Managed/System.Runtime.dll
+cscc-butler-uploader/linux/Build_Data/Managed/System.Runtime.Serialization.dll
+cscc-butler-uploader/linux/Build_Data/Managed/System.Security.dll
+cscc-butler-uploader/linux/Build_Data/Managed/System.ServiceModel.Internals.dll
+cscc-butler-uploader/linux/Build_Data/Managed/System.Transactions.dll
+cscc-butler-uploader/linux/Build_Data/Managed/System.Xml.dll
+cscc-butler-uploader/linux/Build_Data/Managed/System.Xml.Linq.dll
+cscc-butler-uploader/linux/Build_Data/Managed/Unity.AI.Navigation.dll
+cscc-butler-uploader/linux/Build_Data/Managed/Unity.Burst.dll
+cscc-butler-uploader/linux/Build_Data/Managed/Unity.Burst.Unsafe.dll
+cscc-butler-uploader/linux/Build_Data/Managed/Unity.Collections.dll
+cscc-butler-uploader/linux/Build_Data/Managed/Unity.Collections.LowLevel.ILSupport.dll
+cscc-butler-uploader/linux/Build_Data/Managed/Unity.InputSystem.dll
+cscc-butler-uploader/linux/Build_Data/Managed/Unity.InputSystem.ForUI.dll
+cscc-butler-uploader/linux/Build_Data/Managed/Unity.Mathematics.dll
+cscc-butler-uploader/linux/Build_Data/Managed/Unity.Multiplayer.Center.Common.dll
+cscc-butler-uploader/linux/Build_Data/Managed/Unity.ProBuilder.Csg.dll
+cscc-butler-uploader/linux/Build_Data/Managed/Unity.ProBuilder.dll
+cscc-butler-uploader/linux/Build_Data/Managed/Unity.ProBuilder.KdTree.dll
+cscc-butler-uploader/linux/Build_Data/Managed/Unity.ProBuilder.Poly2Tri.dll
+cscc-butler-uploader/linux/Build_Data/Managed/Unity.ProBuilder.Stl.dll
+cscc-butler-uploader/linux/Build_Data/Managed/Unity.Rendering.LightTransport.Runtime.dll
+cscc-butler-uploader/linux/Build_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll
+cscc-butler-uploader/linux/Build_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll
+cscc-butler-uploader/linux/Build_Data/Managed/Unity.RenderPipelines.Core.Runtime.Shared.dll
+cscc-butler-uploader/linux/Build_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll
+cscc-butler-uploader/linux/Build_Data/Managed/Unity.RenderPipelines.GPUDriven.Runtime.dll
+cscc-butler-uploader/linux/Build_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+cscc-butler-uploader/linux/Build_Data/Managed/Unity.RenderPipelines.Universal.2D.Runtime.dll
+cscc-butler-uploader/linux/Build_Data/Managed/Unity.RenderPipelines.Universal.Config.Runtime.dll
+cscc-butler-uploader/linux/Build_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll
+cscc-butler-uploader/linux/Build_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll
+cscc-butler-uploader/linux/Build_Data/Managed/Unity.TerrainTools.dll
+cscc-butler-uploader/linux/Build_Data/Managed/Unity.TextMeshPro.dll
+cscc-butler-uploader/linux/Build_Data/Managed/Unity.Timeline.dll
+cscc-butler-uploader/linux/Build_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll
+cscc-butler-uploader/linux/Build_Data/Managed/Unity.VisualScripting.Core.dll
+cscc-butler-uploader/linux/Build_Data/Managed/Unity.VisualScripting.Flow.dll
+cscc-butler-uploader/linux/Build_Data/Managed/Unity.VisualScripting.State.dll
+cscc-butler-uploader/linux/Build_Data/Managed/UnityEngine.AccessibilityModule.dll
+cscc-butler-uploader/linux/Build_Data/Managed/UnityEngine.AIModule.dll
+cscc-butler-uploader/linux/Build_Data/Managed/UnityEngine.AndroidJNIModule.dll
+cscc-butler-uploader/linux/Build_Data/Managed/UnityEngine.AnimationModule.dll
+cscc-butler-uploader/linux/Build_Data/Managed/UnityEngine.AssetBundleModule.dll
+cscc-butler-uploader/linux/Build_Data/Managed/UnityEngine.AudioModule.dll
+cscc-butler-uploader/linux/Build_Data/Managed/UnityEngine.ClothModule.dll
+cscc-butler-uploader/linux/Build_Data/Managed/UnityEngine.ClusterInputModule.dll
+cscc-butler-uploader/linux/Build_Data/Managed/UnityEngine.ClusterRendererModule.dll
+cscc-butler-uploader/linux/Build_Data/Managed/UnityEngine.ContentLoadModule.dll
+cscc-butler-uploader/linux/Build_Data/Managed/UnityEngine.CoreModule.dll
+cscc-butler-uploader/linux/Build_Data/Managed/UnityEngine.CrashReportingModule.dll
+cscc-butler-uploader/linux/Build_Data/Managed/UnityEngine.DirectorModule.dll
+cscc-butler-uploader/linux/Build_Data/Managed/UnityEngine.dll
+cscc-butler-uploader/linux/Build_Data/Managed/UnityEngine.DSPGraphModule.dll
+cscc-butler-uploader/linux/Build_Data/Managed/UnityEngine.GameCenterModule.dll
+cscc-butler-uploader/linux/Build_Data/Managed/UnityEngine.GIModule.dll
+cscc-butler-uploader/linux/Build_Data/Managed/UnityEngine.GraphicsStateCollectionSerializerModule.dll
+cscc-butler-uploader/linux/Build_Data/Managed/UnityEngine.GridModule.dll
+cscc-butler-uploader/linux/Build_Data/Managed/UnityEngine.HierarchyCoreModule.dll
+cscc-butler-uploader/linux/Build_Data/Managed/UnityEngine.HotReloadModule.dll
+cscc-butler-uploader/linux/Build_Data/Managed/UnityEngine.ImageConversionModule.dll
+cscc-butler-uploader/linux/Build_Data/Managed/UnityEngine.IMGUIModule.dll
+cscc-butler-uploader/linux/Build_Data/Managed/UnityEngine.InputForUIModule.dll
+cscc-butler-uploader/linux/Build_Data/Managed/UnityEngine.InputLegacyModule.dll
+cscc-butler-uploader/linux/Build_Data/Managed/UnityEngine.InputModule.dll
+cscc-butler-uploader/linux/Build_Data/Managed/UnityEngine.JSONSerializeModule.dll
+cscc-butler-uploader/linux/Build_Data/Managed/UnityEngine.LocalizationModule.dll
+cscc-butler-uploader/linux/Build_Data/Managed/UnityEngine.MarshallingModule.dll
+cscc-butler-uploader/linux/Build_Data/Managed/UnityEngine.MultiplayerModule.dll
+cscc-butler-uploader/linux/Build_Data/Managed/UnityEngine.ParticleSystemModule.dll
+cscc-butler-uploader/linux/Build_Data/Managed/UnityEngine.PerformanceReportingModule.dll
+cscc-butler-uploader/linux/Build_Data/Managed/UnityEngine.Physics2DModule.dll
+cscc-butler-uploader/linux/Build_Data/Managed/UnityEngine.PhysicsModule.dll
+cscc-butler-uploader/linux/Build_Data/Managed/UnityEngine.PropertiesModule.dll
+cscc-butler-uploader/linux/Build_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll
+cscc-butler-uploader/linux/Build_Data/Managed/UnityEngine.ScreenCaptureModule.dll
+cscc-butler-uploader/linux/Build_Data/Managed/UnityEngine.ShaderVariantAnalyticsModule.dll
+cscc-butler-uploader/linux/Build_Data/Managed/UnityEngine.SharedInternalsModule.dll
+cscc-butler-uploader/linux/Build_Data/Managed/UnityEngine.SpriteMaskModule.dll
+cscc-butler-uploader/linux/Build_Data/Managed/UnityEngine.SpriteShapeModule.dll
+cscc-butler-uploader/linux/Build_Data/Managed/UnityEngine.StreamingModule.dll
+cscc-butler-uploader/linux/Build_Data/Managed/UnityEngine.SubstanceModule.dll
+cscc-butler-uploader/linux/Build_Data/Managed/UnityEngine.SubsystemsModule.dll
+cscc-butler-uploader/linux/Build_Data/Managed/UnityEngine.TerrainModule.dll
+cscc-butler-uploader/linux/Build_Data/Managed/UnityEngine.TerrainPhysicsModule.dll
+cscc-butler-uploader/linux/Build_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll
+cscc-butler-uploader/linux/Build_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll
+cscc-butler-uploader/linux/Build_Data/Managed/UnityEngine.TextRenderingModule.dll
+cscc-butler-uploader/linux/Build_Data/Managed/UnityEngine.TilemapModule.dll
+cscc-butler-uploader/linux/Build_Data/Managed/UnityEngine.TLSModule.dll
+cscc-butler-uploader/linux/Build_Data/Managed/UnityEngine.UI.dll
+cscc-butler-uploader/linux/Build_Data/Managed/UnityEngine.UIElementsModule.dll
+cscc-butler-uploader/linux/Build_Data/Managed/UnityEngine.UIModule.dll
+cscc-butler-uploader/linux/Build_Data/Managed/UnityEngine.UmbraModule.dll
+cscc-butler-uploader/linux/Build_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll
+cscc-butler-uploader/linux/Build_Data/Managed/UnityEngine.UnityAnalyticsModule.dll
+cscc-butler-uploader/linux/Build_Data/Managed/UnityEngine.UnityConnectModule.dll
+cscc-butler-uploader/linux/Build_Data/Managed/UnityEngine.UnityCurlModule.dll
+cscc-butler-uploader/linux/Build_Data/Managed/UnityEngine.UnityTestProtocolModule.dll
+cscc-butler-uploader/linux/Build_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll
+cscc-butler-uploader/linux/Build_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll
+cscc-butler-uploader/linux/Build_Data/Managed/UnityEngine.UnityWebRequestModule.dll
+cscc-butler-uploader/linux/Build_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll
+cscc-butler-uploader/linux/Build_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll
+cscc-butler-uploader/linux/Build_Data/Managed/UnityEngine.VehiclesModule.dll
+cscc-butler-uploader/linux/Build_Data/Managed/UnityEngine.VFXModule.dll
+cscc-butler-uploader/linux/Build_Data/Managed/UnityEngine.VideoModule.dll
+cscc-butler-uploader/linux/Build_Data/Managed/UnityEngine.VirtualTexturingModule.dll
+cscc-butler-uploader/linux/Build_Data/Managed/UnityEngine.VRModule.dll
+cscc-butler-uploader/linux/Build_Data/Managed/UnityEngine.WindModule.dll
+cscc-butler-uploader/linux/Build_Data/Managed/UnityEngine.XRModule.dll
+cscc-butler-uploader/linux/Build_Data/MonoBleedingEdge/etc/mono/config
+cscc-butler-uploader/linux/Build_Data/MonoBleedingEdge/x86_64/libmono-native.so
+cscc-butler-uploader/linux/Build_Data/MonoBleedingEdge/x86_64/libmonobdwgc-2.0.so
+cscc-butler-uploader/linux/Build_Data/MonoBleedingEdge/x86_64/libMonoPosixHelper.so
+cscc-butler-uploader/linux/Build_Data/Plugins/lib_burst_generated.so
+cscc-butler-uploader/linux/Build_Data/resources.assets
+cscc-butler-uploader/linux/Build_Data/resources.assets.resS
+cscc-butler-uploader/linux/Build_Data/Resources/unity default resources
+cscc-butler-uploader/linux/Build_Data/Resources/unity_builtin_extra
+cscc-butler-uploader/linux/Build_Data/Resources/UnityPlayer.png
+cscc-butler-uploader/linux/Build_Data/RuntimeInitializeOnLoads.json
+cscc-butler-uploader/linux/Build_Data/ScriptingAssemblies.json
+cscc-butler-uploader/linux/Build_Data/sharedassets0.assets
+cscc-butler-uploader/linux/Build_Data/sharedassets0.assets.resS
+cscc-butler-uploader/linux/Build_Data/sharedassets1.assets
+cscc-butler-uploader/linux/Build_Data/sharedassets1.assets.resS
+cscc-butler-uploader/linux/Build_Data/sharedassets2.assets
+cscc-butler-uploader/linux/Build_Data/sharedassets2.assets.resS
+cscc-butler-uploader/linux/Build_Data/sharedassets3.assets
+cscc-butler-uploader/linux/Build_Data/sharedassets3.assets.resS
+cscc-butler-uploader/linux/Build_Data/sharedassets4.assets
+cscc-butler-uploader/linux/Build_Data/sharedassets4.assets.resS
+cscc-butler-uploader/linux/libdecor-0.so.0
+cscc-butler-uploader/linux/libdecor-cairo.so
+cscc-butler-uploader/linux/UnityPlayer.so
+cscc-butler-uploader/mac/_README_AND_DELETE.txt
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/_CodeSignature/CodeResources
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Frameworks/libmono-native.dylib
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Frameworks/libmonobdwgc-2.0.dylib
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Frameworks/libMonoPosixHelper.dylib
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Frameworks/UnityPlayer.dylib
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Info.plist
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/MacOS/Week12InfDev
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/MonoBleedingEdge/etc/mono/2.0/machine.config
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/MonoBleedingEdge/etc/mono/2.0/settings.map
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/MonoBleedingEdge/etc/mono/2.0/web.config
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/MonoBleedingEdge/etc/mono/4.0/machine.config
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/MonoBleedingEdge/etc/mono/4.0/settings.map
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/MonoBleedingEdge/etc/mono/4.0/web.config
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/MonoBleedingEdge/etc/mono/4.5/machine.config
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/MonoBleedingEdge/etc/mono/4.5/settings.map
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/MonoBleedingEdge/etc/mono/4.5/web.config
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/MonoBleedingEdge/etc/mono/browscap.ini
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/MonoBleedingEdge/etc/mono/config
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/MonoBleedingEdge/etc/mono/mconfig/config.xml
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/PlugIns/lib_burst_generated.bundle
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/app.info
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/boot.config
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/globalgamemanagers
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/globalgamemanagers.assets
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/globalgamemanagers.assets.resS
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/level0
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/level1
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/level2
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/level3
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/level4
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/Assembly-CSharp.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/Mono.Security.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/mscorlib.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/netstandard.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/System.ComponentModel.Composition.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/System.Configuration.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/System.Core.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/System.Data.DataSetExtensions.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/System.Data.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/System.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/System.Drawing.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/System.EnterpriseServices.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/System.IO.Compression.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/System.IO.Compression.FileSystem.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/System.IO.Hashing.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/System.Memory.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/System.Net.Http.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/System.Numerics.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/System.Runtime.CompilerServices.Unsafe.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/System.Runtime.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/System.Runtime.Serialization.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/System.Security.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/System.ServiceModel.Internals.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/System.Transactions.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/System.Xml.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/System.Xml.Linq.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/Unity.AI.Navigation.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/Unity.Burst.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/Unity.Burst.Unsafe.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/Unity.Collections.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/Unity.Collections.LowLevel.ILSupport.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/Unity.InputSystem.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/Unity.InputSystem.ForUI.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/Unity.Mathematics.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/Unity.Multiplayer.Center.Common.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/Unity.ProBuilder.Csg.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/Unity.ProBuilder.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/Unity.ProBuilder.KdTree.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/Unity.ProBuilder.Poly2Tri.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/Unity.ProBuilder.Stl.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/Unity.Rendering.LightTransport.Runtime.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/Unity.RenderPipelines.Core.Runtime.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/Unity.RenderPipelines.Core.Runtime.Shared.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/Unity.RenderPipelines.GPUDriven.Runtime.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/Unity.RenderPipelines.Universal.2D.Runtime.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/Unity.RenderPipelines.Universal.Config.Runtime.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/Unity.TerrainTools.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/Unity.TextMeshPro.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/Unity.Timeline.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/Unity.VisualScripting.Core.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/Unity.VisualScripting.Flow.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/Unity.VisualScripting.State.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/UnityEngine.AccessibilityModule.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/UnityEngine.AIModule.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/UnityEngine.AndroidJNIModule.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/UnityEngine.AnimationModule.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/UnityEngine.ARModule.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/UnityEngine.AssetBundleModule.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/UnityEngine.AudioModule.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/UnityEngine.ClothModule.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/UnityEngine.ClusterInputModule.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/UnityEngine.ClusterRendererModule.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/UnityEngine.ContentLoadModule.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/UnityEngine.CoreModule.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/UnityEngine.CrashReportingModule.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/UnityEngine.DirectorModule.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/UnityEngine.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/UnityEngine.DSPGraphModule.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/UnityEngine.GameCenterModule.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/UnityEngine.GIModule.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/UnityEngine.GraphicsStateCollectionSerializerModule.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/UnityEngine.GridModule.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/UnityEngine.HierarchyCoreModule.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/UnityEngine.HotReloadModule.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/UnityEngine.ImageConversionModule.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/UnityEngine.IMGUIModule.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/UnityEngine.InputForUIModule.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/UnityEngine.InputLegacyModule.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/UnityEngine.InputModule.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/UnityEngine.JSONSerializeModule.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/UnityEngine.LocalizationModule.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/UnityEngine.MarshallingModule.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/UnityEngine.MultiplayerModule.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/UnityEngine.ParticleSystemModule.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/UnityEngine.PerformanceReportingModule.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/UnityEngine.Physics2DModule.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/UnityEngine.PhysicsModule.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/UnityEngine.PropertiesModule.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/UnityEngine.ScreenCaptureModule.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/UnityEngine.ShaderVariantAnalyticsModule.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/UnityEngine.SharedInternalsModule.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/UnityEngine.SpriteMaskModule.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/UnityEngine.SpriteShapeModule.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/UnityEngine.StreamingModule.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/UnityEngine.SubstanceModule.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/UnityEngine.SubsystemsModule.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/UnityEngine.TerrainModule.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/UnityEngine.TerrainPhysicsModule.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/UnityEngine.TextCoreFontEngineModule.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/UnityEngine.TextCoreTextEngineModule.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/UnityEngine.TextRenderingModule.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/UnityEngine.TilemapModule.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/UnityEngine.TLSModule.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/UnityEngine.UI.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/UnityEngine.UIElementsModule.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/UnityEngine.UIModule.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/UnityEngine.UmbraModule.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/UnityEngine.UnityAnalyticsModule.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/UnityEngine.UnityConnectModule.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/UnityEngine.UnityCurlModule.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/UnityEngine.UnityTestProtocolModule.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestModule.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/UnityEngine.VehiclesModule.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/UnityEngine.VFXModule.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/UnityEngine.VideoModule.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/UnityEngine.VirtualTexturingModule.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/UnityEngine.VRModule.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/UnityEngine.WindModule.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Managed/UnityEngine.XRModule.dll
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/resources.assets
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/resources.assets.resS
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Resources/unity default resources
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/Resources/unity_builtin_extra
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/RuntimeInitializeOnLoads.json
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/ScriptingAssemblies.json
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/sharedassets0.assets
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/sharedassets0.assets.resS
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/sharedassets1.assets
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/sharedassets1.assets.resS
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/sharedassets2.assets
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/sharedassets2.assets.resS
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/sharedassets3.assets
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/sharedassets3.assets.resS
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/sharedassets4.assets
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/Data/sharedassets4.assets.resS
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/DefaultPreferences.plist
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/MainMenu.nib/designable.nib
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/MainMenu.nib/keyedobjects.nib
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/PlayerIcon.icns
+cscc-butler-uploader/mac/W13 Public - Mac Build.app/Contents/Resources/PrivacyInfo.xcprivacy
+cscc-butler-uploader/package-lock.json
+cscc-butler-uploader/win/_README_AND_DELETE.txt
+cscc-butler-uploader/win/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll
+cscc-butler-uploader/win/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll
+cscc-butler-uploader/win/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser
+cscc-butler-uploader/win/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx
+cscc-butler-uploader/win/MonoBleedingEdge/etc/mono/2.0/machine.config
+cscc-butler-uploader/win/MonoBleedingEdge/etc/mono/2.0/settings.map
+cscc-butler-uploader/win/MonoBleedingEdge/etc/mono/2.0/web.config
+cscc-butler-uploader/win/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser
+cscc-butler-uploader/win/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx
+cscc-butler-uploader/win/MonoBleedingEdge/etc/mono/4.0/machine.config
+cscc-butler-uploader/win/MonoBleedingEdge/etc/mono/4.0/settings.map
+cscc-butler-uploader/win/MonoBleedingEdge/etc/mono/4.0/web.config
+cscc-butler-uploader/win/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser
+cscc-butler-uploader/win/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx
+cscc-butler-uploader/win/MonoBleedingEdge/etc/mono/4.5/machine.config
+cscc-butler-uploader/win/MonoBleedingEdge/etc/mono/4.5/settings.map
+cscc-butler-uploader/win/MonoBleedingEdge/etc/mono/4.5/web.config
+cscc-butler-uploader/win/MonoBleedingEdge/etc/mono/browscap.ini
+cscc-butler-uploader/win/MonoBleedingEdge/etc/mono/config
+cscc-butler-uploader/win/MonoBleedingEdge/etc/mono/mconfig/config.xml
+cscc-butler-uploader/win/UnityCrashHandler64.exe
+cscc-butler-uploader/win/UnityPlayer.dll
+cscc-butler-uploader/win/Week12InfDev.exe
+cscc-butler-uploader/win/Week12InfDev_Data/app.info
+cscc-butler-uploader/win/Week12InfDev_Data/boot.config
+cscc-butler-uploader/win/Week12InfDev_Data/globalgamemanagers
+cscc-butler-uploader/win/Week12InfDev_Data/globalgamemanagers.assets
+cscc-butler-uploader/win/Week12InfDev_Data/globalgamemanagers.assets.resS
+cscc-butler-uploader/win/Week12InfDev_Data/level0
+cscc-butler-uploader/win/Week12InfDev_Data/level1
+cscc-butler-uploader/win/Week12InfDev_Data/level2
+cscc-butler-uploader/win/Week12InfDev_Data/level3
+cscc-butler-uploader/win/Week12InfDev_Data/level4
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/Assembly-CSharp.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/Mono.Security.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/mscorlib.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/netstandard.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/System.ComponentModel.Composition.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/System.Configuration.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/System.Core.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/System.Data.DataSetExtensions.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/System.Data.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/System.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/System.Drawing.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/System.EnterpriseServices.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/System.IO.Compression.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/System.IO.Compression.FileSystem.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/System.IO.Hashing.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/System.Memory.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/System.Net.Http.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/System.Numerics.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/System.Runtime.CompilerServices.Unsafe.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/System.Runtime.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/System.Runtime.Serialization.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/System.Security.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/System.ServiceModel.Internals.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/System.Transactions.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/System.Xml.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/System.Xml.Linq.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/Unity.AI.Navigation.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/Unity.Burst.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/Unity.Burst.Unsafe.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/Unity.Collections.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/Unity.Collections.LowLevel.ILSupport.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/Unity.InputSystem.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/Unity.InputSystem.ForUI.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/Unity.Mathematics.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/Unity.Multiplayer.Center.Common.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/Unity.ProBuilder.Csg.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/Unity.ProBuilder.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/Unity.ProBuilder.KdTree.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/Unity.ProBuilder.Poly2Tri.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/Unity.ProBuilder.Stl.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/Unity.Rendering.LightTransport.Runtime.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/Unity.RenderPipelines.Core.Runtime.Shared.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/Unity.RenderPipelines.GPUDriven.Runtime.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/Unity.RenderPipelines.Universal.2D.Runtime.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/Unity.RenderPipelines.Universal.Config.Runtime.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/Unity.TerrainTools.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/Unity.TextMeshPro.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/Unity.Timeline.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/Unity.VisualScripting.Core.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/Unity.VisualScripting.Flow.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/Unity.VisualScripting.State.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/UnityEngine.AccessibilityModule.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/UnityEngine.AIModule.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/UnityEngine.AMDModule.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/UnityEngine.AndroidJNIModule.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/UnityEngine.AnimationModule.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/UnityEngine.ARModule.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/UnityEngine.AssetBundleModule.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/UnityEngine.AudioModule.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/UnityEngine.ClothModule.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/UnityEngine.ClusterInputModule.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/UnityEngine.ClusterRendererModule.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/UnityEngine.ContentLoadModule.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/UnityEngine.CoreModule.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/UnityEngine.CrashReportingModule.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/UnityEngine.DirectorModule.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/UnityEngine.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/UnityEngine.DSPGraphModule.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/UnityEngine.GameCenterModule.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/UnityEngine.GIModule.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/UnityEngine.GraphicsStateCollectionSerializerModule.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/UnityEngine.GridModule.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/UnityEngine.HierarchyCoreModule.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/UnityEngine.HotReloadModule.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/UnityEngine.ImageConversionModule.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/UnityEngine.IMGUIModule.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/UnityEngine.InputForUIModule.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/UnityEngine.InputLegacyModule.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/UnityEngine.InputModule.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/UnityEngine.JSONSerializeModule.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/UnityEngine.LocalizationModule.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/UnityEngine.MarshallingModule.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/UnityEngine.MultiplayerModule.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/UnityEngine.NVIDIAModule.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/UnityEngine.ParticleSystemModule.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/UnityEngine.PerformanceReportingModule.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/UnityEngine.Physics2DModule.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/UnityEngine.PhysicsModule.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/UnityEngine.PropertiesModule.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/UnityEngine.ScreenCaptureModule.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/UnityEngine.ShaderVariantAnalyticsModule.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/UnityEngine.SharedInternalsModule.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/UnityEngine.SpriteMaskModule.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/UnityEngine.SpriteShapeModule.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/UnityEngine.StreamingModule.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/UnityEngine.SubstanceModule.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/UnityEngine.SubsystemsModule.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/UnityEngine.TerrainModule.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/UnityEngine.TerrainPhysicsModule.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/UnityEngine.TextRenderingModule.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/UnityEngine.TilemapModule.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/UnityEngine.TLSModule.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/UnityEngine.UI.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/UnityEngine.UIElementsModule.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/UnityEngine.UIModule.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/UnityEngine.UmbraModule.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/UnityEngine.UnityAnalyticsModule.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/UnityEngine.UnityConnectModule.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/UnityEngine.UnityCurlModule.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/UnityEngine.UnityTestProtocolModule.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/UnityEngine.UnityWebRequestModule.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/UnityEngine.VehiclesModule.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/UnityEngine.VFXModule.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/UnityEngine.VideoModule.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/UnityEngine.VirtualTexturingModule.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/UnityEngine.VRModule.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/UnityEngine.WindModule.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Managed/UnityEngine.XRModule.dll
+cscc-butler-uploader/win/Week12InfDev_Data/Plugins/x86_64/lib_burst_generated.dll
+cscc-butler-uploader/win/Week12InfDev_Data/resources.assets
+cscc-butler-uploader/win/Week12InfDev_Data/resources.assets.resS
+cscc-butler-uploader/win/Week12InfDev_Data/Resources/unity default resources
+cscc-butler-uploader/win/Week12InfDev_Data/Resources/unity_builtin_extra
+cscc-butler-uploader/win/Week12InfDev_Data/RuntimeInitializeOnLoads.json
+cscc-butler-uploader/win/Week12InfDev_Data/ScriptingAssemblies.json
+cscc-butler-uploader/win/Week12InfDev_Data/sharedassets0.assets
+cscc-butler-uploader/win/Week12InfDev_Data/sharedassets0.assets.resS
+cscc-butler-uploader/win/Week12InfDev_Data/sharedassets1.assets
+cscc-butler-uploader/win/Week12InfDev_Data/sharedassets1.assets.resS
+cscc-butler-uploader/win/Week12InfDev_Data/sharedassets2.assets
+cscc-butler-uploader/win/Week12InfDev_Data/sharedassets2.assets.resS
+cscc-butler-uploader/win/Week12InfDev_Data/sharedassets3.assets
+cscc-butler-uploader/win/Week12InfDev_Data/sharedassets3.assets.resS
+cscc-butler-uploader/win/Week12InfDev_Data/sharedassets4.assets
+cscc-butler-uploader/win/Week12InfDev_Data/sharedassets4.assets.resS
+cscc-butler-uploader/win32/_README_AND_DELETE.txt
